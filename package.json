@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.250",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-glamor": "^1.6.13",
+    "gatsby-plugin-typography": "^1.7.19",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
+    "glamorous": "^4.13.1",
+    "grid-styled": "^4.3.2",
+    "styled-components": "^3.3.3",
+    "typography-theme-kirkham": "^0.16.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
