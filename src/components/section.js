@@ -85,8 +85,6 @@ class Section extends React.Component {
       selectedLanguage: selectedLanguage
     });
 
-    console.log(posts);
-
     return <div>
       <StyledSection id='links'>
         { this.renderTabs() }

@@ -1,8 +1,9 @@
 import { localStorageQuery, defaultLanguage } from './constants';
 
-export const setLanguageFromLocalStorage = (lang) => {
+const storage = (window && window.localStorage) || (global && global.window && global.window.localStorage) || null;
+export const setLanguageFromLocalStorage = lang => {
   try {
-    localStorage.setItem(localStorageQuery.language, lang);
+    storage.setItem(localStorageQuery.language, lang);
   } catch (err) {
     console.log(err);
   }
@@ -11,7 +12,7 @@ export const setLanguageFromLocalStorage = (lang) => {
 export const getLanguageFromLocalStorage = () => {
   let lang;
   try {
-    lang = localStorage.getItem(localStorageQuery.language);
+    lang = storage.getItem(localStorageQuery.language);
   } catch (err) {
     console.log(err);
   }
