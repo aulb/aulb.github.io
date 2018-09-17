@@ -6,6 +6,8 @@ import Page from '../components/page';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import {Flex} from 'grid-styled';
+import { availableLanguages } from '../utils/constants';
+import { getLanguageFromLocalStorage } from '../utils/storageUtils';
 
 const theme = {
   fontWeight: [300, 400, 500, 600],
@@ -46,6 +48,16 @@ const StyledContainer = Flex.extend`
 class Index extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      selectedLanguage: getLanguageFromLocalStorage()
+    };
+    this.switchLanguage = this.switchLanguage.bind(this);
+  }
+
+  switchLanguage(language) {
+    this.setState({
+      selectedLanguage: language
+    });
   }
 
   render() {
@@ -55,20 +67,24 @@ class Index extends React.Component {
       github,
       linkedin
     };
+    const { selectedLanguage } = this.state;
 
     return <ThemeProvider theme={theme}>
       <Inner>
         <Page>
           <Header title={title}/>
           <StyledContainer>
-            {children()}
+            { children({...this.props, selectedLanguage}) }
           </StyledContainer>
-          <Footer socialMediaAccounts={socialMediaAccounts} />
+          <Footer 
+            socialMediaAccounts={socialMediaAccounts}
+            selectedLanguage={selectedLanguage}
+            switchLanguage={this.switchLanguage}
+          />
         </Page>
       </Inner>
     </ThemeProvider>;
   }
-
 }
 
 export default Index;
@@ -83,4 +99,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

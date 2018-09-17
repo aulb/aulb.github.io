@@ -1,0 +1,61 @@
+---
+title: ⚡️ My Git Cheatsheet
+date: 2017-08-04
+published: false
+type: blog
+language: english
+categories: git
+---
+# How to learn Git?
+How does one even start learning how to use a version control system (git specifically)? You can certainly learn the basics of git commands by enforcing good committing habits and versioning for solo side projects. But how does one go from basics to intermediate or even advanced? Find a job that uses it and start collaborating!
+
+At my first development job, I was exposed to no version control. Everything was on a honor system of "please stay away from this code, I'm working on it atm". I was fortunate enough that by my next job I was slowly being exposed to a step up, slightly more complicated commands such as rebasing. 
+
+I was a perfectionist and wanted to do everything right the first time, shy-ing away from trying new commands out. The moment I ran into my first big git conflicts was an eye opener, everything started to make sense. Running into problems such as ending up in a detached head state, somehow losing stashed changes, and accidental git merges were extremely helpful in understanding. I learn what HEAD, upstream, and various other terminologies in the version control world. 
+
+Those experiences gave me confidence to start partnerning up with friends on side projects and employ my new git skills to work. This way I can safely discover niched git commands, clutter my remote repo with tests and not have to worry about affecting any work-related code.
+
+# My Git Cheatsheet
+Rule of cheatsheets, you gotta make it yourself for it to make sense. 
+
+These were the git commands that I find useful during my development time. It might not make any sense to any reader but it helps me to go back to this page and refresh my memory. The most important git trick I learned is to not be scared to nuke a complicated branch and start clean. Cherry-picking commits from the failed branch is always an option.
+
+## Dry running a commit to check of what it'll do.
+The `—dry-run` flag exist and its a good thing to use when I wasn't sure of what the commands would do.
+
+## Amending to previous commit
+Instead of doing `git rebase -i <branch>` then `fixup` do `git commit —amend —no-edit`
+
+## Check latest commit statuses and files
+Useful to get the hash too. \\
+`git log —stat` \\
+`git log —oneline`
+
+## Making new branch from specific branch
+When I first started, I used to forget to checkout from a specific branch and would always build on top of what I was working on previously. It was messy :( \\
+`git checkout -b <new_name> <optional: which_branch>`
+
+## Renaming local git branch
+`git branch -m <new_name>`
+
+## Deleting remote branch and push a new local branch
+`git push origin <old_name> <new_name>`
+
+## Remove local branch
+`git branch -d <local_branch_name>`
+
+## Remove remote branch
+`git push origin —d <remote_branch_name>`
+
+## Renaming local files
+Instead of renaming the file directly, its better to use the command below to help git notice that a renaming operation has been performed.
+`git mv <old_filename> <new_filename>`
+
+## Github specific feature!
+Though this isn't a git command, it was one of the feature I found useful from the most popular git service. One of my pull request was heavy in terms of whitespace linting, diluting the meat of why the request was made in the first place. Fortunately github build a whole slew of features to help with pull requests, one of which was directly relevant to my case. Add `?w=1` when viewing the diffs. More here over at <a href="https://github.com/blog/967-github-secrets">github secrets</a>.
+
+<!-- Renaming files/folders with git
+https://blog.filippo.io/git-fixup-amending-an-older-commit/
+http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html -->
+
+<!-- <script src="https://gist.github.com/aulb/9beeef67ae03fb574f39fa37a40a1928.js"></script> -->

@@ -1,9 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-// link
 import Link from 'gatsby-link';
 import {Flex, Box} from 'grid-styled';
+import { shuffle, simplePythonRange } from '../utils';
+
+const birds = ['🐧', '🐦', '🐤'];
 
 // Brand on the left
 const Brand = styled('span')`
@@ -53,27 +55,12 @@ const Nav = Box.extend`
   }
 `;
 
-/*
-  <Nav is="nav">
-    <ul>
-      <Link to="/"><li>home</li></Link>
-      <Link to="/blog"><li>blog</li></Link>
-      <Link to="/note"><li>note</li></Link>
-    </ul>
-  </Nav>
-*/
-
-const rotateBirds = birdText => {
-  const birdArray = birdText.split('');
-  const length = birdArray.length;
-  let rotatedBirdArray = [];
-  rotatedBirdArray = rotatedBirdArray.concat(birdArray.slice(length - 2, length));
-  rotatedBirdArray = rotatedBirdArray.concat(birdArray.slice(0, length - 2));
-  const rotatedBirdText = rotatedBirdArray.join('');
-  return rotatedBirdText;
+const getBirds = () => {
+  let arrayRange = simplePythonRange(birds.length);
+  return shuffle(arrayRange).map(idx => birds[idx]).join("");
 };
 
-const ROTATE_SPEED = 750;
+const ROTATE_SPEED = 1888;
 
 class Header extends React.Component {
   constructor(props) {
@@ -86,7 +73,7 @@ class Header extends React.Component {
   componentDidMount() {
     this.interval = setInterval(() => {
       this.setState({
-        title: rotateBirds(this.state.title)
+        title: getBirds()
       });
     }, ROTATE_SPEED);
   }
