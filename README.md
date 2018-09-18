@@ -1,10 +1,16 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
-
-## Running in development
-`gatsby develop`
+# Structure
+.
+├── src
+│  ├── components
+│  ├── html.jsx           > React Entry Point
+│  ├── photos             > Image Uploads
+│  ├── layouts            > Global layout
+│  ├── pages
+│  │  ├── blog
+│  │  ├── note
+│  │  ├── helper          > JSON helpers
+│  │  └── index.js
+│  ├── utils
+│  └── templates
+├── gatsby-node.js 
+└── gatsby-config.js

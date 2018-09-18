@@ -9,7 +9,7 @@ const intro = (selectedLanguage) => {
   let about = '';
   if (selectedLanguage === availableLanguages.japanese) {
     repeat = '、ベイエリアで今から';
-    about = 'について';
+    about = '';
   }
 
   return <section id='intro'>
@@ -52,6 +52,7 @@ export default (props) => {
   </div>;
 };
 
+// TODO: Gatsby bug to keep in mind https://github.com/gatsbyjs/gatsby/issues/6916
 export const query = graphql`
   query IndexQuery {
     allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
@@ -71,7 +72,7 @@ export const query = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 140)
         }
       }
     }

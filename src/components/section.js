@@ -61,9 +61,17 @@ class Section extends React.Component {
     });
   }
 
-  renderTabs() {
+  renderTabs(data) {
     const { selectedLanguage } = this.props;
     return Object.keys(availablePostTypes).map(postType => {
+      const postsAvailable = getActivePosts(data, {
+        selectedType: postType,
+        selectedLanguage: selectedLanguage
+      });
+
+      // TODO: revamp this render tabs
+      if (!postsAvailable.length) return null;
+
       const postTypeText = availablePostTypesText[selectedLanguage][postType];
       const isActive = this.state.currentTab === postType;
       return <span 
@@ -87,7 +95,7 @@ class Section extends React.Component {
 
     return <div>
       <StyledSection id='links'>
-        { this.renderTabs() }
+        { this.renderTabs(data) }
       </StyledSection>
       { generatePostList(posts) }
     </div>;
