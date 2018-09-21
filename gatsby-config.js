@@ -22,5 +22,5 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: `/aulb.github.io`
+  pathPrefix: `/`
 };

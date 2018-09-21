@@ -9,6 +9,7 @@ const openJsonHelper = helperName => {
 };
 
 const helperParser = helperString => {
+  if (!helperString) return {};
   const helperList = helperString.split(':');
   return {
     helperType: helperList[0],
