@@ -33,3 +33,7 @@ export const availablePostTypesText = {
 
 export const defaultLanguage = availableLanguages.japanese;
 export const defaultPostType = availablePostTypes.blog;
+
+export const availableHelpers = {
+  carousel: 'carousel',
+};

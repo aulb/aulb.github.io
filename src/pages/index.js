@@ -67,7 +67,6 @@ export const query = graphql`
             language
             type
             categories
-            carousel
           }
           fields {
             slug

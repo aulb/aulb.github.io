@@ -5,7 +5,7 @@ language: japanese
 published: true
 categories: food
 type: blog
-carousel: japan-food
+helper: carousel:japan-food 
 ---
 # 飯スライドショーへようこそ🍴
 去年の８月友達と日本へ遊びに行ってうまいものを食べました。沢山の和食を食べていて優しい気分になれました。すごく超楽しいこといったら、また行きたいー！まだ日本語勉強中だから、間違ったことがあるかもしれません。こっちから飯テロ注意ok

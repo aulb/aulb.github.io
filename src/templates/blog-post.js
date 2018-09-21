@@ -1,4 +1,5 @@
 import React from 'react';
+import { availableHelpers } from '../utils/constants';
 import Carousel from '../components/carousel';
 
 const openJsonHelper = helperName => {
@@ -7,22 +8,31 @@ const openJsonHelper = helperName => {
   return jsonData;
 };
 
+const helperParser = helperString => {
+  const helperList = helperString.split(':');
+  return {
+    helperType: helperList[0],
+    helperFile: helperList[1],
+  };
+};
+
 // blog posts uses this page as template: modify in gatsby-node.js
 export default ({ data }) => {
   const post = data.markdownRemark;
   const frontmatter = post.frontmatter;
+  const extraContent = [];
 
-  const { title, carousel } = frontmatter;
-  let carouselObj = null;
-  if (carousel) {
-    const imagesMeta = openJsonHelper(carousel);
-    carouselObj = <Carousel imagesMeta={imagesMeta} />;
+  const { title, helper } = frontmatter;
+  const { helperType, helperFile } = helperParser(helper);
+  if (helperType === availableHelpers.carousel) {
+    const imagesMeta = openJsonHelper(helperFile);
+    extraContent.push(<Carousel key='post-carousel' imagesMeta={imagesMeta} />);
   }
 
-  return <div>
+  return <div key='main-post-container'>
     <h1>{title}</h1>
     <div dangerouslySetInnerHTML={{ __html: post.html }} />
-    { carouselObj }
+    { extraContent }
   </div>;
 };
 
@@ -35,7 +45,7 @@ export const query = graphql`
         date(formatString: "DD MMMM, YYYY")
         language
         categories
-        carousel
+        helper
       }
     }
   }
