@@ -18,22 +18,10 @@ export const availablePostTypes = {
   link: 'link',
 };
 
-export const availablePostTypesText = {
-  english: {
-    blog: 'blog',
-    note: 'note',
-    link: 'link',
-  },
-  japanese : {
-    blog: 'ブログ',
-    note: 'ノート',
-    link: 'リンク',
-  },
-}
-
 export const defaultLanguage = availableLanguages.japanese;
 export const defaultPostType = availablePostTypes.blog;
 
 export const availableHelpers = {
   carousel: 'carousel',
+  collapsible: 'collapsible',
 };

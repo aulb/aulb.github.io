@@ -2,14 +2,11 @@
 title: 🍝 Mini Foodie
 date: 2017-09-25
 language: english
-published: true
+published: false
 categories: side-writing
 type: blog
 ---
 # Restricting API usage JS web api
-https://support.google.com/a/answer/2716802?hl=en
-https://www.google.com/webmasters/verification/verification?domain=albert.wtf&authuser=0&pli=1
-
 Eating good food is fun.
 I thought it'll be fun to catalogue all of the places I've been eating at the past couple years.
 Jogging down the memory lane is something I find really relaxing.

@@ -1,55 +1,46 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import styled from 'styled-components';
 import ferryPic from '../assets/ferry.jpg';
 import Section from '../components/section';
 import { availableLanguages } from '../utils/constants';
+import getLocale from '../utils/lang';
 
-const intro = (selectedLanguage) => {
-  let repeat = ', currently based in the bay area';
-  let about = '';
-  if (selectedLanguage === availableLanguages.japanese) {
-    repeat = '、ベイエリアで今から';
-    about = '';
-  }
+const Container = styled('span')``;
+const IntroContainer = styled('section')`
+  margin-bottom: 16px;
+`;
 
-  return <section id='intro'>
-    <span><strong>albert</strong>{ repeat } 🌴</span><br/>
-    <span><strong>albert</strong>{ repeat } 🌈</span><br/>
-    <span><strong>albert</strong>{ repeat } 🌸</span><br/>
-    <span><strong>albert</strong>{ repeat } 💯</span><br/>
-    <span><strong>albert</strong>{ repeat } 🈺</span><br/>
+const intro = selectedLanguage => {
+  const introRepeat = getLocale(selectedLanguage, 'introRepeat');
+  const about = getLocale(selectedLanguage, 'about');
+
+  return <IntroContainer>
+    <span><strong>albert</strong>{ introRepeat } 🌴</span><br/>
+    <span><strong>albert</strong>{ introRepeat } 🌈</span><br/>
+    <span><strong>albert</strong>{ introRepeat } 🌸</span><br/>
+    <span><strong>albert</strong>{ introRepeat } 💯</span><br/>
+    <span><strong>albert</strong>{ introRepeat } 🈺</span><br/>
     <strong><a href="/about">{ about }</a></strong>
-  </section>;
+  </IntroContainer>;
 };
 
-const generatePostList = ({ node }) => {
-  return <div key={node.id}>
-    <Link
-      to={node.fields.slug}
-      css={{ textDecoration: `none`, color: `inherit` }}
-    >
-      <h3>{node.frontmatter.title}</h3>
-    </Link>
-    <span>{node.frontmatter.date}</span>
-    <p>{node.excerpt}</p>
-  </div>;
-};
-
-export default (props) => {
-  return <div>
+export default props => {
+  const { selectedLanguage, data } = props;
+  return <Container>
     <img 
       src={ferryPic}
       style={{ width: '100%', marginBottom: 16, borderColor: '#ababab', borderRadius: '3px', opacity: 0.75 }}
       alt='Toronto Island Ferry'
-      title='this is toronto, not bay area. i love toronto yo'
+      title={getLocale(selectedLanguage, 'ferry')}
       width='auto'
     />
-    {intro(props.selectedLanguage)}
+    {intro(selectedLanguage)}
     <Section 
-      data={props.data}
-      selectedLanguage={props.selectedLanguage}
+      data={data}
+      selectedLanguage={selectedLanguage}
     />
-  </div>;
+  </Container>;
 };
 
 // TODO: Gatsby bug to keep in mind https://github.com/gatsbyjs/gatsby/issues/6916
@@ -62,7 +53,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "MMMM DD YYYY")
             published
             language
             type

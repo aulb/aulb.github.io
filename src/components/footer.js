@@ -4,6 +4,7 @@ import { Flex } from 'grid-styled';
 import { getOtherLanguageOption } from '../utils/';
 import { setLanguageFromLocalStorage } from '../utils/storageUtils';
 import { availableLanguages, defaultLanguage } from '../utils/constants';
+import getLocale from '../utils/lang';
 
 const currentYear = (new Date).getFullYear();
 
@@ -18,6 +19,11 @@ const StyledFooter = Flex.extend`
     margin: 0 8px;
     text-decoration: none;
     border-bottom: 0;
+    cursor: pointer;
+  }
+
+  .right {
+    margin-left: auto;
   }
 `;
 
@@ -33,7 +39,7 @@ const Footer = ({ socialMediaAccounts, selectedLanguage, switchLanguage }) => {
     return <a 
       key={key}
       target="_blank"
-      rel="noopener noreferrer me"
+      rel="noopener noreferrer"
       href={socialMediaAccounts[key]}
     >
       {key}
@@ -43,11 +49,14 @@ const Footer = ({ socialMediaAccounts, selectedLanguage, switchLanguage }) => {
   const language = getOtherLanguageOption(selectedLanguage);
   const socialMediaLinks = Object.keys(socialMediaAccounts).map(createSocialMediaLinks);
 
-  return <StyledFooter is="footer">
+  return <StyledFooter is='footer'>
     &copy; 2014 - { currentYear }
     { socialMediaLinks }
 
     <a data-language={language.value} onClick={onLanguageSwitch}>{ language.text }</a>
+    <a className='right' 
+      dangerouslySetInnerHTML={{ __html: getLocale(selectedLanguage, 'madeWithLove')}}>
+    </a>
   </StyledFooter>;
 };
 

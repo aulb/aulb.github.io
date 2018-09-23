@@ -5,8 +5,7 @@ import Link from 'gatsby-link';
 import {Flex, Box} from 'grid-styled';
 import { shuffle, simplePythonRange } from '../utils';
 
-// Brand on the left
-const Brand = styled('span')`
+const Brand = styled('a')`
   width: 100%;
   display: block;
   text-decoration: none;
@@ -16,7 +15,6 @@ const Brand = styled('span')`
   margin: 0 auto;
 `;
 
-// blue color: #0000FF;
 const StyledNav = Flex.extend`
   height: 125px;
   width: 100%;
