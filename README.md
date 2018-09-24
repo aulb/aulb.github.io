@@ -1,4 +1,5 @@
-# Structure
+# Site Structure
+```
 .
 ├── src
 │  ├── components
@@ -14,3 +15,4 @@
 │  └── templates
 ├── gatsby-node.js 
 └── gatsby-config.js
+```

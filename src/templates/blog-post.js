@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import { availableHelpers } from '../utils/constants';
 import Carousel from '../components/carousel';
 
@@ -17,24 +18,52 @@ const helperParser = helperString => {
   };
 };
 
+const PostContainer = styled('div')`
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+
+  .header {
+    font-size: 48px;
+  }
+
+  .date {
+    color: #696969;
+  }
+
+  ul, li {
+    margin-bottom: 0;
+    list-style: circle;
+  }
+`;
+
+const MainContent = styled('div')`
+  margin: 32px 0;
+
+  h1, h2, h3, ul, p {
+    margin: 8px 0;
+  }
+`;
+
 // blog posts uses this page as template: modify in gatsby-node.js
 export default ({ data }) => {
   const post = data.markdownRemark;
   const frontmatter = post.frontmatter;
   const extraContent = [];
 
-  const { title, helper } = frontmatter;
+  const { title, helper, date } = frontmatter;
   const { helperType, helperFile } = helperParser(helper);
   if (helperType === availableHelpers.carousel) {
     const imagesMeta = openJsonHelper(helperFile);
     extraContent.push(<Carousel key='post-carousel' imagesMeta={imagesMeta} />);
   }
 
-  return <div key='main-post-container'>
-    <h1>{title}</h1>
-    <div dangerouslySetInnerHTML={{ __html: post.html }} />
+  return <PostContainer key='main-post-container'>
+    <h1 className='header'>{title}</h1>
+    <h2 className='date'>{date}</h2>
+    <MainContent dangerouslySetInnerHTML={{ __html: post.html }} />
     { extraContent }
-  </div>;
+  </PostContainer>;
 };
 
 export const query = graphql`
@@ -43,7 +72,7 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date(formatString: "DD MMMM, YYYY")
+        date(formatString: "MMMM DD, YYYY")
         language
         categories
         helper
