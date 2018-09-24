@@ -98,10 +98,9 @@ class Section extends React.Component {
       const postTypeText = getLocale(selectedLanguage, postType);
       const isActive = this.state.currentTab === postType;
       // hack: https://stackoverflow.com/questions/32686728/how-to-avoid-jsx-component-from-condensing-when-react-js-rendering-it
-      tabs.push(<span><span
+      tabs.push(<span key={postType}><span
         onClick={element => this.tabOnClick(element)}
         className={`link ${isActive ? 'active' : ''}`}
-        key={postType}
         data-posttype={postType}
       >
         {postTypeText}

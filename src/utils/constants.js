@@ -15,7 +15,7 @@ export const availableLanguages = {
 export const availablePostTypes = {
   blog: 'blog',
   note: 'note',
-  link: 'link',
+  leetcode: 'leetcode',
 };
 
 export const defaultLanguage = availableLanguages.japanese;

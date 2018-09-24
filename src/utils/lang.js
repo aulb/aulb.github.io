@@ -12,7 +12,8 @@ const l10n = {
     note: 'note',
     link: 'link',
     ferry: 'this is toronto, not bay area. i love toronto yaw',
-    madeWithLove: 'made with care by yours truly,'
+    madeWithLove: 'made with care by yours truly',
+    leetcode: 'leetcode',
   },
   japanese: {
     seeMore: 'ポストタイプ変えて：',
@@ -23,6 +24,7 @@ const l10n = {
     link: 'リンク',
     ferry: '素晴しく綺麗でした',
     madeWithLove: '愛情を込めて作った😘',
+    leetcode: 'ｌｅｅｔｃｏｄｅ',
   },
 };
 

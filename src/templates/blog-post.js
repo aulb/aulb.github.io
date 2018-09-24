@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { availableHelpers } from '../utils/constants';
 import Carousel from '../components/carousel';
+import Collapsibles from '../components/collapsible/collapsibles';
 
 const openJsonHelper = helperName => {
   // https://github.com/gatsbyjs/gatsby/issues/356
@@ -56,6 +57,11 @@ export default ({ data }) => {
   if (helperType === availableHelpers.carousel) {
     const imagesMeta = openJsonHelper(helperFile);
     extraContent.push(<Carousel key='post-carousel' imagesMeta={imagesMeta} />);
+  }
+
+  if (helperType === availableHelpers.collapsible) {
+    const collapsibleData = openJsonHelper(helperFile);
+    extraContent.push(<Collapsibles key='post-collapsible' data={collapsibleData} />);
   }
 
   return <PostContainer key='main-post-container'>
