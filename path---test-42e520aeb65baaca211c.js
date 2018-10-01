@@ -1,2 +1,0 @@
-webpackJsonp([89450997894629],{381:function(e,t){e.exports={data:{markdownRemark:{html:'<p>Pandas are really sweet.</p>\n<p>Here\'s a video of a panda eating sweets.</p>\n<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>',frontmatter:{title:"Sweet Pandas Eating Sweets"}}},pathContext:{slug:"/test/"}}}});
-//# sourceMappingURL=path---test-42e520aeb65baaca211c.js.map
