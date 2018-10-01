@@ -12,7 +12,7 @@ const l10n = {
     note: 'note',
     link: 'link',
     ferry: 'this is toronto, not bay area. i love toronto yaw',
-    madeWithLove: 'made with care by yours truly',
+    madeWithLove: '',
     leetcode: 'leetcode',
   },
   japanese: {

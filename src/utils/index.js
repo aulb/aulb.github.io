@@ -20,13 +20,8 @@ export const shuffle = array => {
   return array;
 };
 
-export const simplePythonRange = end => {
-  let array = [];
-  for (let i = 0; i < end; i++) {
-    array.push(i);
-  }
-
-  return array;
+export const simplePythonRange = n => {
+  return Array.from(Array(n).keys());
 };
 
 export const getActivePosts = (data, options) => {

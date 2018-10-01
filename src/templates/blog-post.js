@@ -20,6 +20,8 @@ const helperParser = helperString => {
 };
 
 const PostContainer = styled('div')`
+  width: 100%;
+
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
   }
@@ -43,6 +45,23 @@ const MainContent = styled('div')`
 
   h1, h2, h3, ul, p {
     margin: 8px 0;
+  }
+
+  .q {
+    font-weight: bold;
+    opacity: 0.65;
+  }
+
+  .Easy {
+    color: green;
+  }
+
+  .Medium {
+    color: orange;
+  }
+
+  .Hard {
+    color: red;
   }
 `;
 
