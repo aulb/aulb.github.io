@@ -1,5 +1,4 @@
 import styled, {injectGlobal} from 'styled-components';
-
 import GraphikRegular from '../assets/graphik-regular.woff';
 import GraphikRegular2 from '../assets/graphik-regular.woff2';
 import GraphikMedium from '../assets/graphik-medium.woff';
@@ -41,6 +40,7 @@ injectGlobal`
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    background: #ed7132;
   }
 
   a {
@@ -70,6 +70,7 @@ injectGlobal`
 `;
 
 export default styled.div`
-  background-color: ${props => props.theme.colors.background};
+  position: relative;
   min-height: 100vh;
+  width: 100%;
 `;

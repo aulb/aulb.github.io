@@ -56,6 +56,7 @@ class Header extends React.Component {
   }
 
   render() {
+    return null;
     const { title } = this.state;
     return <StyledNav is="header" justify="space-between">
       <Brand href="/" id="brand">{ title }</Brand>

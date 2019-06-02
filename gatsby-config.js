@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `🐧🐦🐤`,
-    description: `albert untung software engineer, i have to put this so google rankings pick up my website`,
+    title: `albert untung`,
+    description: `albert untung software engineer`,
     github: `https://github.com/aulb`,
     linkedin: `https://linkedin.com/in/albert-untung`,
+    instagram: `https://instagram.com/albert.untung`,
   },
   plugins: [
     {
