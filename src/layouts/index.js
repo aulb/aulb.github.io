@@ -97,7 +97,7 @@ const Arm = styled.div`
   top: 10%;
   left: 13%;
   width: 67%;
-  height: 120%;
+  height: 100%;
   background: #f8a27f;
   border: 1px solid black;
   transform: rotate(5deg);

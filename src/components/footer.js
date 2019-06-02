@@ -10,9 +10,8 @@ const StyledFooter = Flex.extend`
   bottom: 0;
   width: 100%;
   padding: 16px 0;
-  // border-top: 1px solid #E7EEFD;
   font-size: 14px;
-  height: 12%;
+  height: 16%;
 
   a {
     margin: 0 8px;
