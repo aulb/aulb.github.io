@@ -4,14 +4,12 @@ import { Flex } from 'grid-styled';
 
 const currentYear = (new Date).getFullYear();
 
-// "bar" color changed to my style
 const StyledFooter = Flex.extend`
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 16px 0;
+  padding: 16px;
   font-size: 14px;
-  height: 16%;
 
   a {
     margin: 0 8px;
@@ -23,22 +21,26 @@ const StyledFooter = Flex.extend`
 
 const Footer = ({ socialMediaAccounts }) => {
   const createSocialMediaLinks = key => {
-    return <a
-      key={key}
-      target='_blank'
-      rel='noopener noreferrer'
-      href={socialMediaAccounts[key]}
-    >
-      {key}
-    </a>;
+    return (
+      <a
+        key={key}
+        target='_blank'
+        rel='noopener noreferrer'
+        href={socialMediaAccounts[key]}
+      >
+        {key}
+      </a>
+    );
   };
 
   const socialMediaLinks = Object.keys(socialMediaAccounts).map(createSocialMediaLinks);
 
-  return <StyledFooter is='footer'>
-    &copy; 2014 - { currentYear }
-    { socialMediaLinks }
-  </StyledFooter>;
+  return (
+    <StyledFooter is='footer'>
+      { `+ 2014 - ${currentYear} +` }
+      { socialMediaLinks }
+    </StyledFooter>
+  );
 };
 
 Footer.propTypes = {

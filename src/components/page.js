@@ -40,7 +40,7 @@ injectGlobal`
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: #ed7132;
+    background: #101010;
   }
 
   a {
