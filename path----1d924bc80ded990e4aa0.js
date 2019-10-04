@@ -1,2 +1,2 @@
-webpackJsonp([60335399758886],{147:function(t,n){t.exports={data:{site:{siteMetadata:{title:"albert untung",github:"https://github.com/aulb",linkedin:"https://linkedin.com/in/albert-untung",instagram:"https://instagram.com/albert.untung"}}},layoutContext:{}}}});
+webpackJsonp([60335399758886],{103:function(t,n){t.exports={data:{site:{siteMetadata:{title:"albert untung",github:"https://github.com/aulb",linkedin:"https://linkedin.com/in/albert-untung",instagram:"https://instagram.com/albert.untung"}}},layoutContext:{}}}});
 //# sourceMappingURL=path----1d924bc80ded990e4aa0.js.map
