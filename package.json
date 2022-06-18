@@ -1,28 +1,37 @@
 {
-  "name": "albert-gatsby-site",
-  "description": "albert's corner",
-  "license": "MIT",
+  "name": "albert.wtf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "albert.wtf",
+  "author": "aulb",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
     "develop": "gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && cp ./CNAME public/ && gh-pages -b master -d public"
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "fs": "0.0.1-security",
-    "gatsby": "^1.9.250",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-glamor": "^1.6.13",
-    "gatsby-plugin-typography": "^1.7.19",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
-    "glamorous": "^4.13.1",
-    "grid-styled": "^4.3.2",
-    "path": "^0.12.7",
-    "styled-components": "^3.3.3",
-    "typography-theme-kirkham": "^0.16.3"
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "babel-plugin-styled-components": "^2.0.7",
+    "gatsby": "^4.16.0",
+    "gatsby-plugin-manifest": "^4.16.0",
+    "gatsby-plugin-mdx": "^3.16.1",
+    "gatsby-plugin-styled-components": "^5.16.0",
+    "gatsby-source-filesystem": "^4.16.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "@types/node": "^17.0.42",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "typescript": "^4.7.3"
   }
 }
