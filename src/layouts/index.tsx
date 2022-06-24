@@ -24,17 +24,15 @@ const Layout = (props: any) => {
       }
     `);
     const { github, linkedin, instagram } = data.site.siteMetadata;
-    const socialMediaAccounts = {
-      github,
-      linkedin,
-      instagram,
-    };
-
     return (
       <Page>
         <title>{pageTitle}</title>
         {children}
-        <Footer socialMediaAccounts={socialMediaAccounts} />
+        <Footer socialMediaAccounts={{
+          github,
+          linkedin,
+          instagram,
+        }} />
       </Page>
     );
   };

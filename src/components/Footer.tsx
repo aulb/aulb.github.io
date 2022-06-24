@@ -1,36 +1,36 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const currentYear = (new Date).getFullYear();
+interface SocialMediaAccountsType {
+  github: string;
+  linkedin: string;
+  instagram: string; 
+}
 
-const Footer = ({ socialMediaAccounts }) => {
-  const createSocialMediaLinks = key => {
-    return (
-      <a
-        key={key}
-        target='_blank'
-        rel='noopener noreferrer'
-        href={socialMediaAccounts[key]}
-      >
-        {key}
-      </a>
-    );
-  };
-
-  const socialMediaLinks = Object.keys(socialMediaAccounts).map(createSocialMediaLinks);
+const Footer = (props: { socialMediaAccounts: SocialMediaAccountsType }) => {
+  const { socialMediaAccounts } = props;
+  const socialMediaLinks = Object.keys(socialMediaAccounts).map(
+    (key: string) => (
+      <>
+        {` `}
+        <a
+          key={key}
+          target='_blank'
+          rel='noopener noreferrer'
+          href={socialMediaAccounts[key as keyof SocialMediaAccountsType]}
+        >
+          {key}
+        </a>
+        {` `}
+      </>
+    )
+  );
 
   return (
     <footer is='footer'>
-      {`+ 2014 - ${currentYear} +`}
+      {`+ 2014 - ${(new Date).getFullYear()} +`}
       {socialMediaLinks}
     </footer>
   );
 };
-
-Footer.propTypes = {
-  socialMediaAccounts: PropTypes.object,
-};
-
-Footer.defaultProps = {};
 
 export default Footer;
