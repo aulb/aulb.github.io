@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const Page = styled.div`
   color: #232129;
-  padding: 5% 12% 0 12%;
+  padding: 10% 22.5% 0 22.5%;
   fontFamily: -apple-system, Roboto, sans-serif, serif;
 `;
 

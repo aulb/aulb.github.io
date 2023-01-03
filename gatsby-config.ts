@@ -21,10 +21,10 @@ const config: GatsbyConfig = {
   }, "gatsby-plugin-mdx", {
     resolve: 'gatsby-source-filesystem',
     options: {
-      "name": "pages",
-      "path": "./src/pages/"
+      "name": "blog",
+      "path": "./src/blog/"
     },
-    __key: "pages"
+    __key: "blog"
   }]
 };
 

@@ -1,12 +1,15 @@
 import * as React from "react";
 import Layout from "../layouts";
+import Blog from "../layouts/Blog";
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="アルベルトのサイト">
+    <Layout pageTitle="albert">
+      <h1>hello!</h1>
       <p>
-        hi! i'm albert.お気軽にお問い合わせくださいませ⬇️
+        i'm albert. 今の興味： languages (深), 35mm, pin badges. 現在： san francisco.
       </p>
+      <Blog />
     </Layout>
   )
 };
