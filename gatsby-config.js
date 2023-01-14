@@ -10,7 +10,12 @@ module.exports = {
     linkedin: `https://linkedin.com/in/albert-untung`,
     instagram: `https://instagram.com/albert.wootang`
   },
-  plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: [
+    "gatsby-plugin-styled-components", 
+    "gatsby-plugin-image", 
+    "gatsby-plugin-mdx", 
+    "gatsby-plugin-sharp", 
+    "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
