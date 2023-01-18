@@ -5,8 +5,7 @@ import Seo from '../components/seo'
 
 const IndexPage = () => {
   return (
-      <Layout pageTitle="Home Page">
-        <p>I'm making this by following the Gatsby Tutorial.</p>
+      <Layout pageTitle="Landing Page">
         <StaticImage
           alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
           src="../images/paint.webp"
@@ -15,6 +14,11 @@ const IndexPage = () => {
     )
 }
 
-export const Head = () => <Seo title="Home Page" />
+export const Head = () => (
+  <>
+    <Seo title="Landing Page" />
+    <meta name="description" content="albert.wtf landing page" />
+  </>
+)
 
 export default IndexPage

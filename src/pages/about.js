@@ -4,16 +4,16 @@ import Seo from '../components/seo'
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+    <Layout>
+      <p>WIP</p>
     </Layout>
   )
 }
 
 export const Head = () => (
   <>
-    <Seo title="Home Page" />
-    <meta name="description" content="Your description" />
+    <Seo title="About Page" />
+    <meta name="description" content="albert.wtf about page" />
   </>
 )
 

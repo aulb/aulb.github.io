@@ -3,11 +3,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `albert.wtf`,
+    title: `albert's notebook`,
     siteUrl: `https://www.albert.wtf`,
-    description: `albert untung software engineer`,
+    description: `albert software engineer`,
     github: `https://github.com/aulb`,
-    linkedin: `https://linkedin.com/in/albert-untung`,
     instagram: `https://instagram.com/albert.wootang`
   },
   plugins: [
