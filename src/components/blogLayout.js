@@ -15,7 +15,11 @@ const BlogLayout = ({ pageTitle, children }) => {
 
   return (
     <div className={container}>
-      <header className={siteTitle}>{data?.title}</header>
+      <header className={siteTitle}>
+        <Link to="/">
+          {pageTitle}
+        </Link>
+      </header>
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
@@ -36,7 +40,6 @@ const BlogLayout = ({ pageTitle, children }) => {
         </ul>
       </nav>
       <main>
-        <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
     </div>
