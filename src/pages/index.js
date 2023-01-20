@@ -16,7 +16,7 @@ const IndexPage = () => {
 
 export const Head = () => (
   <>
-    <Seo title="Landing Page" />
+    <Seo />
     <meta name="description" content="albert.wtf landing page" />
   </>
 )
