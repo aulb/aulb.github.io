@@ -1,35 +1,16 @@
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import * as React from 'react'
 import Layout from '../../components/blogLayout'
+import BlogList from '../../components/blogList'
 import Seo from '../../components/seo'
-
-const createBlogList = (posts) => {
-  return (
-    <ul>
-      {
-        posts?.nodes?.map((node) => (
-          <article key={node?.id}>
-            <h2>
-              <Link to={`/blog/${node?.frontmatter?.slug}`}>
-                {node?.frontmatter?.title}
-              </Link>
-            </h2>
-          <p>Posted: {node?.frontmatter?.date}</p>
-          <p>{node?.excerpt}</p>
-          </article>
-        ))
-      }
-    </ul>
-  )
-}
 
 const BlogPage = ({ data }) => {
   const {japanesePosts, regularPosts} = data
-
+  console.log({japanesePosts})
   return (
     <Layout pageTitle="My Blog Posts">
-      {createBlogList(japanesePosts)}
-      {createBlogList(regularPosts)}
+      <BlogList posts={japanesePosts} />
+      <BlogList posts={regularPosts} />
     </Layout>
   )
 }
