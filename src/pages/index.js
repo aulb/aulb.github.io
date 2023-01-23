@@ -1,7 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import BlogList from '../components/blogList'
-// import { StaticImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
 import Seo from '../components/seo'
 import { Link } from 'gatsby'
@@ -10,13 +9,9 @@ const IndexPage = ({ data }) => {
   const { allMdx } = data
 
   return (
-      <Layout pageTitle="Landing Page">
-        {/* <StaticImage
-          alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-          src="../images/paint.webp"
-        /> */}
+      <Layout>
         <p>
-          blablabla <Link to="/blog">some writing</Link>.
+          Software engineer, currently based in San Francisco. I have <Link to="/blog">some writing here</Link>.
         </p>
         <BlogList posts={allMdx} />
       </Layout>
@@ -34,7 +29,7 @@ export const query = graphql`
   query LandingPageQuery {
     allMdx(
       limit: 5,
-      sort: { frontmatter: { date: ASC }}
+      sort: { frontmatter: { date: DESC }}
     ) {
       nodes {
         id
