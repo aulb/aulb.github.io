@@ -11,7 +11,11 @@ const IndexPage = ({ data }) => {
   return (
       <Layout>
         <p>
-          Software engineer, currently based in San Francisco. I have <Link to="/blog">some writing here</Link>.
+          Software engineer currently based out of San Francisco. 
+          My current Spotify playlist of the month <Link to="/playlists">here</Link>. 
+          You can contact me by following this link here.
+          Current interests includes Japanese-Korean-French language learning, studio pottery, very light reading, and coffee. 
+          You can view some <Link to="/blog">posts I made in the past here</Link> , with some recent ones below.
         </p>
         <BlogList posts={allMdx} />
       </Layout>
