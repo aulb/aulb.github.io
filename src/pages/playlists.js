@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import SpotifyPlaylists from '../components/spotifyPlaylists'
 import Seo from '../components/seo'
 
-const Playlists = () => {
+const PlaylistsPage = () => {
   return (
     <Layout>
       <SpotifyPlaylists />
@@ -18,4 +18,4 @@ export const Head = () => (
   </>
 )
 
-export default Playlists
+export default PlaylistsPage

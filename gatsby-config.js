@@ -7,7 +7,8 @@ module.exports = {
     siteUrl: `https://www.albert.wtf`,
     description: `albert software engineer`,
     github: `https://github.com/aulb`,
-    instagram: `https://instagram.com/albert.wootang`
+    instagram: `https://instagram.com/albert.wootang`,
+    linkedin: `https://linkedin.com/albert-untung`
   },
   plugins: [
     "gatsby-plugin-styled-components", 

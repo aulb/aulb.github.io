@@ -1,11 +1,19 @@
 import * as React from 'react'
-
+import useSiteMetadata from '../hooks/useSiteMetadata'
+import { Link } from 'gatsby'
 
 const Footer = () => {
-  const currentYear = (new Date()).getFullYear();
+  const data = useSiteMetadata()
+  const { github, instagram, linkedin } = data
   return (
     <div>
-      &copy; 2014 - {currentYear}
+      &copy; 2014 - {(new Date()).getFullYear()}
+      &nbsp;
+      <Link to={github}>github</Link>
+      &nbsp;
+      <Link to={instagram}>instagram</Link>
+      &nbsp;
+      <Link to={linkedin}>linkedin</Link>
     </div>
   )
 }
