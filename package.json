@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && cp ./CNAME public/ && gh-pages -b master -d public"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
