@@ -1,0 +1,9 @@
+.playlistContainer {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.playlistInfoContainer {
+  margin-left: 8px;
+}
