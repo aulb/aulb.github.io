@@ -5,7 +5,7 @@ import Seo from '../components/seo'
 
 const PlaylistsPage = () => {
   return (
-    <Layout>
+    <Layout pageTitle="albert's playlists">
       <SpotifyPlaylists />
     </Layout>
   )

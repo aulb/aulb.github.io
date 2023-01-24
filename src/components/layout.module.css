@@ -1,7 +1,17 @@
 .container { 
-  margin: auto;
-  max-width: 500px;
-  font-family: sans-serif;
+  width: 87.5%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Palatino, sans-serif;
+  counter-reset: sidenote-counter;
+  font-size: 18px;
+  color: #111;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .heading {

@@ -10,10 +10,10 @@ const IndexPage = ({ data }) => {
   return (
       <Layout>
         <p>
-          Hello! Welcome to my corner of the internet. <b>Currently WIP</b> 
-          I&apos;m currently a software engineer (for blue app) based out of San Francisco. 
-          My current Spotify playlist of the month <Link to="/playlists">here</Link>. 
-          Current interests includes Japanese-Korean-French language learning, studio pottery, very light reading, and coffee. 
+          Hello! Welcome to my corner of the internet. <br /> 
+          I&apos;m currently a software engineer (for blue app) based out of San Francisco. <br />
+          My current Spotify playlist of the month <Link to="/playlists">here</Link>. <br />
+          Current interests includes Japanese-Korean-French language learning, studio pottery, light reading, and coffee.  <br />
           You can view some <Link to="/blog">posts I made in the past here</Link> , with some recent ones below.
         </p>
         <BlogList posts={allMdx} />
