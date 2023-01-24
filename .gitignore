@@ -65,7 +65,7 @@ typings/
 
 public
 yarn-error.log
-
+node_modules
 
 # #494E72 font color
 # #0000FF blue <a color>
