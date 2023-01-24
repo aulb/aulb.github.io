@@ -12,7 +12,7 @@ const SpotifyPlaylists = () => {
           const { images, name, external_urls } = playlist
           const image = images.length > 0 ? images[0] : null
           return (
-            <Link to={external_urls?.spotify} target="_blank">
+            <Link key={name} to={external_urls?.spotify} target="_blank">
               <img alt={name} src={image?.url} height={180} width={180} />
               <p>{name}</p>
             </Link>

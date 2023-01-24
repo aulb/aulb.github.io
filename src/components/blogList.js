@@ -10,8 +10,6 @@ const BlogList = ({ posts }) => {
             <Link to={`/blog/${node?.frontmatter?.slug}`}>
               {node?.frontmatter?.title}
             </Link>
-            {/* <p>Posted: {node?.frontmatter?.date}</p> */}
-            {/* <p>{node?.excerpt}</p> */}
           </article>
         ))
       }

@@ -1,9 +1,8 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import BlogList from '../components/blogList'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Seo from '../components/seo'
-import { Link } from 'gatsby'
 
 const IndexPage = ({ data }) => {
   const { allMdx } = data
@@ -11,8 +10,8 @@ const IndexPage = ({ data }) => {
   return (
       <Layout>
         <p>
-          Hello! Welcome to my corner of the internet. 
-          I'm currently a software engineer (for blue app) based out of San Francisco. 
+          Hello! Welcome to my corner of the internet. <b>Currently WIP</b> 
+          I&apos;m currently a software engineer (for blue app) based out of San Francisco. 
           My current Spotify playlist of the month <Link to="/playlists">here</Link>. 
           Current interests includes Japanese-Korean-French language learning, studio pottery, very light reading, and coffee. 
           You can view some <Link to="/blog">posts I made in the past here</Link> , with some recent ones below.

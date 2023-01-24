@@ -50,6 +50,8 @@ typings/
 
 # Optional eslint cache
 .eslintcache
+.eslintrc
+.prettierrc
 
 # Optional REPL history
 .node_repl_history
@@ -65,7 +67,6 @@ typings/
 
 public
 yarn-error.log
-node_modules
 
 # #494E72 font color
 # #0000FF blue <a color>
