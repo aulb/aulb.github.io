@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <div>
       &copy; 2014 - {(new Date()).getFullYear()}
-      &nbsp;
+      &nbsp;•&nbsp;
       <Link to={github}>github</Link>
-      &nbsp;
+      &nbsp;•&nbsp;
       <Link to={instagram}>instagram</Link>
-      &nbsp;
+      &nbsp;•&nbsp;
       <Link to={linkedin}>linkedin</Link>
     </div>
   )

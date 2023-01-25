@@ -21,6 +21,18 @@ This website is built using Gatsby.js. Just a simple website.
 - Each page receives a data object. Notice the \`({ data })\` in the function param while the pages are being rendered.
 
 # Manual deployment
-Run `gatsby build` to generate a new public folder
-Delete everything in master except CNAME, .gitignore
-Copy everything from the public folder to master
+- Run `gatsby build` to generate a new public folder
+- Delete everything in master except CNAME, .gitignore
+- Copy everything from the public folder to master
+
+# Wishlist
+- Japanese toggle
+- Dark light theme toggle
+
+# Todo
+- Space out minimal design blog list
+- Linter run on macOS
+- Resume
+- Leetcode notes
+- Japanese tutor notes
+- System design notes
