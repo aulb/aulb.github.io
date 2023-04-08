@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import BlogList from '../components/blogList'
 import { Link, graphql } from 'gatsby'
 import Seo from '../components/seo'
 
@@ -12,12 +11,10 @@ const IndexPage = ({ data }) => {
         <p>
           Hello! Welcome to my corner of the internet. <br /> 
           I&apos;m currently a software engineer (for blue app) based out of San Francisco. <br />
-          My current Spotify playlist of the month <Link to="/playlists">here</Link>. <br />
-          Current interests includes Japanese-Korean-French language learning, studio pottery, light reading, and coffee.  <br />
-          You can view some <Link to="/blog">posts I made in the past here</Link>, mostly *WIP*.
+          My monthly <Link to="/playlists">Spotify playlists here</Link>. <br />
+          Current interests includes Japanese learning (with some French and Korean), studio pottery, light reading, and coffee.  <br />
         </p>
-        <BlogList posts={allMdx} />
-        <p>Last updated: 02/27/2023</p>
+        <p>Last updated: 04/06/2023</p>
       </Layout>
     )
 }
