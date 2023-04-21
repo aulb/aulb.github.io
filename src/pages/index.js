@@ -9,12 +9,10 @@ const IndexPage = ({ data }) => {
   return (
       <Layout>
         <p>
-          Hello! Welcome to my corner of the internet. <br /> 
-          I&apos;m currently a software engineer (for blue app) based out of San Francisco. <br />
           My monthly <Link to="/playlists">Spotify playlists here</Link>. <br />
           Current interests includes Japanese learning (with some French and Korean), studio pottery, light reading, and coffee.  <br />
         </p>
-        <p>Last updated: 04/06/2023</p>
+        <p>Last updated: 04/19/2023</p>
       </Layout>
     )
 }
