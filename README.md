@@ -22,6 +22,7 @@ This website is built using Gatsby.js. Just a simple website.
 
 # Manual deployment
 - Run `gatsby build` to generate a new public folder
+- Change to master branch
 - Delete everything in master except CNAME, .gitignore
 - Copy everything from the public folder to master
 
