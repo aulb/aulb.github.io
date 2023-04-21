@@ -9,13 +9,13 @@ const Footer = () => {
     <div>
       &copy; 2014 - {(new Date()).getFullYear()}
       &nbsp;•&nbsp;
-      <Link to={github}>github</Link>
+      <Link to={github} target="_blank">github</Link>
       &nbsp;•&nbsp;
-      <Link to={instagram}>instagram</Link>
+      <Link to={instagram} target="_blank">instagram</Link>
       &nbsp;•&nbsp;
-      <Link to={linkedin}>linkedin</Link>
+      <Link to={linkedin} target="_blank">linkedin</Link>
       &nbsp;•&nbsp;
-      <Link to={goodreads}>goodreads</Link>
+      <Link to={goodreads} target="_blank">goodreads</Link>
     </div>
   )
 }

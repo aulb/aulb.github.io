@@ -1,17 +1,20 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import { Link } from 'gatsby'
 import Seo from '../components/seo'
+import SpotifyPlaylists from '../components/spotifyPlaylists'
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
 
   return (
       <Layout>
         <p>
-          My monthly <Link to="/playlists">Spotify playlists here</Link>. <br />
-          Current interests includes Japanese learning (with some French and Korean), studio pottery, light reading, and coffee.  <br />
+          Hello, welcome to my page! <br />
+          I'm currently a SWE based in San Francisco 🌉.<br /> 
+          Recent monthly Spotify playlists: <br />
+          <SpotifyPlaylists />
+          Current interests: Japanese learning (with some French and Korean), studio pottery, light reading, and coffee. <br />
+          Last updated: 04/21/2023
         </p>
-        <p>Last updated: 04/21/2023</p>
       </Layout>
     )
 }

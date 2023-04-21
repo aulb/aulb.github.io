@@ -2,31 +2,26 @@ import * as React from 'react'
 import SpotifyJSONData from '../data/current_playlist.json'
 import { Link } from 'gatsby'
 import {
+  playlistMainContainer,
   playlistContainer,
-  playlistInfoContainer,
 } from './spotifyPlaylists.module.css'
 
 const SpotifyPlaylists = () => {
   const { items } = SpotifyJSONData
-  console.log({ items })
   return (
-    <div>
+    <div className={playlistMainContainer}>
       {
         items?.map(playlist => {
           if (playlist.public === false) {
             return null;
           }
-          const { images, name, external_urls, tracks } = playlist
+          const { images, name, external_urls } = playlist
           const image = images.length > 0 ? images[0] : null
           return (
-            <div className={playlistContainer}>
-              <img alt={name} src={image?.url} height={90} width={90} />
-              <div className={playlistInfoContainer}>
-                <Link key={name} to={external_urls?.spotify} target="_blank">
-                  <p>{name}</p>
-                </Link>
-                <p>{tracks?.total} songs</p>
-              </div>
+            <div className={playlistContainer} title={name}>
+              <Link to={external_urls.spotify} target="_blank">
+                <img alt={name} src={image?.url} height={90} width={90} />
+              </Link>
             </div>
           )
         })

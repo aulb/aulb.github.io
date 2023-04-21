@@ -1,9 +1,12 @@
-.playlistContainer {
+.playlistMainContainer {
   display: flex;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 50%;
+  min-width: 300px;
 }
 
-.playlistInfoContainer {
-  margin-left: 8px;
+.playlistContainer {
+  display: flex;
+  margin-right: 5px;
 }
