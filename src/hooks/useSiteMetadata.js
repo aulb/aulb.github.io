@@ -9,6 +9,7 @@ const useSiteMetadata = () => {
           github
           instagram
           linkedin
+          goodreads
         }
       }
     }

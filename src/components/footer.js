@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 const Footer = () => {
   const data = useSiteMetadata()
-  const { github, instagram, linkedin } = data
+  const { github, instagram, linkedin, goodreads } = data
   return (
     <div>
       &copy; 2014 - {(new Date()).getFullYear()}
@@ -14,6 +14,8 @@ const Footer = () => {
       <Link to={instagram}>instagram</Link>
       &nbsp;•&nbsp;
       <Link to={linkedin}>linkedin</Link>
+      &nbsp;•&nbsp;
+      <Link to={goodreads}>goodreads</Link>
     </div>
   )
 }
