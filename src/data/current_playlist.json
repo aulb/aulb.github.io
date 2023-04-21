@@ -1,19 +1,19 @@
 {
-  "href" : "https://api.spotify.com/v1/users/_aulb/playlists?offset=0&limit=20",
+  "href" : "https://api.spotify.com/v1/users/_aulb/playlists?offset=1&limit=30",
   "items" : [ {
     "collaborative" : false,
     "description" : "",
     "external_urls" : {
-      "spotify" : "https://open.spotify.com/playlist/4UwHp3FNxseM4nt6ltjyVx"
+      "spotify" : "https://open.spotify.com/playlist/7oZ6XtTDzt0eFFUVBqAuus"
     },
-    "href" : "https://api.spotify.com/v1/playlists/4UwHp3FNxseM4nt6ltjyVx",
-    "id" : "4UwHp3FNxseM4nt6ltjyVx",
+    "href" : "https://api.spotify.com/v1/playlists/7oZ6XtTDzt0eFFUVBqAuus",
+    "id" : "7oZ6XtTDzt0eFFUVBqAuus",
     "images" : [ {
       "height" : null,
-      "url" : "https://i.scdn.co/image/ab67706c0000bebbfcee321f665e2a1e41f94f6a",
+      "url" : "https://i.scdn.co/image/ab67706c0000bebbe32f365561cfba3b7958b730",
       "width" : null
     } ],
-    "name" : "2023 APR",
+    "name" : "2023 APR #2",
     "owner" : {
       "display_name" : "Albert",
       "external_urls" : {
@@ -26,13 +26,120 @@
     },
     "primary_color" : null,
     "public" : true,
-    "snapshot_id" : "NDcsOWM0N2Q2ZTViMzM2ODgxNjI1OWE0YzI0YTgxMzMwMWZhNmE2ZmEwOA==",
+    "snapshot_id" : "NTIsZmE0Mjk2NjUwMmU1ZDI0NGE4ODYyMDVjMWM4NDA1MmE5YThlY2M5Nw==",
     "tracks" : {
-      "href" : "https://api.spotify.com/v1/playlists/4UwHp3FNxseM4nt6ltjyVx/tracks",
-      "total" : 44
+      "href" : "https://api.spotify.com/v1/playlists/7oZ6XtTDzt0eFFUVBqAuus/tracks",
+      "total" : 50
     },
     "type" : "playlist",
-    "uri" : "spotify:playlist:4UwHp3FNxseM4nt6ltjyVx"
+    "uri" : "spotify:playlist:7oZ6XtTDzt0eFFUVBqAuus"
+  }, {
+    "collaborative" : false,
+    "description" : "A playlist of songs coming from the Dance Dance Revolution game series by KONAMI",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/2bi9QDXPuUDJSxZAuWPqrG"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/2bi9QDXPuUDJSxZAuWPqrG",
+    "id" : "2bi9QDXPuUDJSxZAuWPqrG",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706c0000bebbc8800777b7155f95c13716e9",
+      "width" : null
+    } ],
+    "name" : "Dance Dance Revolution",
+    "owner" : {
+      "display_name" : "Earl Christian Uy",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/earluydx"
+      },
+      "href" : "https://api.spotify.com/v1/users/earluydx",
+      "id" : "earluydx",
+      "type" : "user",
+      "uri" : "spotify:user:earluydx"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "NDY4OSxhZmQ0ZmU4ZTI2NTM1OWU1MDQxNGY1ZGJhM2VmNGUzZTUwY2I4OTZj",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/2bi9QDXPuUDJSxZAuWPqrG/tracks",
+      "total" : 473
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:2bi9QDXPuUDJSxZAuWPqrG"
+  }, {
+    "collaborative" : false,
+    "description" : "Dance Dance Revolution, abbreviated DDR and also known as Dancing Stage. Introduced Japan in 1998 as part of the Bemani series, and released worldwide in 1999. Dance Dance Revolution is the pioneering series of the rhythm and dance genre in video games.",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/1thzp413KoOtyGo1sUzxqt"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/1thzp413KoOtyGo1sUzxqt",
+    "id" : "1thzp413KoOtyGo1sUzxqt",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273841104c2a86df2bf6d8be90dab67616d0000b27398ec32971ad705a2f18df7bbab67616d0000b273a525d02367a8347a894cf8a9ab67616d0000b273fec9cf25877ec9c9e69fcc1c",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273841104c2a86df2bf6d8be90dab67616d0000b27398ec32971ad705a2f18df7bbab67616d0000b273a525d02367a8347a894cf8a9ab67616d0000b273fec9cf25877ec9c9e69fcc1c",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273841104c2a86df2bf6d8be90dab67616d0000b27398ec32971ad705a2f18df7bbab67616d0000b273a525d02367a8347a894cf8a9ab67616d0000b273fec9cf25877ec9c9e69fcc1c",
+      "width" : 60
+    } ],
+    "name" : "DDR (Dance Dance Revolution)",
+    "owner" : {
+      "display_name" : "jusvibe",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/jusvibe"
+      },
+      "href" : "https://api.spotify.com/v1/users/jusvibe",
+      "id" : "jusvibe",
+      "type" : "user",
+      "uri" : "spotify:user:jusvibe"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MzI2LDgwNTczZGFmN2Y3NTkyZDRkMzQ3MDE4YzFlNDk4NzM4ODI0OTJhYjU=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/1thzp413KoOtyGo1sUzxqt/tracks",
+      "total" : 91
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:1thzp413KoOtyGo1sUzxqt"
+  }, {
+    "collaborative" : false,
+    "description" : "Spotify Japan proudly introduces the freshest and most talented Japanese artists to the world.",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DWX9u2doQ8Q2L"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DWX9u2doQ8Q2L",
+    "id" : "37i9dQZF1DWX9u2doQ8Q2L",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706f00000003893fecf1a5f748b71821fd9f",
+      "width" : null
+    } ],
+    "name" : "Tokyo Rising",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTY4MjAwMjgwMCwwMDAwMDAwMGZmZDdlMGMwY2JkNzc1MDhmZWMxYzgyOTNjNDFjNWQ3",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DWX9u2doQ8Q2L/tracks",
+      "total" : 100
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1DWX9u2doQ8Q2L"
   }, {
     "collaborative" : false,
     "description" : "",
@@ -231,6 +338,72 @@
     },
     "type" : "playlist",
     "uri" : "spotify:playlist:5z2qLus9VGUmWHEzqMRTus"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/4UwHp3FNxseM4nt6ltjyVx"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/4UwHp3FNxseM4nt6ltjyVx",
+    "id" : "4UwHp3FNxseM4nt6ltjyVx",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706c0000bebb5fb95daa22144e5d2d7a7e4c",
+      "width" : null
+    } ],
+    "name" : "2023 APR",
+    "owner" : {
+      "display_name" : "Albert",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/_aulb"
+      },
+      "href" : "https://api.spotify.com/v1/users/_aulb",
+      "id" : "_aulb",
+      "type" : "user",
+      "uri" : "spotify:user:_aulb"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "NDksNTUyZDRiYTFlN2I1YmM0M2ZiYTVjMDVkNzg0YmU4NGUwNThlYzI0NA==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/4UwHp3FNxseM4nt6ltjyVx/tracks",
+      "total" : 45
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:4UwHp3FNxseM4nt6ltjyVx"
+  }, {
+    "collaborative" : false,
+    "description" : "Liquid DnB music picked just for you",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1EIfXJLZBXw8ec"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EIfXJLZBXw8ec",
+    "id" : "37i9dQZF1EIfXJLZBXw8ec",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://seed-mix-image.spotifycdn.com/v6/img/desc/Liquid%20DnB/en/large",
+      "width" : null
+    } ],
+    "name" : "Liquid DnB Mix",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTk0NjgsMDAwMDAwMDA1Y2U5MTUxNGIxZWUwMzc0ZGE1NjY0ZDAwMzMxNDE0ZQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EIfXJLZBXw8ec/tracks",
+      "total" : 50
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1EIfXJLZBXw8ec"
   }, {
     "collaborative" : false,
     "description" : "",
@@ -561,10 +734,298 @@
     },
     "type" : "playlist",
     "uri" : "spotify:playlist:6MrCRqFuYCMZOtGIJzgRjN"
-  }],
-  "limit" : 20,
-  "next" : "https://api.spotify.com/v1/users/_aulb/playlists?offset=20&limit=20",
-  "offset" : 0,
-  "previous" : null,
-  "total" : 78
+  }, {
+    "collaborative" : false,
+    "description" : "Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZEVXcK9Iwysl5WKN"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZEVXcK9Iwysl5WKN",
+    "id" : "37i9dQZEVXcK9Iwysl5WKN",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/9YCAt6IUG3S2KnJv6GCAJQygjnvORYL0D8XAUAJ39hmyZrhoIVcYQZPzla0o9SvzbNU964Nqd_Rldl74miZyAuHw2gpNlNMxr3shiGlAF5I=/MTM6OTI6NTBUNDAtNTAtMw==",
+      "width" : null
+    } ],
+    "name" : "Discover Weekly",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MCwwMDAwMDAwMGNlYzRkYjdiZTY2ZTcyZGRhYzMwNDU5NjJjZTBiYzRm",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZEVXcK9Iwysl5WKN/tracks",
+      "total" : 30
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZEVXcK9Iwysl5WKN"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/0zeZZRZKAa4qKAIUNpMcgB"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/0zeZZRZKAa4qKAIUNpMcgB",
+    "id" : "0zeZZRZKAa4qKAIUNpMcgB",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b2731ef3e7515354097b220d8fbc",
+      "width" : 640
+    } ],
+    "name" : "Never Forget",
+    "owner" : {
+      "display_name" : "Benn",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/jt359s9gxlo7ztxpfeau4rha6"
+      },
+      "href" : "https://api.spotify.com/v1/users/jt359s9gxlo7ztxpfeau4rha6",
+      "id" : "jt359s9gxlo7ztxpfeau4rha6",
+      "type" : "user",
+      "uri" : "spotify:user:jt359s9gxlo7ztxpfeau4rha6"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "Myw1Zjg3NTdmODhkMTQ3YTIwYzAxMjcwNjIzZTYzZDdlZjg0ZWU0NjI3",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/0zeZZRZKAa4qKAIUNpMcgB/tracks",
+      "total" : 2
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:0zeZZRZKAa4qKAIUNpMcgB"
+  }, {
+    "collaborative" : false,
+    "description" : "今日も良い一日をお過ごしくださいませ～",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/00gfwlwGMGYR2kXup2lzCZ"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/00gfwlwGMGYR2kXup2lzCZ",
+    "id" : "00gfwlwGMGYR2kXup2lzCZ",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273138d0143d948a5314d1aea19ab67616d0000b2735015c8ee13ce0a321269d199ab67616d0000b2736065e5ed88a10e9106404ac1ab67616d0000b273a7ed09df921f6cdc3669943d",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273138d0143d948a5314d1aea19ab67616d0000b2735015c8ee13ce0a321269d199ab67616d0000b2736065e5ed88a10e9106404ac1ab67616d0000b273a7ed09df921f6cdc3669943d",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273138d0143d948a5314d1aea19ab67616d0000b2735015c8ee13ce0a321269d199ab67616d0000b2736065e5ed88a10e9106404ac1ab67616d0000b273a7ed09df921f6cdc3669943d",
+      "width" : 60
+    } ],
+    "name" : " 空おｋ🎤",
+    "owner" : {
+      "display_name" : "Albert",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/_aulb"
+      },
+      "href" : "https://api.spotify.com/v1/users/_aulb",
+      "id" : "_aulb",
+      "type" : "user",
+      "uri" : "spotify:user:_aulb"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "NTIsOWY3YWIzOGZlNDVjMjg3NDM4OWUyYzNlYTdkNmZiOGI1ZGMyMmM5YQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/00gfwlwGMGYR2kXup2lzCZ/tracks",
+      "total" : 44
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:00gfwlwGMGYR2kXup2lzCZ"
+  }, {
+    "collaborative" : false,
+    "description" : "for road-trips, just dump all your shit in here",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/0MDNYPTJtB0pX7Z2gIbNYt"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/0MDNYPTJtB0pX7Z2gIbNYt",
+    "id" : "0MDNYPTJtB0pX7Z2gIbNYt",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706c0000bebb1f2573163aac95c356c1656d",
+      "width" : null
+    } ],
+    "name" : "请走开谢谢",
+    "owner" : {
+      "display_name" : "bobert",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/schultesayshi"
+      },
+      "href" : "https://api.spotify.com/v1/users/schultesayshi",
+      "id" : "schultesayshi",
+      "type" : "user",
+      "uri" : "spotify:user:schultesayshi"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "NDk3LGEzZDQ0MzJjYjI1YmYyN2MyMjIwY2M2NjBiNDFmMzcwY2ZmZDY3NmU=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/0MDNYPTJtB0pX7Z2gIbNYt/tracks",
+      "total" : 356
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:0MDNYPTJtB0pX7Z2gIbNYt"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/40tJekVUsYbpugNh43Q5bD"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/40tJekVUsYbpugNh43Q5bD",
+    "id" : "40tJekVUsYbpugNh43Q5bD",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27373d59cc449e4592026c3997aab67616d0000b273d1961ecb307c9e05ec8f7e82ab67616d0000b273dd17db8d3e7c325762a0ad3dab67616d0000b273ff4ec21d7817138cabcc19bc",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27373d59cc449e4592026c3997aab67616d0000b273d1961ecb307c9e05ec8f7e82ab67616d0000b273dd17db8d3e7c325762a0ad3dab67616d0000b273ff4ec21d7817138cabcc19bc",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27373d59cc449e4592026c3997aab67616d0000b273d1961ecb307c9e05ec8f7e82ab67616d0000b273dd17db8d3e7c325762a0ad3dab67616d0000b273ff4ec21d7817138cabcc19bc",
+      "width" : 60
+    } ],
+    "name" : "カラオケ 🎤",
+    "owner" : {
+      "display_name" : "bobert",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/schultesayshi"
+      },
+      "href" : "https://api.spotify.com/v1/users/schultesayshi",
+      "id" : "schultesayshi",
+      "type" : "user",
+      "uri" : "spotify:user:schultesayshi"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTI5LGNkOTJkZTRlMTA0M2U4YTVmMmM0OTFlMDdkZGQyODY0YTI4OTlhYjM=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/40tJekVUsYbpugNh43Q5bD/tracks",
+      "total" : 78
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:40tJekVUsYbpugNh43Q5bD"
+  }, {
+    "collaborative" : false,
+    "description" : "Chill DnB music picked just for you",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1EIfISR3aGqYgW"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EIfISR3aGqYgW",
+    "id" : "37i9dQZF1EIfISR3aGqYgW",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://seed-mix-image.spotifycdn.com/v6/img/desc/Chill%20DnB/en/large",
+      "width" : null
+    } ],
+    "name" : "Chill DnB Mix",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTk0NjgsMDAwMDAwMDAwZjA5NjRmNTMxZjg5MzU1ZjRlOTUzZjViYzlkMjgxYQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EIfISR3aGqYgW/tracks",
+      "total" : 50
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1EIfISR3aGqYgW"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/6DnVp5DjNaROIHZe5d3uLt"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/6DnVp5DjNaROIHZe5d3uLt",
+    "id" : "6DnVp5DjNaROIHZe5d3uLt",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27326573d555999566291e3b7a8ab67616d0000b27330c674e14297ecdd6bade428ab67616d0000b2735d947999f612f4a45915da1eab67616d0000b2736da83ea7813b3b8d1bd22a87",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27326573d555999566291e3b7a8ab67616d0000b27330c674e14297ecdd6bade428ab67616d0000b2735d947999f612f4a45915da1eab67616d0000b2736da83ea7813b3b8d1bd22a87",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27326573d555999566291e3b7a8ab67616d0000b27330c674e14297ecdd6bade428ab67616d0000b2735d947999f612f4a45915da1eab67616d0000b2736da83ea7813b3b8d1bd22a87",
+      "width" : 60
+    } ],
+    "name" : "東京フラッシュ",
+    "owner" : {
+      "display_name" : "Benn",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/jt359s9gxlo7ztxpfeau4rha6"
+      },
+      "href" : "https://api.spotify.com/v1/users/jt359s9gxlo7ztxpfeau4rha6",
+      "id" : "jt359s9gxlo7ztxpfeau4rha6",
+      "type" : "user",
+      "uri" : "spotify:user:jt359s9gxlo7ztxpfeau4rha6"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTksNTJkMTk2NTFkMTI2ZGYwNmJlMDM2OTYxYWQxYWNhMTRiOTIzNmY3Ng==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/6DnVp5DjNaROIHZe5d3uLt/tracks",
+      "total" : 18
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:6DnVp5DjNaROIHZe5d3uLt"
+  }, {
+    "collaborative" : false,
+    "description" : "A blend of music for Albert and Ben. Updates daily.",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1EJILcSWndaSqO"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EJILcSWndaSqO",
+    "id" : "37i9dQZF1EJILcSWndaSqO",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://blend-playlist-covers.spotifycdn.com/v2/blend_LARGE-forest-pink-en.jpg",
+      "width" : null
+    } ],
+    "name" : "Ben + Albert",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MCwwMDAwMDAwMGUzY2U4Mjc1ZTdlNWI2NjJhYTUwNzEzZWQ0ZDBiOTJh",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EJILcSWndaSqO/tracks",
+      "total" : 50
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1EJILcSWndaSqO"
+  } ],
+  "limit" : 30,
+  "next" : "https://api.spotify.com/v1/users/_aulb/playlists?offset=31&limit=30",
+  "offset" : 1,
+  "previous" : "https://api.spotify.com/v1/users/_aulb/playlists?offset=0&limit=30",
+  "total" : 81
 }
