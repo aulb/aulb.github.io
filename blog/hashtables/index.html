@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.4.0"/><style data-href="/styles.cb191c0e37fbcd02dc8d.css" data-identity="gatsby-global-css">.layout-module--container--78b04{color:#111;counter-reset:sidenote-counter;font-family:Palatino,sans-serif;font-size:18px;margin-left:auto;margin-right:auto;max-width:1400px;width:87.5%}p{font-size:1.25rem;line-height:1.75rem}.layout-module--heading--f158c{color:#639}.layout-module--nav-links--1113b{display:flex;list-style:none;padding-left:0}.layout-module--nav-link-item--a5f0a{padding-right:2rem}.layout-module--nav-link-text--69cda{color:#000}.layout-module--site-title--e4dea{color:gray;font-size:3rem;font-weight:700;margin:3rem 0}.blogList-module--blogListContainer--81084{margin-bottom:16px;margin-top:8px}.blogList-module--articleSpacing--a4b91{margin-bottom:5px;margin-top:5px}.spotifyPlaylists-module--playlistMainContainer--ab781{display:flex;flex-wrap:wrap;gap:5px;max-width:50%;min-width:300px}.spotifyPlaylists-module--playlistContainer--a50b6{display:flex;margin-right:5px}.spotifyPlaylists-module--playlistCubeContainer--e5dd5{display:flex}.spotifyPlaylists-module--playlistCube--3e23a{height:10px}</style><title data-gatsby-head="true">Hashtables | albert.wtf</title><style data-styled="" data-styled-version="5.3.6"></style><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){const t=e.target;if(void 0===t.dataset.mainImage)return;if(void 0===t.dataset.gatsbyImageSsr)return;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="layout-module--container--78b04"><a href="/"><header class="layout-module--site-title--e4dea">Hashtables</header></a><main><p>Tuesday August 30, 2016</p><h3>Note: 01/18/2023 This is an example of an unfinished blogpost. Nothing to read here.</h3>
+<p>I&#x27;ve been studying interview questions for the past couple of weeks. One that I came across quite a few time was the infamous describe (and or implement) the inner workings of hash tables.</p>
+<p>I thought it&#x27;d be interesting to explore this problem with my favourite programming language Python.</p>
+<h1>What is a Hash Table?</h1>
+<p>In Python, hash tables are called dictionaries, and they are a key/value pair storage.</p>
+<h1>How to implement a simple hash table</h1>
+<p>Using Python&#x27;s data structure.</p>
+<h1>Inner working of dictionaries</h1>
+<h1>Basic Fields</h1>
+<p><code>ma_used</code>
+<code>ma_fill</code>
+<code>ma_mask</code>
+<code>ma_table</code></p>
+<p>How does this hash function work exactly???
+Why <code>ma_fill</code> the same number when a key is deleted? Whats the purpose?</p>
+<h1>What do you get from objects?</h1>
+<h1>What did I learn from reading?</h1>
+<h1>Inserting</h1>
+<h1>Deleting</h1>
+<p>Never resized down on deletion
+This usage pattern is quite infrequent, thus why is the one pursued
+no-resize-on-deletion policy</p>
+<h1>Exploring mapping and collision, I&#x27;m sure this gets asked tons of time.</h1>
+<ul>
+<li>
+<p>Chaining: Each slot is the head of a linked list containing all the items that hash to that slot (my school taught me this)
+Memory allocation is a slow operation, yep malloc</p>
+</li>
+<li>
+<p>Linear scan: When hit a collision
+Some complicated</p>
+</li>
+<li>
+<p>Python scan:
+<em>trick here</em>
+Why 5? Great question.</p>
+</li>
+</ul>
+<h1>Resizing</h1>
+<p>Load factor
+-We know from the readings that the table size is always a power of two- not true
+n/(2/3),</p>
+<p>re organize??? no</p>
+<p>resizing when 2/3d full
+ma_used * 4 for fewer elements
+ma_used * 2 for more than 50k keys</p>
+<h1>Tricks</h1>
+<p>Memory tradeoff
+question: are the dictionaries the same size?</p>
+<h1>Iterating through, yield, generators</h1>
+<p>Turns out that generators in Python is memory efficient as well</p>
+<p>I learned that they do a bunch of weird things</p></main><div>© 2014 - <!-- -->2023<!-- --> • <a href="https://github.com/aulb" target="_blank">github</a> • <a href="https://instagram.com/albert.wootang" target="_blank">instagram</a> • <a href="https://linkedin.com/in/albert-untung" target="_blank">linkedin</a> • <a href="https://goodreads.com/aulbert" target="_blank">goodreads</a></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog/hashtables/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-88b9e0aecc97589fca66.js\"],\"component---src-pages-404-js\":[\"/component---src-pages-404-js-ae0cb56dae92c6da4f92.js\"],\"component---src-pages-blog-index-js\":[\"/component---src-pages-blog-index-js-f16bdd00b25cde44f3c8.js\"],\"component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-hashtables-mdx\":[\"/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-hashtables-mdx-4342e253a539e153832d.js\"],\"component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-hows-your-bootcamp-mdx\":[\"/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-hows-your-bootcamp-mdx-e53c760ddc740d634754.js\"],\"component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-japan-food-mdx\":[\"/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-japan-food-mdx-b687f58d303125ad79ac.js\"],\"component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-japanese-notes-from-way-back-mdx\":[\"/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-japanese-notes-from-way-back-mdx-2aa4e5de030a3c8f78be.js\"],\"component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-makuru-kurikaesu-chigai-mdx\":[\"/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-makuru-kurikaesu-chigai-mdx-708f8546323b0a733b20.js\"],\"component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-mini-foodie-mdx\":[\"/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-mini-foodie-mdx-9c07021db0d6e108ebc8.js\"],\"component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-my-git-cheatsheet-mdx\":[\"/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-my-git-cheatsheet-mdx-19f3d09b69280b983a59.js\"],\"component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-yaponiya-mdx\":[\"/component---src-pages-blog-mdx-frontmatter-slug-js-content-file-path-users-yoyo-documents-git-hub-aulb-github-io-blog-yaponiya-mdx-73071c2e9e25fcb4c2b5.js\"],\"component---src-pages-copyright-js\":[\"/component---src-pages-copyright-js-4538ab085c9445c13e1d.js\"],\"component---src-pages-index-js\":[\"/component---src-pages-index-js-e6d01ca63853494d0d69.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="8e65c3afb923e4fc25ff";</script><script src="/webpack-runtime-82d9c7b18e9c053faa56.js" async></script><script src="/framework-49fbe3934fd85aa7d687.js" async></script><script src="/app-88b9e0aecc97589fca66.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
