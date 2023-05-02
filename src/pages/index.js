@@ -2,18 +2,19 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 import SpotifyPlaylists from '../components/spotifyPlaylists'
+import { Link } from 'gatsby'
 
 const IndexPage = () => {
 
   return (
       <Layout>
         <p>
-          Hello, welcome to my page! <br />
+          Hello welcome to my page! <br />
           I'm currently a SWE based in San Francisco 🌉.<br /> 
-          Recent monthly Spotify playlists: <br />
+          Current interests: <Link to="https://www.usajapan.org/japanese-language-classes/japanese-group-classes/">Japanese learning</Link>, <Link to="https://www.clayroomsf.com/">studio pottery</Link>, light reading, overnight oats, and coffee. <br />
+          My recent monthly Spotify visualized: <br />
           <SpotifyPlaylists />
-          Current interests: Japanese learning (with some French and Korean), studio pottery, light reading, and coffee. <br />
-          Last updated: 04/21/2023
+          Last updated: 05/01/2023
         </p>
       </Layout>
     )

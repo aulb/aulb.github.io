@@ -10,3 +10,11 @@
   display: flex;
   margin-right: 5px;
 }
+
+.playlistCubeContainer {
+  display: flex;
+}
+
+.playlistCube {
+  height: 10px;
+}

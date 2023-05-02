@@ -1,19 +1,27 @@
 {
-  "href" : "https://api.spotify.com/v1/users/_aulb/playlists?offset=1&limit=30",
+  "href" : "https://api.spotify.com/v1/users/_aulb/playlists?offset=0&limit=40",
   "items" : [ {
     "collaborative" : false,
     "description" : "",
     "external_urls" : {
-      "spotify" : "https://open.spotify.com/playlist/7oZ6XtTDzt0eFFUVBqAuus"
+      "spotify" : "https://open.spotify.com/playlist/7GkH1UnD6uzGpKD0Kqg1xO"
     },
-    "href" : "https://api.spotify.com/v1/playlists/7oZ6XtTDzt0eFFUVBqAuus",
-    "id" : "7oZ6XtTDzt0eFFUVBqAuus",
+    "href" : "https://api.spotify.com/v1/playlists/7GkH1UnD6uzGpKD0Kqg1xO",
+    "id" : "7GkH1UnD6uzGpKD0Kqg1xO",
     "images" : [ {
-      "height" : null,
-      "url" : "https://i.scdn.co/image/ab67706c0000bebbe32f365561cfba3b7958b730",
-      "width" : null
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27310c4ad5f7d0f3bc43d1e3fc6ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273d71fd77b89d08bc1bda219c7ab67616d0000b273d90fea3cdae9a69ccdf3a4bf",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27310c4ad5f7d0f3bc43d1e3fc6ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273d71fd77b89d08bc1bda219c7ab67616d0000b273d90fea3cdae9a69ccdf3a4bf",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27310c4ad5f7d0f3bc43d1e3fc6ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273d71fd77b89d08bc1bda219c7ab67616d0000b273d90fea3cdae9a69ccdf3a4bf",
+      "width" : 60
     } ],
-    "name" : "2023 APR #2",
+    "name" : "2023 MAY",
     "owner" : {
       "display_name" : "Albert",
       "external_urls" : {
@@ -26,13 +34,79 @@
     },
     "primary_color" : null,
     "public" : true,
-    "snapshot_id" : "NTIsZmE0Mjk2NjUwMmU1ZDI0NGE4ODYyMDVjMWM4NDA1MmE5YThlY2M5Nw==",
+    "snapshot_id" : "NDAsMzhkMWI1YWNhMzY5NmYzMzRiNWQ3NzYyNDIyZTMyOWQzOTk0YmQ3Yw==",
     "tracks" : {
-      "href" : "https://api.spotify.com/v1/playlists/7oZ6XtTDzt0eFFUVBqAuus/tracks",
+      "href" : "https://api.spotify.com/v1/playlists/7GkH1UnD6uzGpKD0Kqg1xO/tracks",
+      "total" : 33
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:7GkH1UnD6uzGpKD0Kqg1xO"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/3sUqUiz5CnGX6lQIXtkfD4"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/3sUqUiz5CnGX6lQIXtkfD4",
+    "id" : "3sUqUiz5CnGX6lQIXtkfD4",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706c0000bebb3fe8ddbe12b207bac708dbf0",
+      "width" : null
+    } ],
+    "name" : "2023 APR #3",
+    "owner" : {
+      "display_name" : "Albert",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/_aulb"
+      },
+      "href" : "https://api.spotify.com/v1/users/_aulb",
+      "id" : "_aulb",
+      "type" : "user",
+      "uri" : "spotify:user:_aulb"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "NTQsZjAyNzdiYzA3YTQ4NTQzMjFiMzkxZTdiNGVjNWFlMDA0N2FkOWIwZg==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/3sUqUiz5CnGX6lQIXtkfD4/tracks",
       "total" : 50
     },
     "type" : "playlist",
-    "uri" : "spotify:playlist:7oZ6XtTDzt0eFFUVBqAuus"
+    "uri" : "spotify:playlist:3sUqUiz5CnGX6lQIXtkfD4"
+  }, {
+    "collaborative" : false,
+    "description" : "Classics by the pioneers of the sound, and its modern-day icons. Cover: 100 gecs",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DXakZCf7SV1CS"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DXakZCf7SV1CS",
+    "id" : "37i9dQZF1DXakZCf7SV1CS",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706f00000003ef49042fbdb0f4436c2c371a",
+      "width" : null
+    } ],
+    "name" : "Hyperpop Classics",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTY4MjYxNTU5OCwwMDAwMDAwMDljM2IwZjRmOWU1ZjhmMjQ0NGM5MGYxYzc2OTJlMzJh",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DXakZCf7SV1CS/tracks",
+      "total" : 75
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1DXakZCf7SV1CS"
   }, {
     "collaborative" : false,
     "description" : "A playlist of songs coming from the Dance Dance Revolution game series by KONAMI",
@@ -59,10 +133,10 @@
     },
     "primary_color" : null,
     "public" : false,
-    "snapshot_id" : "NDY4OSxhZmQ0ZmU4ZTI2NTM1OWU1MDQxNGY1ZGJhM2VmNGUzZTUwY2I4OTZj",
+    "snapshot_id" : "NDY5MSwxMzY0NzQ5OTU1ZGMwMjA0MTY3MzQ2MGNhMGM4OTNjNDU5MzFmYmRi",
     "tracks" : {
       "href" : "https://api.spotify.com/v1/playlists/2bi9QDXPuUDJSxZAuWPqrG/tracks",
-      "total" : 473
+      "total" : 474
     },
     "type" : "playlist",
     "uri" : "spotify:playlist:2bi9QDXPuUDJSxZAuWPqrG"
@@ -133,13 +207,79 @@
     },
     "primary_color" : null,
     "public" : false,
-    "snapshot_id" : "MTY4MjAwMjgwMCwwMDAwMDAwMGZmZDdlMGMwY2JkNzc1MDhmZWMxYzgyOTNjNDFjNWQ3",
+    "snapshot_id" : "MTY4MjY2NDcxNSwwMDAwMDAwMDk0NzE5ZTQyMDFhNzBiZjIxM2QzMWYxY2Y2YWM4MzZk",
     "tracks" : {
       "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DWX9u2doQ8Q2L/tracks",
       "total" : 100
     },
     "type" : "playlist",
     "uri" : "spotify:playlist:37i9dQZF1DWX9u2doQ8Q2L"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/4UwHp3FNxseM4nt6ltjyVx"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/4UwHp3FNxseM4nt6ltjyVx",
+    "id" : "4UwHp3FNxseM4nt6ltjyVx",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706c0000bebb5fb95daa22144e5d2d7a7e4c",
+      "width" : null
+    } ],
+    "name" : "2023 APR",
+    "owner" : {
+      "display_name" : "Albert",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/_aulb"
+      },
+      "href" : "https://api.spotify.com/v1/users/_aulb",
+      "id" : "_aulb",
+      "type" : "user",
+      "uri" : "spotify:user:_aulb"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "NDksNTUyZDRiYTFlN2I1YmM0M2ZiYTVjMDVkNzg0YmU4NGUwNThlYzI0NA==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/4UwHp3FNxseM4nt6ltjyVx/tracks",
+      "total" : 45
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:4UwHp3FNxseM4nt6ltjyVx"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/7oZ6XtTDzt0eFFUVBqAuus"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/7oZ6XtTDzt0eFFUVBqAuus",
+    "id" : "7oZ6XtTDzt0eFFUVBqAuus",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706c0000bebbe32f365561cfba3b7958b730",
+      "width" : null
+    } ],
+    "name" : "2023 APR #2",
+    "owner" : {
+      "display_name" : "Albert",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/_aulb"
+      },
+      "href" : "https://api.spotify.com/v1/users/_aulb",
+      "id" : "_aulb",
+      "type" : "user",
+      "uri" : "spotify:user:_aulb"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "NTIsZmE0Mjk2NjUwMmU1ZDI0NGE4ODYyMDVjMWM4NDA1MmE5YThlY2M5Nw==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/7oZ6XtTDzt0eFFUVBqAuus/tracks",
+      "total" : 50
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:7oZ6XtTDzt0eFFUVBqAuus"
   }, {
     "collaborative" : false,
     "description" : "",
@@ -340,39 +480,6 @@
     "uri" : "spotify:playlist:5z2qLus9VGUmWHEzqMRTus"
   }, {
     "collaborative" : false,
-    "description" : "",
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/playlist/4UwHp3FNxseM4nt6ltjyVx"
-    },
-    "href" : "https://api.spotify.com/v1/playlists/4UwHp3FNxseM4nt6ltjyVx",
-    "id" : "4UwHp3FNxseM4nt6ltjyVx",
-    "images" : [ {
-      "height" : null,
-      "url" : "https://i.scdn.co/image/ab67706c0000bebb5fb95daa22144e5d2d7a7e4c",
-      "width" : null
-    } ],
-    "name" : "2023 APR",
-    "owner" : {
-      "display_name" : "Albert",
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/user/_aulb"
-      },
-      "href" : "https://api.spotify.com/v1/users/_aulb",
-      "id" : "_aulb",
-      "type" : "user",
-      "uri" : "spotify:user:_aulb"
-    },
-    "primary_color" : null,
-    "public" : true,
-    "snapshot_id" : "NDksNTUyZDRiYTFlN2I1YmM0M2ZiYTVjMDVkNzg0YmU4NGUwNThlYzI0NA==",
-    "tracks" : {
-      "href" : "https://api.spotify.com/v1/playlists/4UwHp3FNxseM4nt6ltjyVx/tracks",
-      "total" : 45
-    },
-    "type" : "playlist",
-    "uri" : "spotify:playlist:4UwHp3FNxseM4nt6ltjyVx"
-  }, {
-    "collaborative" : false,
     "description" : "Liquid DnB music picked just for you",
     "external_urls" : {
       "spotify" : "https://open.spotify.com/playlist/37i9dQZF1EIfXJLZBXw8ec"
@@ -397,7 +504,7 @@
     },
     "primary_color" : null,
     "public" : false,
-    "snapshot_id" : "MTk0NjgsMDAwMDAwMDA1Y2U5MTUxNGIxZWUwMzc0ZGE1NjY0ZDAwMzMxNDE0ZQ==",
+    "snapshot_id" : "MTk0NzksMDAwMDAwMDA1Y2U5MTUxNGIxZWUwMzc0ZGE1NjY0ZDAwMzMxNDE0ZQ==",
     "tracks" : {
       "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EIfXJLZBXw8ec/tracks",
       "total" : 50
@@ -744,7 +851,7 @@
     "id" : "37i9dQZEVXcK9Iwysl5WKN",
     "images" : [ {
       "height" : null,
-      "url" : "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/9YCAt6IUG3S2KnJv6GCAJQygjnvORYL0D8XAUAJ39hmyZrhoIVcYQZPzla0o9SvzbNU964Nqd_Rldl74miZyAuHw2gpNlNMxr3shiGlAF5I=/MTM6OTI6NTBUNDAtNTAtMw==",
+      "url" : "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/4REz6rzSrZHP9b2pyg_ey33yyMzUjKlsUfqzCSx_rKdNojMV13hfawjVLz7IQFk1ztLBK3z1r6w3U804-igD9B_cX0qFA2pegN8ldcNQLIs=/MTM6MTI6NTBUMTEtNTAtMw==",
       "width" : null
     } ],
     "name" : "Discover Weekly",
@@ -760,7 +867,7 @@
     },
     "primary_color" : null,
     "public" : false,
-    "snapshot_id" : "MCwwMDAwMDAwMGNlYzRkYjdiZTY2ZTcyZGRhYzMwNDU5NjJjZTBiYzRm",
+    "snapshot_id" : "MCwwMDAwMDAwMGQzMzdlMDc5MTk5Nzc1YWQwZTk1MDk2ODBlNmFhMDI2",
     "tracks" : {
       "href" : "https://api.spotify.com/v1/playlists/37i9dQZEVXcK9Iwysl5WKN/tracks",
       "total" : 30
@@ -908,10 +1015,10 @@
     },
     "primary_color" : null,
     "public" : false,
-    "snapshot_id" : "MTI5LGNkOTJkZTRlMTA0M2U4YTVmMmM0OTFlMDdkZGQyODY0YTI4OTlhYjM=",
+    "snapshot_id" : "MTM2LGIxMjc5YzAyNzRlNDAyZmU0NmU4YzM3ODc5OGE0NGEyZDBkNDZjZTI=",
     "tracks" : {
       "href" : "https://api.spotify.com/v1/playlists/40tJekVUsYbpugNh43Q5bD/tracks",
-      "total" : 78
+      "total" : 85
     },
     "type" : "playlist",
     "uri" : "spotify:playlist:40tJekVUsYbpugNh43Q5bD"
@@ -941,7 +1048,7 @@
     },
     "primary_color" : null,
     "public" : false,
-    "snapshot_id" : "MTk0NjgsMDAwMDAwMDAwZjA5NjRmNTMxZjg5MzU1ZjRlOTUzZjViYzlkMjgxYQ==",
+    "snapshot_id" : "MTk0NzksMDAwMDAwMDAwZjA5NjRmNTMxZjg5MzU1ZjRlOTUzZjViYzlkMjgxYQ==",
     "tracks" : {
       "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EIfISR3aGqYgW/tracks",
       "total" : 50
@@ -1022,10 +1129,241 @@
     },
     "type" : "playlist",
     "uri" : "spotify:playlist:37i9dQZF1EJILcSWndaSqO"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/6wnis6FCixs6J3mRu4vuRs"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/6wnis6FCixs6J3mRu4vuRs",
+    "id" : "6wnis6FCixs6J3mRu4vuRs",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706c0000bebb60d9e80d5587f346f85e16cd",
+      "width" : null
+    } ],
+    "name" : "i’m not feeling like myself anymore",
+    "owner" : {
+      "display_name" : "caleb",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/deepdixpizza"
+      },
+      "href" : "https://api.spotify.com/v1/users/deepdixpizza",
+      "id" : "deepdixpizza",
+      "type" : "user",
+      "uri" : "spotify:user:deepdixpizza"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTIzLDg5NjYwOWVjMjM1ZWE4MGM4OGE1MzA1ZmIyYmIyM2ZlMDhkZDQxYjc=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/6wnis6FCixs6J3mRu4vuRs/tracks",
+      "total" : 61
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:6wnis6FCixs6J3mRu4vuRs"
+  }, {
+    "collaborative" : false,
+    "description" : "Spotify Wrapped presents the songs that you loved most this year.",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1F0sijgNaJdgit",
+    "id" : "37i9dQZF1F0sijgNaJdgit",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://wrapped-images.spotifycdn.com/image/yts-2022/large/your-top-songs-2022_large_en.jpg",
+      "width" : null
+    } ],
+    "name" : "Your Top Songs 2022",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTY2OTkwODk2MiwwMDAwMDAwMGExMjYwYjE4NmU4YjYyOWU1MWRjOTdiMDQ3M2NhYjI1",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1F0sijgNaJdgit/tracks",
+      "total" : 101
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1F0sijgNaJdgit"
+  }, {
+    "collaborative" : false,
+    "description" : "Get lost in all that is Solana “SZA” Rowe. SOS is out now!",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/3kVlfrAm4BV9s4J2ttflNy"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/3kVlfrAm4BV9s4J2ttflNy",
+    "id" : "3kVlfrAm4BV9s4J2ttflNy",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706c0000bebb4db56672717757c1c48c595e",
+      "width" : null
+    } ],
+    "name" : "SZA: SOS Complete",
+    "owner" : {
+      "display_name" : "SZA",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/officialsza"
+      },
+      "href" : "https://api.spotify.com/v1/users/officialsza",
+      "id" : "officialsza",
+      "type" : "user",
+      "uri" : "spotify:user:officialsza"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTI1LGIyOGNlODk2MWFhYTJjMDRiMjcwYWI3MzUzODM1NTBjMjk2NDM5Mzk=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/3kVlfrAm4BV9s4J2ttflNy/tracks",
+      "total" : 62
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:3kVlfrAm4BV9s4J2ttflNy"
+  }, {
+    "collaborative" : false,
+    "description" : "Top songs from 2020 that we know you won't want to miss.",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1EOiNEazFAA0LX"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EOiNEazFAA0LX",
+    "id" : "37i9dQZF1EOiNEazFAA0LX",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://lineup-images.scdn.co/wrapped-2020-discovery_LARGE-en.jpg",
+      "width" : null
+    } ],
+    "name" : "Missed Hits",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MjY3NzY1MjksMDAwMDAwMDBmOTUyNWUyY2YxZTRjZDcyMGY2YWFhOTNmNjUyNDM2Nw==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EOiNEazFAA0LX/tracks",
+      "total" : 30
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1EOiNEazFAA0LX"
+  }, {
+    "collaborative" : false,
+    "description" : "iykyk",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DX5Vy6DFOcx00"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX5Vy6DFOcx00",
+    "id" : "37i9dQZF1DX5Vy6DFOcx00",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706f000000031c9bfca9b2fd2f546a30f751",
+      "width" : null
+    } ],
+    "name" : "big on the internet",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTY4MjY5NTMxNywwMDAwMDAwMDg4N2Y2NTUyNjI5NDk1OWE2Y2JlOTlmZTc0ZDY1NmU0",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX5Vy6DFOcx00/tracks",
+      "total" : 122
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1DX5Vy6DFOcx00"
+  }, {
+    "collaborative" : false,
+    "description" : "maxime. makes anti pop",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DWWqNV5cS50j6"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DWWqNV5cS50j6",
+    "id" : "37i9dQZF1DWWqNV5cS50j6",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706f0000000381c96944e25b8e3de8947dd7",
+      "width" : null
+    } ],
+    "name" : "anti pop",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTY4Mjc0MDgwMCwwMDAwMDAwMDI1ZGZjNzA5NWJjYmIzMjgxMDdlYmRkZGJmMGFlNTIx",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DWWqNV5cS50j6/tracks",
+      "total" : 100
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1DWWqNV5cS50j6"
+  }, {
+    "collaborative" : false,
+    "description" : "A Blend of music for <a href=\"spotify:artist:41MozSoPIsD1dJM0CLPjZF\">BLACKPINK</a> + Albert.",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1EXqq3XPxXSf1u"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EXqq3XPxXSf1u",
+    "id" : "37i9dQZF1EXqq3XPxXSf1u",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://blend-playlist-covers.spotifycdn.com/celebrity-blends/BLACKPINK45668/en.jpg",
+      "width" : null
+    } ],
+    "name" : "BLACKPINK + Albert",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MCwwMDAwMDAwMGQyOWNiNDU1Y2I2ODQ5NzVhN2IzNGZiMmYyNjMyYTA2",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1EXqq3XPxXSf1u/tracks",
+      "total" : 0
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1EXqq3XPxXSf1u"
   } ],
-  "limit" : 30,
-  "next" : "https://api.spotify.com/v1/users/_aulb/playlists?offset=31&limit=30",
-  "offset" : 1,
-  "previous" : "https://api.spotify.com/v1/users/_aulb/playlists?offset=0&limit=30",
-  "total" : 81
+  "limit" : 40,
+  "next" : "https://api.spotify.com/v1/users/_aulb/playlists?offset=40&limit=40",
+  "offset" : 0,
+  "previous" : null,
+  "total" : 83
 }
