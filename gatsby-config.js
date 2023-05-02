@@ -8,7 +8,7 @@ module.exports = {
     description: `albert software engineer`,
     github: `https://github.com/aulb`,
     instagram: `https://instagram.com/albert.wootang`,
-    linkedin: `https://linkedin.com/albert-untung`,
+    linkedin: `https://linkedin.com/in/albert-untung`,
     goodreads: `https://goodreads.com/aulbert`
   },
   plugins: [

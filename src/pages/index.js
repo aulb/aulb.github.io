@@ -11,7 +11,7 @@ const IndexPage = () => {
         <p>
           Hello welcome to my page! <br />
           I'm currently a SWE based in San Francisco 🌉.<br /> 
-          Current interests: <Link to="https://www.usajapan.org/japanese-language-classes/japanese-group-classes/">Japanese learning</Link>, <Link to="https://www.clayroomsf.com/">studio pottery</Link>, light reading, overnight oats, and coffee. <br />
+          Current interests: <Link to="https://www.usajapan.org/japanese-language-classes/japanese-group-classes/" target="_blank">Japanese learning</Link>, <Link to="https://www.clayroomsf.com/" target="_blank">studio pottery</Link>, light reading, rollerblading, and coffee. <br />
           My recent monthly Spotify visualized: <br />
           <SpotifyPlaylists />
           Last updated: 05/01/2023
