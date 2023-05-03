@@ -11,7 +11,7 @@ const Layout = ({ children, pageTitle = null }) => {
   const data = useSiteMetadata()
   return (
     <div className={container}>
-      <Link to="/">
+      <Link to="/" className="header">
         <header className={siteTitle}>
           {
             pageTitle == null ? 
