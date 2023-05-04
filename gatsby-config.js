@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `albert.wtf`,
+    title: `Albert's Notes`,
     siteUrl: `https://www.albert.wtf`,
     description: `albert software engineer`,
     github: `https://github.com/aulb`,

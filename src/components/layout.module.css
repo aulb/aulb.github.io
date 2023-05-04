@@ -1,22 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
 .container { 
   width: 87.5%;
-  max-width: 1400px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Palatino, sans-serif;
+  font-family: "Open Sans", sans-serif;
   counter-reset: sidenote-counter;
-  font-size: 18px;
-  color: #696969;
+  font-size: 1rem;
+  color: #1b1b1b;
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.75rem;
 }
 
 .siteTitle {
   font-size: 3rem;
-  color: #696969;
+  color: #1b1b1b;
   font-weight: 600;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
 }
