@@ -431,6 +431,116 @@
           55
         ],
         "pca": -23.217953852740113
+      },
+      {
+        "name": "japanese vtuber",
+        "count": 1,
+        "color": [
+          196,
+          117,
+          53
+        ],
+        "pca": -28.698184224577
+      },
+      {
+        "name": "kawaii edm",
+        "count": 1,
+        "color": [
+          210,
+          124,
+          67
+        ],
+        "pca": -21.312960242658463
+      },
+      {
+        "name": "la pop",
+        "count": 1,
+        "color": [
+          149,
+          144,
+          20
+        ],
+        "pca": -35.67455236186181
+      },
+      {
+        "name": "japanese r&b",
+        "count": 1,
+        "color": [
+          166,
+          137,
+          23
+        ],
+        "pca": -40.90579136775066
+      },
+      {
+        "name": "modern indie pop",
+        "count": 2,
+        "color": [
+          144,
+          143,
+          11
+        ],
+        "pca": -41.756169281628466
+      },
+      {
+        "name": "alt z",
+        "count": 1,
+        "color": [
+          138,
+          149,
+          4
+        ],
+        "pca": -44.89072727526555
+      },
+      {
+        "name": "cali rap",
+        "count": 1,
+        "color": [
+          162,
+          137,
+          2
+        ],
+        "pca": -58.10524640129795
+      },
+      {
+        "name": "gangster rap",
+        "count": 1,
+        "color": [
+          176,
+          124,
+          4
+        ],
+        "pca": -63.58464417070864
+      },
+      {
+        "name": "hyphy",
+        "count": 1,
+        "color": [
+          172,
+          129,
+          3
+        ],
+        "pca": -62.27181713810562
+      },
+      {
+        "name": "oakland hip hop",
+        "count": 1,
+        "color": [
+          171,
+          130,
+          3
+        ],
+        "pca": -61.74450929000369
+      },
+      {
+        "name": "west coast rap",
+        "count": 1,
+        "color": [
+          173,
+          122,
+          7
+        ],
+        "pca": -59.82024313659353
       }
     ],
     "created_at": "2023-05-01T20:42:42Z"
@@ -747,16 +857,6 @@
           9
         ],
         "pca": -43.97965364414197
-      },
-      {
-        "name": "future bass",
-        "count": 1,
-        "color": [
-          169,
-          141,
-          76
-        ],
-        "pca": 5.923783845727622
       },
       {
         "name": "japanese old school hip hop",
@@ -4000,7 +4100,7 @@
       },
       {
         "name": "drift phonk",
-        "count": 6,
+        "count": 5,
         "color": [
           185,
           148,
@@ -5922,7 +6022,7 @@
       },
       {
         "name": "deep groove house",
-        "count": 3,
+        "count": 2,
         "color": [
           204,
           128,
@@ -7673,6 +7773,16 @@
         "pca": -51.55951515795369
       },
       {
+        "name": "dance pop",
+        "count": 2,
+        "color": [
+          182,
+          132,
+          10
+        ],
+        "pca": -59.90270920444636
+      },
+      {
         "name": "house",
         "count": 2,
         "color": [
@@ -7721,16 +7831,6 @@
           15
         ],
         "pca": -39.63563641270416
-      },
-      {
-        "name": "dance pop",
-        "count": 1,
-        "color": [
-          182,
-          132,
-          10
-        ],
-        "pca": -59.90270920444636
       },
       {
         "name": "metropopolis",
@@ -7951,6 +8051,16 @@
           15
         ],
         "pca": -43.099118011632136
+      },
+      {
+        "name": "indie pop",
+        "count": 1,
+        "color": [
+          129,
+          147,
+          31
+        ],
+        "pca": -16.98815421078608
       },
       {
         "name": "pov: indie",
@@ -10655,6 +10765,16 @@
           7
         ],
         "pca": -59.94454867957672
+      },
+      {
+        "name": "classic house",
+        "count": 1,
+        "color": [
+          194,
+          125,
+          126
+        ],
+        "pca": 38.660005526747426
       },
       {
         "name": "detroit house",
@@ -13592,7 +13712,7 @@
       },
       {
         "name": "mellow gold",
-        "count": 2,
+        "count": 1,
         "color": [
           141,
           130,
@@ -14765,6 +14885,16 @@
           22
         ],
         "pca": -37.87626637376825
+      },
+      {
+        "name": "indie pop",
+        "count": 1,
+        "color": [
+          129,
+          147,
+          31
+        ],
+        "pca": -16.98815421078608
       },
       {
         "name": "psychedelic pop",
