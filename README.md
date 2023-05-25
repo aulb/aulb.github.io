@@ -23,7 +23,8 @@ This website is built using Gatsby.js. Just a simple website.
 # Manual deployment
 - Run `gatsby build` to generate a new public folder
 - Change to master branch
-- Delete everything in master except CNAME, .gitignore
+- Delete all files in master except CNAME, .gitignore, favico
+- Delete all folders except: src, public, node_modules obviously
 - Copy everything from the public folder to master
 
 # Wishlist
@@ -39,3 +40,4 @@ This website is built using Gatsby.js. Just a simple website.
 - System design notes
 
 # Making a new page
+Just add under src/pages
