@@ -1,0 +1,20 @@
+.playlistMainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 50%;
+  min-width: 300px;
+}
+
+.playlistContainer {
+  display: flex;
+  margin-right: 5px;
+}
+
+.playlistCubeContainer {
+  display: flex;
+}
+
+.playlistCube {
+  height: 10px;
+}

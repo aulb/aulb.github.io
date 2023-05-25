@@ -5,6 +5,7 @@ import BlogList from '../../components/blogList'
 import Seo from '../../components/seo'
 
 const BlogPage = ({ data }) => {
+  console.log({data})
   return (
     <Layout pageTitle="albert's notes">
       <BlogList posts={data?.allMdx} />
@@ -24,6 +25,7 @@ export const query = graphql`
           date(formatString: "dddd MMMM D, YYYY")
           title
           slug
+          location
         }
       }
     }

@@ -37,3 +37,5 @@ This website is built using Gatsby.js. Just a simple website.
 - Leetcode notes
 - Japanese tutor notes
 - System design notes
+
+# Making a new page

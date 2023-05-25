@@ -27,6 +27,9 @@ def make_genre_from_genres_counter(genres_counter):
     genres = []
     for genre_name in genres_counter:
         current_genre = genre_color_map.get(genre_name)
+        if current_genre is None:
+            print(genre_name)
+            continue
         genres.append({
             "name": genre_name,
             "count": genres_counter[genre_name],

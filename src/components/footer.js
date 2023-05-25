@@ -7,8 +7,6 @@ const Footer = () => {
   const { github, instagram, linkedin, goodreads } = data
   return (
     <div>
-      &copy; 2014 - {(new Date()).getFullYear()}
-      &nbsp;•&nbsp;
       <Link to={github} target="_blank">github</Link>
       &nbsp;•&nbsp;
       <Link to={instagram} target="_blank">instagram</Link>
@@ -16,7 +14,9 @@ const Footer = () => {
       <Link to={linkedin} target="_blank">linkedin</Link>
       &nbsp;•&nbsp;
       <Link to={goodreads} target="_blank">goodreads</Link>
-    </div>
+      <br />
+      &copy; 2014 - {(new Date()).getFullYear()}
+      </div>
   )
 }
 
