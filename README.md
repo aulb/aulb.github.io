@@ -23,7 +23,7 @@ This website is built using Gatsby.js. Just a simple website.
 # Manual deployment
 - Run `gatsby build` to generate a new public folder
 - Change to master branch
-- Delete all files in master except CNAME, .gitignore, favico
+- Delete all files in master except CNAME, .gitignore
 - Delete all folders except: src, public, node_modules obviously
 - Copy everything from the public folder to master
 
