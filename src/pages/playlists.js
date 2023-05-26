@@ -10,7 +10,6 @@ const SpotifyPlaylistPage = () => {
         <p>
           My monthly playlists: <br />
           <SpotifyPlaylists />
-
           My playlists' genres visualized: <br />
           <SpotifyGenreVisualizations />
         </p>

@@ -4,10 +4,13 @@ from collections import Counter
 from spotipy.oauth2 import SpotifyClientCredentials
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials())
-playlists = sp.user_playlists('_aulb')
+playlists = sp.user_playlists('_aulb') # Look at docs
 users_playlists = playlists["items"]
 playlists_and_genres = []
 
+### 
+# Create a genre to color map
+# From every noise at once
 f = open("genre_color.json")
 data = json.load(f)
 genre_color_map = {}
@@ -17,6 +20,7 @@ for item in data:
         "pca": item["pca"],
     }
 f.close()
+###
 
 # {
 #   "NAME": "NAME",
@@ -60,6 +64,8 @@ for playlist in users_playlists:
         # Approximation for creation date
         if index == 0:
             created_at = item["added_at"] 
+            playlist["created_at"] = item["added_at"] 
+
         print(track["name"])
         album = track["album"]
         album_genres = album.get("genres", None)
@@ -83,5 +89,10 @@ for playlist in users_playlists:
     playlist_result["created_at"] = created_at
     playlists_and_genres.append(playlist_result)
 
+# Write to genres
 with open("playlists_and_genres.json", "w") as result:
     result.write(json.dumps(playlists_and_genres, indent=2))
+
+# Write to current_playlist
+with open("current_playlist.json", "w") as result:
+    result.write(json.dumps(playlists, indent=2))

@@ -1,6 +1,5 @@
 import * as React from 'react'
 import SpotifyJSONData from '../data/current_playlist.json'
-import PlaylistsGenres from '../data/playlists_and_genres.json'
 import { Link } from 'gatsby'
 import {
   playlistMainContainer,
@@ -8,14 +7,21 @@ import {
 } from './spotifyPlaylists.module.css'
 
 const SpotifyPlaylists = () => {
-  const { items } = SpotifyJSONData
+  let { items: playlists } = SpotifyJSONData
+  playlists = playlists
+    .filter(playlist => playlist.public)
+    .sort((playlistA, playlistB) => {
+      const createdAtA = new Date(playlistA.created_at) 
+      const createdAtB = new Date(playlistB.created_at) 
+      if (createdAtA > createdAtB) return -1
+      if (createdAtA < createdAtB) return 1
+      return 0
+    })
+
   return (
     <div className={playlistMainContainer}>
       {
-        items?.map(playlist => {
-          if (playlist.public === false) {
-            return null;
-          }
+        playlists?.map(playlist => {
           const { images, name, external_urls } = playlist
           const image = images.length > 0 ? images[0] : null
           return (

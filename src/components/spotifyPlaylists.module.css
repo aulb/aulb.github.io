@@ -1,8 +1,7 @@
 .playlistMainContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  max-width: 50%;
+  gap: 3px;
   min-width: 300px;
 }
 

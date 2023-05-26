@@ -5,15 +5,15 @@ import {
   playlistCubeContainer,
 } from './SpotifyGenreVisualizations.module.css'
 
-// TODO: Add limit on how many gets rendered
-const SpotifyGenreVisualizations = () => {
+const SpotifyGenreVisualizations = ({limit}) => {
   const playlistsGenres = PlaylistsGenres.sort((playlistA, playlistB) => {
     const createdAtA = new Date(playlistA.created_at)
     const createdAtB = new Date(playlistB.created_at)
     if (createdAtA > createdAtB) return -1;
     if (createdAtA < createdAtB) return 1;
     return 0
-  })
+  }).slice(0, limit != null ? limit : PlaylistsGenres.length)
+
   return (
     <div>
     {
