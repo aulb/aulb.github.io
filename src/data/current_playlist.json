@@ -29,10 +29,10 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "MjMsZGEzM2U5MjczMTU3ZTNiNDJlMDNlMmNlYzJmMDk4NTFmMGRhOTE1MA==",
+      "snapshot_id": "MjQsZDQyNTU4ZTQ2MTBlODBiNWFmMzk4NDk5OTIyMDhjMGUzMzI5Y2E0Zg==",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/09jBECb8tMhuERpZ8gFHjm/tracks",
-        "total": 20
+        "total": 21
       },
       "type": "playlist",
       "uri": "spotify:playlist:09jBECb8tMhuERpZ8gFHjm",

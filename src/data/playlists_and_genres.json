@@ -4,7 +4,7 @@
     "genres": [
       {
         "name": "dancefloor dnb",
-        "count": 4,
+        "count": 5,
         "color": [
           220,
           135,
@@ -14,7 +14,7 @@
       },
       {
         "name": "drum and bass",
-        "count": 4,
+        "count": 5,
         "color": [
           219,
           128,
@@ -24,7 +24,7 @@
       },
       {
         "name": "uk dnb",
-        "count": 5,
+        "count": 6,
         "color": [
           220,
           132,
@@ -341,6 +341,26 @@
           192
         ],
         "pca": 88.81118547892576
+      },
+      {
+        "name": "alt z",
+        "count": 1,
+        "color": [
+          138,
+          149,
+          4
+        ],
+        "pca": -44.89072727526555
+      },
+      {
+        "name": "deep pop edm",
+        "count": 1,
+        "color": [
+          189,
+          137,
+          46
+        ],
+        "pca": -29.961653037682304
       }
     ],
     "created_at": "2023-05-25T02:51:24Z"

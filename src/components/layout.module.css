@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
 
+body {
+  background-color: #f9f4fe;
+  color: #1b1b1b;
+}
+
 .container { 
   width: 87.5%;
   max-width: 1000px;
@@ -8,7 +13,6 @@
   font-family: "Open Sans", sans-serif;
   counter-reset: sidenote-counter;
   font-size: 1rem;
-  color: #1b1b1b;
 }
 
 p {
@@ -17,10 +21,10 @@ p {
 }
 
 .siteTitle {
-  font-size: 3rem;
-  color: #1b1b1b;
+  font-size: 4rem;
   font-weight: 600;
-  margin: 1.5rem 0 1rem 0;
+  margin: 2rem 0 1.5rem 0;
+  color: #1b1b1b;
 }
 
 a {
