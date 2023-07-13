@@ -1,13 +1,15 @@
 import * as React from "react"
+import PlaylistCard from "./playlistCard"
 import SpotifyJSONData from "../data/current_playlist.json"
 import {
-  card,
-  cardImage,
-  cardText,
-  cardTextWrapper,
+  showAllText,
+  showAllContainer,
+  mainContainer,
   cardContainer,
 } from "./playlistCards.module.css"
+import {useState} from "react";
 
+const MAX_CARDS = 4
 const sortPlaylistByMostRecent = (playlistA, playlistB) => {
   const createdAtA = new Date(playlistA.created_at) 
   const createdAtB = new Date(playlistB.created_at) 
@@ -17,31 +19,24 @@ const sortPlaylistByMostRecent = (playlistA, playlistB) => {
 }
 
 const PlaylistCards = () => {
+  const [shouldShowAll, setShouldShowAll] = useState(false)
   const playlists = SpotifyJSONData.items
     .filter(playlist => playlist.public)
     .sort(sortPlaylistByMostRecent)
-  
-  const cards = playlists.map((playlist, index) => {
-    const { images, name, external_urls, tracks, created_at } = playlist
-    const image = images.length > 0 ? images[0] : null
-    const createdAt = new Date(created_at);
-    const createdAtStr = createdAt.toLocaleString("en-US", {month: "short", day: "2-digit"});
-    return (
-      <div className={card}>
-        <a href={external_urls.spotify} target="_blank">
-          <img className={cardImage} alt={name} src={image?.url} height={120} width={120} />
-        </a>
-        <div className={cardTextWrapper}>
-          <p className={cardText}>{index === 0 ? "📌" : ""} <strong>{name}</strong></p>
-          <p className={cardText}>{createdAtStr} · {tracks.total} {tracks.total > 1 ? "songs" : "song"}</p>
+    .slice(0, shouldShowAll ? SpotifyJSONData.items.length : MAX_CARDS)
+  return (
+    <div className={mainContainer}>
+      <div className={showAllContainer}>
+        <div onClick={() => setShouldShowAll(!shouldShowAll)} className={showAllText}>
+          Show all
+        </div>
+        <div>
+          <strong>My monthly playlist</strong>
         </div>
       </div>
-    )
-  })
-
-  return (
-    <div className={cardContainer}>
-      {cards}
+      <div className={cardContainer}>
+        {playlists.map((playlist, index) => <PlaylistCard playlist={playlist} index={index} />)}
+      </div>
     </div>
   )
 }

@@ -1,0 +1,56 @@
+.card {
+  width: 200px;
+  height: 275px;
+  border-radius: 5%;
+  background-color: rgb(230, 230, 230);
+  display: inline-block;
+  margin: 5px 5px 5px 0;
+}
+
+.card:hover {
+  background-color: rgb(208, 208, 208);
+}
+  
+.cardImage {
+  width: 160px;
+  height: 160px;
+  margin: 20px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.cardImage:hover {
+  cursor: pointer;
+}
+
+.cardTextWrapper {
+  margin: 0 20px;
+  line-height: 0;
+}
+  
+.cardText {
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 175px;
+    height: 250px;
+    border-radius: 5%;
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+  }
+
+  .cardImage {
+    margin: 20px;
+    width: 135px;
+    height: 135px;
+    border-radius: 5%;
+    overflow: hidden;
+  }
+
+  .cardText {
+    font-size: 0.9em;
+  }
+}
