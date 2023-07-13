@@ -36,21 +36,33 @@
   .card {
     width: 175px;
     height: 250px;
-    border-radius: 5%;
-    background-color: rgb(230, 230, 230);
-    display: inline-block;
-    margin: 5px 5px 5px 0;
   }
 
   .cardImage {
-    margin: 20px;
     width: 135px;
     height: 135px;
-    border-radius: 5%;
-    overflow: hidden;
   }
 
   .cardText {
+    line-height: 1.7em;
     font-size: 0.9em;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 140px;
+    height: 200px;
+  }
+
+  .cardImage {
+    margin: 15px;
+    width: 110px;
+    height: 110px;
+  }
+
+  .cardText {
+    line-height: 1.65em;
+    font-size: 0.75em;
   }
 }

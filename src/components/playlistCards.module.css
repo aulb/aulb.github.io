@@ -35,3 +35,13 @@
     grid-template-columns: repeat(auto-fit, 185px);
   }
 }
+
+@media (max-width: 375px) {
+  .cardContainer {
+    grid-template-columns: repeat(auto-fit, 150px);
+  }
+
+  .showAllText {
+    font-weight: bold;
+  }
+}
