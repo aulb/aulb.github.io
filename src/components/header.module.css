@@ -1,12 +1,11 @@
 .siteTitle {
-  font-size: 4rem;
-  font-weight: 600;
+  font-weight: bold;
   margin: 2rem 0 1.5rem 0;
   color: #1b1b1b;
 }
 
 @media (max-width: 500px) {
   .siteTitle {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }

@@ -1,10 +1,1132 @@
 [
   {
-    "name": "2023 JUL #2",
+    "name": "2023 JUL #3",
     "genres": [
       {
         "name": "k-pop",
         "count": 9,
+        "color": [
+          186,
+          131,
+          19
+        ],
+        "pca": -53.60388782098467
+      },
+      {
+        "name": "k-pop boy group",
+        "count": 1,
+        "color": [
+          199,
+          123,
+          16
+        ],
+        "pca": -62.641367336118975
+      },
+      {
+        "name": "boy band",
+        "count": 2,
+        "color": [
+          172,
+          131,
+          3
+        ],
+        "pca": -62.065081548501006
+      },
+      {
+        "name": "pop",
+        "count": 5,
+        "color": [
+          173,
+          136,
+          7
+        ],
+        "pca": -58.37309400936139
+      },
+      {
+        "name": "k-rap",
+        "count": 1,
+        "color": [
+          182,
+          132,
+          18
+        ],
+        "pca": -52.704531967590825
+      },
+      {
+        "name": "korean r&b",
+        "count": 2,
+        "color": [
+          154,
+          143,
+          26
+        ],
+        "pca": -32.498987495520566
+      },
+      {
+        "name": "k-pop girl group",
+        "count": 5,
+        "color": [
+          203,
+          129,
+          22
+        ],
+        "pca": -58.31828785286202
+      },
+      {
+        "name": "brazilian indie",
+        "count": 1,
+        "color": [
+          160,
+          133,
+          42
+        ],
+        "pca": -21.67995128963019
+      },
+      {
+        "name": "video game music",
+        "count": 1,
+        "color": [
+          94,
+          144,
+          200
+        ],
+        "pca": 149.6011383988671
+      },
+      {
+        "name": "glitchcore",
+        "count": 1,
+        "color": [
+          163,
+          147,
+          24
+        ],
+        "pca": -37.70052110522188
+      },
+      {
+        "name": "hyperpop",
+        "count": 1,
+        "color": [
+          165,
+          141,
+          30
+        ],
+        "pca": -33.769975052993246
+      },
+      {
+        "name": "north carolina hip hop",
+        "count": 1,
+        "color": [
+          157,
+          139,
+          11
+        ],
+        "pca": -47.680861153732764
+      },
+      {
+        "name": "rap",
+        "count": 3,
+        "color": [
+          168,
+          137,
+          3
+        ],
+        "pca": -59.74911456648875
+      },
+      {
+        "name": "art pop",
+        "count": 1,
+        "color": [
+          141,
+          139,
+          60
+        ],
+        "pca": 3.191015274801402
+      },
+      {
+        "name": "candy pop",
+        "count": 1,
+        "color": [
+          189,
+          122,
+          13
+        ],
+        "pca": -61.20465106174585
+      },
+      {
+        "name": "metropopolis",
+        "count": 1,
+        "color": [
+          167,
+          136,
+          39
+        ],
+        "pca": -27.03674474214149
+      },
+      {
+        "name": "uk pop",
+        "count": 2,
+        "color": [
+          152,
+          145,
+          5
+        ],
+        "pca": -50.33958704606252
+      },
+      {
+        "name": "alt z",
+        "count": 2,
+        "color": [
+          138,
+          149,
+          4
+        ],
+        "pca": -44.89072727526555
+      },
+      {
+        "name": "dance pop",
+        "count": 2,
+        "color": [
+          182,
+          132,
+          10
+        ],
+        "pca": -59.90270920444636
+      },
+      {
+        "name": "europop",
+        "count": 2,
+        "color": [
+          189,
+          127,
+          17
+        ],
+        "pca": -57.08872346930662
+      },
+      {
+        "name": "girl group",
+        "count": 2,
+        "color": [
+          184,
+          127,
+          9
+        ],
+        "pca": -62.16720043966404
+      },
+      {
+        "name": "indie pop",
+        "count": 1,
+        "color": [
+          129,
+          147,
+          31
+        ],
+        "pca": -16.98815421078608
+      },
+      {
+        "name": "utah indie",
+        "count": 1,
+        "color": [
+          136,
+          142,
+          26
+        ],
+        "pca": -24.971434330929643
+      },
+      {
+        "name": "chinese electropop",
+        "count": 1,
+        "color": [
+          161,
+          144,
+          26
+        ],
+        "pca": -35.36320007381563
+      },
+      {
+        "name": "chinese r&b",
+        "count": 1,
+        "color": [
+          135,
+          146,
+          13
+        ],
+        "pca": -35.83106110831108
+      },
+      {
+        "name": "bedroom pop",
+        "count": 1,
+        "color": [
+          127,
+          148,
+          39
+        ],
+        "pca": -8.838729072528999
+      },
+      {
+        "name": "rage rap",
+        "count": 1,
+        "color": [
+          151,
+          159,
+          4
+        ],
+        "pca": -49.368270020137686
+      },
+      {
+        "name": "ukrainian edm",
+        "count": 1,
+        "color": [
+          200,
+          134,
+          129
+        ],
+        "pca": 39.74599182399118
+      },
+      {
+        "name": "ukrainian electronic",
+        "count": 1,
+        "color": [
+          188,
+          141,
+          185
+        ],
+        "pca": 95.94408768519153
+      },
+      {
+        "name": "dfw rap",
+        "count": 1,
+        "color": [
+          157,
+          143,
+          3
+        ],
+        "pca": -54.4655672113791
+      },
+      {
+        "name": "melodic rap",
+        "count": 1,
+        "color": [
+          150,
+          156,
+          2
+        ],
+        "pca": -51.05397766045885
+      },
+      {
+        "name": "australian pop",
+        "count": 1,
+        "color": [
+          163,
+          137,
+          17
+        ],
+        "pca": -45.03260413549344
+      },
+      {
+        "name": "viral pop",
+        "count": 1,
+        "color": [
+          129,
+          150,
+          7
+        ],
+        "pca": -38.27258253694581
+      },
+      {
+        "name": "anime",
+        "count": 1,
+        "color": [
+          186,
+          121,
+          45
+        ],
+        "pca": -31.24348974922712
+      },
+      {
+        "name": "anime rock",
+        "count": 1,
+        "color": [
+          211,
+          109,
+          20
+        ],
+        "pca": -65.57670848451883
+      },
+      {
+        "name": "trap queen",
+        "count": 2,
+        "color": [
+          167,
+          142,
+          3
+        ],
+        "pca": -58.80833553917765
+      },
+      {
+        "name": "j-pop",
+        "count": 1,
+        "color": [
+          188,
+          123,
+          21
+        ],
+        "pca": -53.4791659767884
+      },
+      {
+        "name": "j-rock",
+        "count": 1,
+        "color": [
+          197,
+          110,
+          23
+        ],
+        "pca": -56.83886347970098
+      },
+      {
+        "name": "korean electropop",
+        "count": 1,
+        "color": [
+          151,
+          144,
+          74
+        ],
+        "pca": 12.065263880313847
+      },
+      {
+        "name": "alternative r&b",
+        "count": 1,
+        "color": [
+          147,
+          141,
+          15
+        ],
+        "pca": -39.63563641270416
+      },
+      {
+        "name": "escape room",
+        "count": 1,
+        "color": [
+          169,
+          136,
+          43
+        ],
+        "pca": -24.285536230312967
+      },
+      {
+        "name": "k-indie",
+        "count": 1,
+        "color": [
+          128,
+          150,
+          44
+        ],
+        "pca": -4.557072763189315
+      },
+      {
+        "name": "korean city pop",
+        "count": 1,
+        "color": [
+          151,
+          143,
+          38
+        ],
+        "pca": -20.429901480338383
+      },
+      {
+        "name": "alternative pop rock",
+        "count": 1,
+        "color": [
+          167,
+          132,
+          8
+        ],
+        "pca": -55.343152714165896
+      },
+      {
+        "name": "pov: indie",
+        "count": 1,
+        "color": [
+          156,
+          134,
+          22
+        ],
+        "pca": -37.87626637376825
+      }
+    ],
+    "created_at": "2023-07-20T06:06:58Z"
+  },
+  {
+    "name": "2023 JUL",
+    "genres": [
+      {
+        "name": "electropop",
+        "count": 1,
+        "color": [
+          155,
+          143,
+          26
+        ],
+        "pca": -32.92292754882019
+      },
+      {
+        "name": "k-indie",
+        "count": 1,
+        "color": [
+          128,
+          150,
+          44
+        ],
+        "pca": -4.557072763189315
+      },
+      {
+        "name": "k-pop",
+        "count": 1,
+        "color": [
+          186,
+          131,
+          19
+        ],
+        "pca": -53.60388782098467
+      },
+      {
+        "name": "k-pop girl group",
+        "count": 3,
+        "color": [
+          203,
+          129,
+          22
+        ],
+        "pca": -58.31828785286202
+      },
+      {
+        "name": "contemporary r&b",
+        "count": 3,
+        "color": [
+          153,
+          135,
+          7
+        ],
+        "pca": -49.99766073817123
+      },
+      {
+        "name": "r&b",
+        "count": 3,
+        "color": [
+          154,
+          139,
+          6
+        ],
+        "pca": -50.907901766868605
+      },
+      {
+        "name": "urban contemporary",
+        "count": 4,
+        "color": [
+          158,
+          135,
+          7
+        ],
+        "pca": -52.11736100466934
+      },
+      {
+        "name": "alternative r&b",
+        "count": 3,
+        "color": [
+          147,
+          141,
+          15
+        ],
+        "pca": -39.63563641270416
+      },
+      {
+        "name": "japanese bedroom pop",
+        "count": 1,
+        "color": [
+          132,
+          143,
+          40
+        ],
+        "pca": -10.575496158431655
+      },
+      {
+        "name": "j-rock",
+        "count": 1,
+        "color": [
+          197,
+          110,
+          23
+        ],
+        "pca": -56.83886347970098
+      },
+      {
+        "name": "japanese alternative rock",
+        "count": 2,
+        "color": [
+          187,
+          117,
+          26
+        ],
+        "pca": -49.17657191926785
+      },
+      {
+        "name": "k-rap",
+        "count": 4,
+        "color": [
+          182,
+          132,
+          18
+        ],
+        "pca": -52.704531967590825
+      },
+      {
+        "name": "korean r&b",
+        "count": 3,
+        "color": [
+          154,
+          143,
+          26
+        ],
+        "pca": -32.498987495520566
+      },
+      {
+        "name": "east coast hip hop",
+        "count": 2,
+        "color": [
+          180,
+          113,
+          14
+        ],
+        "pca": -57.41972858066296
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1,
+        "color": [
+          163,
+          126,
+          108
+        ],
+        "pca": 35.709616190913074
+      },
+      {
+        "name": "jazz boom bap",
+        "count": 1,
+        "color": [
+          142,
+          136,
+          140
+        ],
+        "pca": 74.4387442056503
+      },
+      {
+        "name": "turntablism",
+        "count": 1,
+        "color": [
+          177,
+          114,
+          74
+        ],
+        "pca": -2.0582113495452523
+      },
+      {
+        "name": "la pop",
+        "count": 1,
+        "color": [
+          149,
+          144,
+          20
+        ],
+        "pca": -35.67455236186181
+      },
+      {
+        "name": "edm",
+        "count": 1,
+        "color": [
+          202,
+          128,
+          64
+        ],
+        "pca": -20.20728510087311
+      },
+      {
+        "name": "melodic dubstep",
+        "count": 1,
+        "color": [
+          179,
+          139,
+          69
+        ],
+        "pca": -4.820757359121803
+      },
+      {
+        "name": "pop dance",
+        "count": 1,
+        "color": [
+          202,
+          128,
+          58
+        ],
+        "pca": -25.605918028514772
+      },
+      {
+        "name": "pop punk",
+        "count": 1,
+        "color": [
+          211,
+          104,
+          8
+        ],
+        "pca": -76.89081331381364
+      },
+      {
+        "name": "japanese electropop",
+        "count": 1,
+        "color": [
+          190,
+          128,
+          55
+        ],
+        "pca": -23.217953852740113
+      },
+      {
+        "name": "japanese r&b",
+        "count": 2,
+        "color": [
+          166,
+          137,
+          23
+        ],
+        "pca": -40.90579136775066
+      },
+      {
+        "name": "downtempo bass",
+        "count": 1,
+        "color": [
+          160,
+          144,
+          136
+        ],
+        "pca": 64.03567698624768
+      },
+      {
+        "name": "ukrainian viral pop",
+        "count": 1,
+        "color": [
+          151,
+          147,
+          19
+        ],
+        "pca": -37.11210123866111
+      },
+      {
+        "name": "san antonio rap",
+        "count": 1,
+        "color": [
+          145,
+          148,
+          8
+        ],
+        "pca": -44.36258682473744
+      },
+      {
+        "name": "alt-idol",
+        "count": 1,
+        "color": [
+          223,
+          108,
+          25
+        ],
+        "pca": -66.2684961458819
+      },
+      {
+        "name": "experimental r&b",
+        "count": 1,
+        "color": [
+          133,
+          145,
+          54
+        ],
+        "pca": 1.8041095423705111
+      },
+      {
+        "name": "hyperpop",
+        "count": 2,
+        "color": [
+          165,
+          141,
+          30
+        ],
+        "pca": -33.769975052993246
+      },
+      {
+        "name": "glitchcore",
+        "count": 1,
+        "color": [
+          163,
+          147,
+          24
+        ],
+        "pca": -37.70052110522188
+      },
+      {
+        "name": "bedroom soul",
+        "count": 1,
+        "color": [
+          122,
+          152,
+          9
+        ],
+        "pca": -33.29872226502997
+      },
+      {
+        "name": "modern indie pop",
+        "count": 1,
+        "color": [
+          144,
+          143,
+          11
+        ],
+        "pca": -41.756169281628466
+      },
+      {
+        "name": "alternative hip hop",
+        "count": 1,
+        "color": [
+          176,
+          119,
+          37
+        ],
+        "pca": -34.409002042691014
+      },
+      {
+        "name": "chill abstract hip hop",
+        "count": 1,
+        "color": [
+          155,
+          127,
+          20
+        ],
+        "pca": -39.975445193298576
+      },
+      {
+        "name": "indie hip hop",
+        "count": 1,
+        "color": [
+          151,
+          141,
+          7
+        ],
+        "pca": -48.5295738627582
+      },
+      {
+        "name": "bubblegrunge",
+        "count": 1,
+        "color": [
+          165,
+          127,
+          39
+        ],
+        "pca": -27.119174788762912
+      },
+      {
+        "name": "singaporean indie",
+        "count": 1,
+        "color": [
+          153,
+          132,
+          57
+        ],
+        "pca": -5.3191563922309815
+      },
+      {
+        "name": "alt z",
+        "count": 2,
+        "color": [
+          138,
+          149,
+          4
+        ],
+        "pca": -44.89072727526555
+      },
+      {
+        "name": "nz pop",
+        "count": 1,
+        "color": [
+          137,
+          146,
+          16
+        ],
+        "pca": -33.9796247510895
+      },
+      {
+        "name": "classic j-pop",
+        "count": 1,
+        "color": [
+          185,
+          124,
+          26
+        ],
+        "pca": -47.605117249052526
+      },
+      {
+        "name": "eurobeat",
+        "count": 1,
+        "color": [
+          215,
+          119,
+          43
+        ],
+        "pca": -45.544031193734675
+      },
+      {
+        "name": "j-pop",
+        "count": 1,
+        "color": [
+          188,
+          123,
+          21
+        ],
+        "pca": -53.4791659767884
+      },
+      {
+        "name": "dancefloor dnb",
+        "count": 1,
+        "color": [
+          220,
+          135,
+          87
+        ],
+        "pca": -6.419871940690581
+      },
+      {
+        "name": "drum and bass",
+        "count": 1,
+        "color": [
+          219,
+          128,
+          134
+        ],
+        "pca": 35.56978481551927
+      },
+      {
+        "name": "vapor twitch",
+        "count": 1,
+        "color": [
+          162,
+          143,
+          91
+        ],
+        "pca": 22.59468212753372
+      },
+      {
+        "name": "tech house",
+        "count": 1,
+        "color": [
+          189,
+          138,
+          187
+        ],
+        "pca": 97.00958855669892
+      },
+      {
+        "name": "uae indie",
+        "count": 1,
+        "color": [
+          171,
+          132,
+          51
+        ],
+        "pca": -18.34871027926586
+      },
+      {
+        "name": "dream plugg",
+        "count": 1,
+        "color": [
+          125,
+          159,
+          12
+        ],
+        "pca": -31.147651397491938
+      },
+      {
+        "name": "ghettotech",
+        "count": 1,
+        "color": [
+          179,
+          131,
+          135
+        ],
+        "pca": 53.73726248651804
+      },
+      {
+        "name": "weirdcore",
+        "count": 1,
+        "color": [
+          131,
+          145,
+          125
+        ],
+        "pca": 66.53581262606268
+      },
+      {
+        "name": "chakra",
+        "count": 1,
+        "color": [
+          40,
+          127,
+          203
+        ],
+        "pca": 173.4359652292286
+      },
+      {
+        "name": "dance pop",
+        "count": 2,
+        "color": [
+          182,
+          132,
+          10
+        ],
+        "pca": -59.90270920444636
+      },
+      {
+        "name": "hip hop",
+        "count": 2,
+        "color": [
+          173,
+          126,
+          9
+        ],
+        "pca": -57.607227648170465
+      },
+      {
+        "name": "hip pop",
+        "count": 2,
+        "color": [
+          169,
+          132,
+          6
+        ],
+        "pca": -57.99057712997903
+      },
+      {
+        "name": "pop rap",
+        "count": 1,
+        "color": [
+          177,
+          132,
+          3
+        ],
+        "pca": -64.08141402019685
+      },
+      {
+        "name": "rap",
+        "count": 2,
+        "color": [
+          168,
+          137,
+          3
+        ],
+        "pca": -59.74911456648875
+      },
+      {
+        "name": "atl hip hop",
+        "count": 1,
+        "color": [
+          162,
+          142,
+          4
+        ],
+        "pca": -55.78886311807259
+      },
+      {
+        "name": "boy band",
+        "count": 1,
+        "color": [
+          172,
+          131,
+          3
+        ],
+        "pca": -62.065081548501006
+      },
+      {
+        "name": "pop",
+        "count": 1,
+        "color": [
+          173,
+          136,
+          7
+        ],
+        "pca": -58.37309400936139
+      },
+      {
+        "name": "chill r&b",
+        "count": 1,
+        "color": [
+          118,
+          156,
+          8
+        ],
+        "pca": -32.08926302722924
+      },
+      {
+        "name": "pop soul",
+        "count": 1,
+        "color": [
+          131,
+          146,
+          11
+        ],
+        "pca": -35.93484520432648
+      },
+      {
+        "name": "hardwave",
+        "count": 1,
+        "color": [
+          171,
+          145,
+          127
+        ],
+        "pca": 51.37775480329163
+      },
+      {
+        "name": "korean city pop",
+        "count": 1,
+        "color": [
+          151,
+          143,
+          38
+        ],
+        "pca": -20.429901480338383
+      },
+      {
+        "name": "canadian modern jazz",
+        "count": 1,
+        "color": [
+          94,
+          152,
+          134
+        ],
+        "pca": 91.04311855322733
+      },
+      {
+        "name": "indie soul",
+        "count": 1,
+        "color": [
+          146,
+          141,
+          74
+        ],
+        "pca": 13.87486076240508
+      }
+    ],
+    "created_at": "2023-07-02T03:48:57Z"
+  },
+  {
+    "name": "2023 JUL #2",
+    "genres": [
+      {
+        "name": "k-pop",
+        "count": 10,
         "color": [
           186,
           131,
@@ -554,672 +1676,6 @@
       }
     ],
     "created_at": "2023-07-10T06:24:31Z"
-  },
-  {
-    "name": "2023 JUL",
-    "genres": [
-      {
-        "name": "alt z",
-        "count": 3,
-        "color": [
-          138,
-          149,
-          4
-        ],
-        "pca": -44.89072727526555
-      },
-      {
-        "name": "electropop",
-        "count": 1,
-        "color": [
-          155,
-          143,
-          26
-        ],
-        "pca": -32.92292754882019
-      },
-      {
-        "name": "k-indie",
-        "count": 1,
-        "color": [
-          128,
-          150,
-          44
-        ],
-        "pca": -4.557072763189315
-      },
-      {
-        "name": "k-pop",
-        "count": 1,
-        "color": [
-          186,
-          131,
-          19
-        ],
-        "pca": -53.60388782098467
-      },
-      {
-        "name": "k-pop girl group",
-        "count": 3,
-        "color": [
-          203,
-          129,
-          22
-        ],
-        "pca": -58.31828785286202
-      },
-      {
-        "name": "contemporary r&b",
-        "count": 3,
-        "color": [
-          153,
-          135,
-          7
-        ],
-        "pca": -49.99766073817123
-      },
-      {
-        "name": "r&b",
-        "count": 3,
-        "color": [
-          154,
-          139,
-          6
-        ],
-        "pca": -50.907901766868605
-      },
-      {
-        "name": "urban contemporary",
-        "count": 4,
-        "color": [
-          158,
-          135,
-          7
-        ],
-        "pca": -52.11736100466934
-      },
-      {
-        "name": "alternative r&b",
-        "count": 3,
-        "color": [
-          147,
-          141,
-          15
-        ],
-        "pca": -39.63563641270416
-      },
-      {
-        "name": "japanese bedroom pop",
-        "count": 1,
-        "color": [
-          132,
-          143,
-          40
-        ],
-        "pca": -10.575496158431655
-      },
-      {
-        "name": "j-rock",
-        "count": 1,
-        "color": [
-          197,
-          110,
-          23
-        ],
-        "pca": -56.83886347970098
-      },
-      {
-        "name": "japanese alternative rock",
-        "count": 2,
-        "color": [
-          187,
-          117,
-          26
-        ],
-        "pca": -49.17657191926785
-      },
-      {
-        "name": "k-rap",
-        "count": 4,
-        "color": [
-          182,
-          132,
-          18
-        ],
-        "pca": -52.704531967590825
-      },
-      {
-        "name": "korean r&b",
-        "count": 3,
-        "color": [
-          154,
-          143,
-          26
-        ],
-        "pca": -32.498987495520566
-      },
-      {
-        "name": "east coast hip hop",
-        "count": 2,
-        "color": [
-          180,
-          113,
-          14
-        ],
-        "pca": -57.41972858066296
-      },
-      {
-        "name": "instrumental hip hop",
-        "count": 1,
-        "color": [
-          163,
-          126,
-          108
-        ],
-        "pca": 35.709616190913074
-      },
-      {
-        "name": "jazz boom bap",
-        "count": 1,
-        "color": [
-          142,
-          136,
-          140
-        ],
-        "pca": 74.4387442056503
-      },
-      {
-        "name": "turntablism",
-        "count": 1,
-        "color": [
-          177,
-          114,
-          74
-        ],
-        "pca": -2.0582113495452523
-      },
-      {
-        "name": "la pop",
-        "count": 1,
-        "color": [
-          149,
-          144,
-          20
-        ],
-        "pca": -35.67455236186181
-      },
-      {
-        "name": "edm",
-        "count": 1,
-        "color": [
-          202,
-          128,
-          64
-        ],
-        "pca": -20.20728510087311
-      },
-      {
-        "name": "melodic dubstep",
-        "count": 1,
-        "color": [
-          179,
-          139,
-          69
-        ],
-        "pca": -4.820757359121803
-      },
-      {
-        "name": "pop dance",
-        "count": 1,
-        "color": [
-          202,
-          128,
-          58
-        ],
-        "pca": -25.605918028514772
-      },
-      {
-        "name": "pop punk",
-        "count": 1,
-        "color": [
-          211,
-          104,
-          8
-        ],
-        "pca": -76.89081331381364
-      },
-      {
-        "name": "japanese electropop",
-        "count": 1,
-        "color": [
-          190,
-          128,
-          55
-        ],
-        "pca": -23.217953852740113
-      },
-      {
-        "name": "japanese r&b",
-        "count": 2,
-        "color": [
-          166,
-          137,
-          23
-        ],
-        "pca": -40.90579136775066
-      },
-      {
-        "name": "downtempo bass",
-        "count": 1,
-        "color": [
-          160,
-          144,
-          136
-        ],
-        "pca": 64.03567698624768
-      },
-      {
-        "name": "ukrainian viral pop",
-        "count": 1,
-        "color": [
-          151,
-          147,
-          19
-        ],
-        "pca": -37.11210123866111
-      },
-      {
-        "name": "san antonio rap",
-        "count": 1,
-        "color": [
-          145,
-          148,
-          8
-        ],
-        "pca": -44.36258682473744
-      },
-      {
-        "name": "alt-idol",
-        "count": 1,
-        "color": [
-          223,
-          108,
-          25
-        ],
-        "pca": -66.2684961458819
-      },
-      {
-        "name": "experimental r&b",
-        "count": 1,
-        "color": [
-          133,
-          145,
-          54
-        ],
-        "pca": 1.8041095423705111
-      },
-      {
-        "name": "hyperpop",
-        "count": 2,
-        "color": [
-          165,
-          141,
-          30
-        ],
-        "pca": -33.769975052993246
-      },
-      {
-        "name": "glitchcore",
-        "count": 1,
-        "color": [
-          163,
-          147,
-          24
-        ],
-        "pca": -37.70052110522188
-      },
-      {
-        "name": "bedroom soul",
-        "count": 1,
-        "color": [
-          122,
-          152,
-          9
-        ],
-        "pca": -33.29872226502997
-      },
-      {
-        "name": "modern indie pop",
-        "count": 1,
-        "color": [
-          144,
-          143,
-          11
-        ],
-        "pca": -41.756169281628466
-      },
-      {
-        "name": "alternative hip hop",
-        "count": 1,
-        "color": [
-          176,
-          119,
-          37
-        ],
-        "pca": -34.409002042691014
-      },
-      {
-        "name": "chill abstract hip hop",
-        "count": 1,
-        "color": [
-          155,
-          127,
-          20
-        ],
-        "pca": -39.975445193298576
-      },
-      {
-        "name": "indie hip hop",
-        "count": 1,
-        "color": [
-          151,
-          141,
-          7
-        ],
-        "pca": -48.5295738627582
-      },
-      {
-        "name": "bubblegrunge",
-        "count": 1,
-        "color": [
-          165,
-          127,
-          39
-        ],
-        "pca": -27.119174788762912
-      },
-      {
-        "name": "singaporean indie",
-        "count": 1,
-        "color": [
-          153,
-          132,
-          57
-        ],
-        "pca": -5.3191563922309815
-      },
-      {
-        "name": "nz pop",
-        "count": 1,
-        "color": [
-          137,
-          146,
-          16
-        ],
-        "pca": -33.9796247510895
-      },
-      {
-        "name": "classic j-pop",
-        "count": 1,
-        "color": [
-          185,
-          124,
-          26
-        ],
-        "pca": -47.605117249052526
-      },
-      {
-        "name": "eurobeat",
-        "count": 1,
-        "color": [
-          215,
-          119,
-          43
-        ],
-        "pca": -45.544031193734675
-      },
-      {
-        "name": "j-pop",
-        "count": 1,
-        "color": [
-          188,
-          123,
-          21
-        ],
-        "pca": -53.4791659767884
-      },
-      {
-        "name": "dancefloor dnb",
-        "count": 1,
-        "color": [
-          220,
-          135,
-          87
-        ],
-        "pca": -6.419871940690581
-      },
-      {
-        "name": "drum and bass",
-        "count": 1,
-        "color": [
-          219,
-          128,
-          134
-        ],
-        "pca": 35.56978481551927
-      },
-      {
-        "name": "vapor twitch",
-        "count": 1,
-        "color": [
-          162,
-          143,
-          91
-        ],
-        "pca": 22.59468212753372
-      },
-      {
-        "name": "tech house",
-        "count": 1,
-        "color": [
-          189,
-          138,
-          187
-        ],
-        "pca": 97.00958855669892
-      },
-      {
-        "name": "uae indie",
-        "count": 1,
-        "color": [
-          171,
-          132,
-          51
-        ],
-        "pca": -18.34871027926586
-      },
-      {
-        "name": "dream plugg",
-        "count": 1,
-        "color": [
-          125,
-          159,
-          12
-        ],
-        "pca": -31.147651397491938
-      },
-      {
-        "name": "ghettotech",
-        "count": 1,
-        "color": [
-          179,
-          131,
-          135
-        ],
-        "pca": 53.73726248651804
-      },
-      {
-        "name": "weirdcore",
-        "count": 1,
-        "color": [
-          131,
-          145,
-          125
-        ],
-        "pca": 66.53581262606268
-      },
-      {
-        "name": "chakra",
-        "count": 1,
-        "color": [
-          40,
-          127,
-          203
-        ],
-        "pca": 173.4359652292286
-      },
-      {
-        "name": "dance pop",
-        "count": 2,
-        "color": [
-          182,
-          132,
-          10
-        ],
-        "pca": -59.90270920444636
-      },
-      {
-        "name": "hip hop",
-        "count": 2,
-        "color": [
-          173,
-          126,
-          9
-        ],
-        "pca": -57.607227648170465
-      },
-      {
-        "name": "hip pop",
-        "count": 2,
-        "color": [
-          169,
-          132,
-          6
-        ],
-        "pca": -57.99057712997903
-      },
-      {
-        "name": "pop rap",
-        "count": 1,
-        "color": [
-          177,
-          132,
-          3
-        ],
-        "pca": -64.08141402019685
-      },
-      {
-        "name": "rap",
-        "count": 2,
-        "color": [
-          168,
-          137,
-          3
-        ],
-        "pca": -59.74911456648875
-      },
-      {
-        "name": "atl hip hop",
-        "count": 1,
-        "color": [
-          162,
-          142,
-          4
-        ],
-        "pca": -55.78886311807259
-      },
-      {
-        "name": "boy band",
-        "count": 1,
-        "color": [
-          172,
-          131,
-          3
-        ],
-        "pca": -62.065081548501006
-      },
-      {
-        "name": "pop",
-        "count": 1,
-        "color": [
-          173,
-          136,
-          7
-        ],
-        "pca": -58.37309400936139
-      },
-      {
-        "name": "chill r&b",
-        "count": 1,
-        "color": [
-          118,
-          156,
-          8
-        ],
-        "pca": -32.08926302722924
-      },
-      {
-        "name": "pop soul",
-        "count": 1,
-        "color": [
-          131,
-          146,
-          11
-        ],
-        "pca": -35.93484520432648
-      },
-      {
-        "name": "hardwave",
-        "count": 1,
-        "color": [
-          171,
-          145,
-          127
-        ],
-        "pca": 51.37775480329163
-      },
-      {
-        "name": "korean city pop",
-        "count": 1,
-        "color": [
-          151,
-          143,
-          38
-        ],
-        "pca": -20.429901480338383
-      },
-      {
-        "name": "canadian modern jazz",
-        "count": 1,
-        "color": [
-          94,
-          152,
-          134
-        ],
-        "pca": 91.04311855322733
-      },
-      {
-        "name": "indie soul",
-        "count": 1,
-        "color": [
-          146,
-          141,
-          74
-        ],
-        "pca": 13.87486076240508
-      }
-    ],
-    "created_at": "2023-07-02T03:48:57Z"
   },
   {
     "name": "2023 JUN #2",
@@ -2649,16 +3105,6 @@
           32
         ],
         "pca": -36.260854701125695
-      },
-      {
-        "name": "jump up",
-        "count": 1,
-        "color": [
-          229,
-          116,
-          115
-        ],
-        "pca": 12.994299807363573
       }
     ],
     "created_at": "2023-06-02T04:59:13Z"
@@ -3533,6 +3979,16 @@
         "pca": -36.844669931810756
       },
       {
+        "name": "escape room",
+        "count": 2,
+        "color": [
+          169,
+          136,
+          43
+        ],
+        "pca": -24.285536230312967
+      },
+      {
         "name": "proto-hyperpop",
         "count": 4,
         "color": [
@@ -3551,16 +4007,6 @@
           60
         ],
         "pca": 3.191015274801402
-      },
-      {
-        "name": "escape room",
-        "count": 1,
-        "color": [
-          169,
-          136,
-          43
-        ],
-        "pca": -24.285536230312967
       },
       {
         "name": "indie pop",
@@ -6467,16 +6913,6 @@
         "pca": 181.4597998996318
       },
       {
-        "name": "k-pop",
-        "count": 2,
-        "color": [
-          186,
-          131,
-          19
-        ],
-        "pca": -53.60388782098467
-      },
-      {
         "name": "k-pop girl group",
         "count": 2,
         "color": [
@@ -6955,6 +7391,16 @@
           15
         ],
         "pca": -42.065440063609174
+      },
+      {
+        "name": "k-pop",
+        "count": 1,
+        "color": [
+          186,
+          131,
+          19
+        ],
+        "pca": -53.60388782098467
       },
       {
         "name": "bc underground hip hop",
@@ -10717,16 +11163,6 @@
         "pca": -36.10979389167806
       },
       {
-        "name": "meme rap",
-        "count": 1,
-        "color": [
-          150,
-          143,
-          19
-        ],
-        "pca": -37.101632364570676
-      },
-      {
         "name": "phonk",
         "count": 2,
         "color": [
@@ -11171,16 +11607,6 @@
           94
         ],
         "pca": 4.790484813820222
-      },
-      {
-        "name": "filter house",
-        "count": 1,
-        "color": [
-          188,
-          128,
-          100
-        ],
-        "pca": 18.119673211171545
       },
       {
         "name": "house",
@@ -16635,16 +17061,6 @@
         "pca": 33.76649379538754
       },
       {
-        "name": "filter house",
-        "count": 1,
-        "color": [
-          188,
-          128,
-          100
-        ],
-        "pca": 18.119673211171545
-      },
-      {
         "name": "uk dance",
         "count": 2,
         "color": [
@@ -17759,6 +18175,16 @@
           16
         ],
         "pca": -36.10979389167806
+      },
+      {
+        "name": "lo-fi rap",
+        "count": 1,
+        "color": [
+          131,
+          141,
+          62
+        ],
+        "pca": 9.436695706616112
       },
       {
         "name": "modern alternative rock",
@@ -20074,7 +20500,7 @@
       },
       {
         "name": "indie r&b",
-        "count": 2,
+        "count": 1,
         "color": [
           127,
           150,

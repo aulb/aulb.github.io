@@ -1,5 +1,6 @@
 import * as React from 'react'
 import {
+  main,
   container,
 } from './layout.module.css'
 import useSiteMetadata from '../hooks/useSiteMetadata'
@@ -11,10 +12,10 @@ const Layout = ({ children, pageTitle = null }) => {
   const data = useSiteMetadata()
   return (
     <div className={container}>
-      <Link to="/" className="header">
+      <Link to="/">
         <Header pageTitle={pageTitle} data={data} />
       </Link>
-      <main>
+      <main className={main}>
         {children}
       </main>
       <Footer />

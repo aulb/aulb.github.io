@@ -7,13 +7,13 @@ import {
 const Header = ({pageTitle}) => {
   const data = useSiteMetadata()
   return (
-    <header className={siteTitle}>
+    <h1 className={siteTitle}>
       {
         pageTitle == null ? 
           data?.title :
           pageTitle
       }
-    </header>
+    </h1>
   )
 }
 
