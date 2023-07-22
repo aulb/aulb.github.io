@@ -5,6 +5,7 @@
   background-color: rgb(230, 230, 230);
   display: inline-block;
   margin: 5px 5px 5px 0;
+  box-shadow: 6px 6px 15px -12px #bdbdbd;
 }
 
 .card:hover {

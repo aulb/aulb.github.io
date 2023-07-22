@@ -1,14 +1,14 @@
 .mainContainer {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  max-width: 840px;
   background-color: rgb(245, 245, 245);
   border-radius: 5%;
+  gap: 10px;
 }
 
 .showAllContainer {
   order: 1;
-  display: flex;
+  display: inline-flex;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
@@ -20,27 +20,20 @@
 }
 
 .cardContainer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 850px;
+  gap: 10px;
   order: 2;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 210px);
 }
 
 @media (max-width: 500px) {
   .mainContainer {
     border-radius: 1%;
   }
-
-  .cardContainer {
-    grid-template-columns: repeat(auto-fit, 185px);
-  }
 }
 
 @media (max-width: 425px) {
-  .cardContainer {
-    grid-template-columns: repeat(auto-fit, 150px);
-  }
-
   .showAllText {
     font-weight: bold;
   }
