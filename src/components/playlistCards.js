@@ -22,11 +22,11 @@ const PlaylistCards = ({
   includeHeader = true, 
   includeShowAll = true,
 }) => {
-  const [shouldShowAll, setShouldShowAll] = useState(false)
+  const [expanded, setExpanded] = useState(false)
   const playlists = SpotifyJSONData.items
     .filter(playlist => playlist.public)
     .sort(sortPlaylistByMostRecent)
-    .slice(0, shouldShowAll ? SpotifyJSONData.items.length : maxCard)
+    .slice(0, expanded ? SpotifyJSONData.items.length : maxCard)
   const shouldRenderShowAllContainer = includeHeader || includeShowAll
   return (
     <div className={mainContainer}>
@@ -34,8 +34,10 @@ const PlaylistCards = ({
         shouldRenderShowAllContainer ?
           <div className={showAllContainer}>
             { includeShowAll ?
-                <div onClick={() => setShouldShowAll(!shouldShowAll)} className={showAllText}>
-                  Show all
+                <div onClick={() => setExpanded(!expanded)} className={showAllText}>
+                  {
+                    expanded ? "Show latest only" : "Show all"
+                  }
                 </div> : <div></div>
             }
             {
