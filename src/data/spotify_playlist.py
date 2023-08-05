@@ -2,6 +2,7 @@ import spotipy
 import json
 from collections import Counter
 from spotipy.oauth2 import SpotifyClientCredentials
+from constants import GENRE_COLOR_MAP
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials())
 playlists = sp.user_playlists('_aulb') # Look at docs
@@ -9,20 +10,6 @@ users_playlists = playlists["items"]
 playlists_and_genres = []
 track_list = []
 artist_list = []
-
-### 
-# Create a genre to color map
-# From every noise at once
-f = open("genre_color.json")
-data = json.load(f)
-genre_color_map = {}
-for item in data:
-    genre_color_map[item["name"]] = {
-        "color": item["color"],
-        "pca": item["pca"],
-    }
-f.close()
-###
 
 # {
 #   "NAME": "NAME",
@@ -32,7 +19,7 @@ f.close()
 def make_genre_from_genres_counter(genres_counter):
     genres = []
     for genre_name in genres_counter:
-        current_genre = genre_color_map.get(genre_name)
+        current_genre = GENRE_COLOR_MAP.get(genre_name)
         if current_genre is None:
             print(genre_name)
             continue
@@ -63,10 +50,11 @@ for playlist in users_playlists:
         track = item["track"]
         if track is None:
             continue
-        # Approximation for creation date
+        ##### Create approximation for creation date here
         if index == 0:
             created_at = item["added_at"] 
             playlist["created_at"] = item["added_at"] 
+        #####
 
         print(f"Track acquired {track['name']}")
         track_list.append(track)
@@ -91,7 +79,8 @@ for playlist in users_playlists:
                 current_track_genres.extend(artist_genres)
         playlist_genres.extend(current_track_genres)
     playlist_genres_counter = Counter(playlist_genres)
-    playlist_result["genres"] = make_genre_from_genres_counter(playlist_genres_counter)
+    genres_analysis = make_genre_from_genres_counter(playlist_genres_counter)
+    playlist_result["genres"] = genres_analysis
     playlist_result["created_at"] = created_at
     playlists_and_genres.append(playlist_result)
 
