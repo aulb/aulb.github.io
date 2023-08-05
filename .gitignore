@@ -72,3 +72,9 @@ yarn-error.log
 # #FF00FF pink good color
 # -webkit-font-smoothing: antialiased;
 # -moz-osx-font-smoothing: grayscale;
+
+
+## Spotify stuff
+artists.json
+tracks.json
+spotify_playlist_log.txt

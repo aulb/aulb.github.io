@@ -7,8 +7,8 @@ sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials())
 playlists = sp.user_playlists('_aulb') # Look at docs
 users_playlists = playlists["items"]
 playlists_and_genres = []
-tracks = []
-artists = []
+track_list = []
+artist_list = []
 
 ### 
 # Create a genre to color map
@@ -68,8 +68,8 @@ for playlist in users_playlists:
             created_at = item["added_at"] 
             playlist["created_at"] = item["added_at"] 
 
-        print(track["name"])
-        tracks.append(track)
+        print(f"Track acquired {track['name']}")
+        track_list.append(track)
         album = track["album"]
         album_genres = album.get("genres", None)
         if album_genres is not None:
@@ -80,8 +80,10 @@ for playlist in users_playlists:
         for artist_obj in artists:
             artist_uri = artist_obj["uri"]
             try:
+                print("Getting artist")
                 artist = sp.artist(artist_uri)
-                artists.append(artist)
+                print(f"Artist: {artist['name']}")
+                artist_list.append(artist)
             except Exception:
                 continue
             artist_genres = artist.get("genres", None)
@@ -103,8 +105,8 @@ with open("current_playlist.json", "w") as result:
 
 # Write to tracks
 with open("tracks.json", "w") as result:
-    result.write(json.dumps(tracks, indent=2))
+    result.write(json.dumps(track_list, indent=2))
 
 # Write to artist
 with open("artists.json", "w") as result:
-    result.write(json.dumps(artists, indent=2))
+    result.write(json.dumps(artist_list, indent=2))
