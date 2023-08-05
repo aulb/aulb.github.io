@@ -8,6 +8,7 @@ import {
   cardContainer,
 } from "./playlistCards.module.css"
 import {useState} from "react";
+import PlaylistsGenres from '../data/playlists_and_genres.json'
 
 const sortPlaylistByMostRecent = (playlistA, playlistB) => {
   const createdAtA = new Date(playlistA.created_at) 
@@ -15,6 +16,11 @@ const sortPlaylistByMostRecent = (playlistA, playlistB) => {
   if (createdAtA > createdAtB) return -1
   if (createdAtA < createdAtB) return 1
   return 0
+}
+
+const findPlaylistGenres = (playlistGenres, name) => {
+  const match = playlistGenres.filter(playlistGenre => playlistGenre.name === name)
+  return match.length === 0 ? null : match[0]
 }
 
 const PlaylistCards = ({ 
@@ -28,6 +34,7 @@ const PlaylistCards = ({
     .sort(sortPlaylistByMostRecent)
     .slice(0, expanded ? SpotifyJSONData.items.length : maxCard)
   const shouldRenderShowAllContainer = includeHeader || includeShowAll
+
   return (
     <div className={mainContainer}>
       {
@@ -49,7 +56,11 @@ const PlaylistCards = ({
           </div> : null
       }
       <div className={cardContainer}>
-        {playlists.map((playlist, index) => <PlaylistCard playlist={playlist} index={index} />)}
+        {
+          playlists.map((playlist, index) => 
+            <PlaylistCard key={playlist.id} playlist={playlist} index={index} genres={findPlaylistGenres(PlaylistsGenres, playlist.name)} />
+          )
+        }
       </div>
     </div>
   )

@@ -29,7 +29,7 @@ const SpotifyGenreVisualizations = ({limit}) => {
             totalGenreXCounter = totalGenreXCounter + genre["count"]
         })
         return (
-            <div className={playlistCubeContainer}>
+            <div key={`${playlist.name}-spotgenre`} className={playlistCubeContainer}>
             {
                 sortedGenres?.map((genre, index) => {
                 const color = genre["color"]
@@ -45,7 +45,7 @@ const SpotifyGenreVisualizations = ({limit}) => {
                     }
                 }
                 return (
-                    <div title={genre["name"]} className={playlistCube} style={{
+                    <div key={`${playlist.name}-${genre}-${index}`} title={genre["name"]} className={playlistCube} style={{
                     background: rgb,
                     width: `${width.toFixed(2)}%`,
                     }} />

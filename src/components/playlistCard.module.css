@@ -10,6 +10,7 @@
 
 .card:hover {
   background-color: rgb(208, 208, 208);
+  box-shadow: 10px 10px 15px -12px #bdbdbd;
 }
   
 .cardImage {
