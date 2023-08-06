@@ -1,5 +1,5 @@
 import * as React from "react"
-import PlaylistCard from "./playlistCard"
+import PlaylistCard from "./cardTest"
 import SpotifyJSONData from "../data/current_playlist.json"
 import {
   showAllText,

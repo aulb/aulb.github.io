@@ -51,30 +51,28 @@ const PlaylistCard = ({playlist, index, genres=null}) => {
   const backgroundColorHoverStyle = `rgb(${cardColorHover[0]}, ${cardColorHover[1]}, ${cardColorHover[2]})`
 
   return (
-    <div>
-      <div 
-        className={card} 
-        style={{backgroundColor: hover ? backgroundColorHoverStyle : backgroundColorStyle}}
-        onMouseEnter={() => setHover(true)} 
-        onMouseLeave={() => setHover(false)}
-        onClick={() => setIsFront(!isFront)}
-      >
-        <a href={external_urls.spotify} target="_blank">
-            <img 
-              alt={name} 
-              src={image?.url}
-              className={cardImage}   
-              onClick={event => event.stopPropagation()} 
-            />
-        </a>
-        <div className={cardTextWrapper}>
-            <p className={cardText}>
-              {index === 0 ? "📌" : ""} <strong>{name}</strong>
-            </p>
-            <p className={cardText}>
-              {createdAtStr} · {tracks.total} {tracks.total > 1 ? "songs" : "song"}
-            </p>
-        </div>
+    <div 
+      className={card} 
+      style={{backgroundColor: hover ? backgroundColorHoverStyle : backgroundColorStyle}}
+      onMouseEnter={() => setHover(true)} 
+      onMouseLeave={() => setHover(false)}
+      onClick={() => setIsFront(!isFront)}
+    >
+      <a href={external_urls.spotify} target="_blank">
+          <img 
+            alt={name} 
+            src={image?.url}
+            className={cardImage}   
+            onClick={event => event.stopPropagation()} 
+          />
+      </a>
+      <div className={cardTextWrapper}>
+          <p className={cardText}>
+            {index === 0 ? "📌" : ""} <strong>{name}</strong>
+          </p>
+          <p className={cardText}>
+            {createdAtStr} · {tracks.total} {tracks.total > 1 ? "songs" : "song"}
+          </p>
       </div>
     </div>
   )

@@ -1,10 +1,15 @@
 import * as React from "react"
 import {
   card,
-  cardImage,
-  cardText,
-  cardTextWrapper,
-} from "./playlistCard.module.css"
+  cardScene,
+  cardFace,
+  cardFaceBack,
+  cardFaceFront,
+  cardIsFlipped,
+  cardFaceFrontImage,
+  cardFaceFrontTextWrapper,
+  cardFaceFrontText,
+} from "./cardTest.module.css"
 import {useState} from "react"
 
 const brightenColor = (color, brightness=0.75) => {
@@ -51,29 +56,20 @@ const PlaylistCard = ({playlist, index, genres=null}) => {
   const backgroundColorHoverStyle = `rgb(${cardColorHover[0]}, ${cardColorHover[1]}, ${cardColorHover[2]})`
 
   return (
-    <div>
-      <div 
-        className={card} 
-        style={{backgroundColor: hover ? backgroundColorHoverStyle : backgroundColorStyle}}
-        onMouseEnter={() => setHover(true)} 
-        onMouseLeave={() => setHover(false)}
-        onClick={() => setIsFront(!isFront)}
-      >
-        <a href={external_urls.spotify} target="_blank">
+    <div className={cardScene}>
+      <div onClick={() => setIsFront(!isFront)} className={`${card} ${isFront ? null : cardIsFlipped}`}>
+        <div className={`${cardFace} ${cardFaceFront}`}>
+          <a href={external_urls.spotify} target="_blank">
             <img 
               alt={name} 
               src={image?.url}
-              className={cardImage}   
+              className={cardFaceFrontImage}   
               onClick={event => event.stopPropagation()} 
             />
-        </a>
-        <div className={cardTextWrapper}>
-            <p className={cardText}>
-              {index === 0 ? "📌" : ""} <strong>{name}</strong>
-            </p>
-            <p className={cardText}>
-              {createdAtStr} · {tracks.total} {tracks.total > 1 ? "songs" : "song"}
-            </p>
+          </a>
+        </div>
+        <div className={`${cardFace} ${cardFaceBack}`}>
+          B
         </div>
       </div>
     </div>
