@@ -1,19 +1,48 @@
-.card {
+.cardScene {
   width: 200px;
   height: 275px;
-  border-radius: 5%;
-  background-color: rgb(230, 230, 230);
-  display: inline-block;
   margin: 5px 5px 5px 0;
+  display: inline-block;
+  perspective: 600px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
   box-shadow: 6px 6px 15px -12px #bdbdbd;
+  border-radius: 5%;
+  /* https://3dtransforms.desandro.com/card-flip */
+  position: relative;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  transform-origin: center right;
 }
 
 .card:hover {
-  background-color: rgb(208, 208, 208);
   box-shadow: 10px 10px 15px -12px #bdbdbd;
 }
-  
-.cardImage {
+
+.cardFace {
+  border-radius: 5%;
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.cardFaceFront {
+}
+
+.cardFaceBack {
+  transform: rotateY(180deg);
+}
+
+.cardIsFlipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.cardFaceFrontImage {
   width: 160px;
   height: 160px;
   margin: 20px;
@@ -21,49 +50,57 @@
   overflow: hidden;
 }
 
-.cardImage:hover {
+.cardFaceBackImage {
+  width: 160px;
+  height: 160px;
+  margin: 20px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.cardFaceFrontImage:hover {
   cursor: pointer;
 }
 
-.cardTextWrapper {
+.cardFaceFrontTextWrapper {
   margin: 0 20px;
   line-height: 0;
 }
   
-.cardText {
+.cardFaceFrontText {
   margin: 0;
 }
 
 @media (max-width: 500px) {
-  .card {
+  .cardScene {
     width: 175px;
     height: 250px;
   }
 
-  .cardImage {
+  .cardFaceFrontImage {
     width: 135px;
     height: 135px;
   }
 
-  .cardText {
+  .cardFaceFrontText {
     line-height: 1.7em;
     font-size: 0.9em;
   }
 }
 
 @media (max-width: 425px) {
-  .card {
+  .cardScene {
     width: 140px;
     height: 200px;
   }
 
-  .cardImage {
+  .cardFaceFrontImage {
     margin: 15px;
     width: 110px;
     height: 110px;
   }
 
-  .cardText {
+  .cardFaceFrontText {
     line-height: 1.65em;
     font-size: 0.75em;
   }
