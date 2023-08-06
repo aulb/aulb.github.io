@@ -9,6 +9,7 @@ import {
   cardFaceFrontImage,
   cardFaceFrontTextWrapper,
   cardFaceFrontText,
+  cardFaceBackImage,
 } from "./cardTest.module.css"
 import {useState} from "react"
 
@@ -57,8 +58,16 @@ const PlaylistCard = ({playlist, index, genres=null}) => {
 
   return (
     <div className={cardScene}>
-      <div onClick={() => setIsFront(!isFront)} className={`${card} ${isFront ? null : cardIsFlipped}`}>
-        <div className={`${cardFace} ${cardFaceFront}`}>
+      <div 
+        onClick={() => setIsFront(!isFront)} 
+        onMouseEnter={() => setHover(true)} 
+        onMouseLeave={() => setHover(false)}
+        className={`${card} ${isFront ? null : cardIsFlipped}`}
+      >
+        <div 
+          className={`${cardFace} ${cardFaceFront}`}
+          style={{backgroundColor: hover ? backgroundColorHoverStyle : backgroundColorStyle}}
+        >
           <a href={external_urls.spotify} target="_blank">
             <img 
               alt={name} 
@@ -67,9 +76,27 @@ const PlaylistCard = ({playlist, index, genres=null}) => {
               onClick={event => event.stopPropagation()} 
             />
           </a>
+          <div className={cardFaceFrontTextWrapper}>
+            <p className={cardFaceFrontText}>
+              {index === 0 ? "📌" : ""} <strong>{name}</strong>
+            </p>
+            <p className={cardFaceFrontText}>
+              {createdAtStr} · {tracks.total} {tracks.total > 1 ? "songs" : "song"}
+            </p>
+          </div>
         </div>
-        <div className={`${cardFace} ${cardFaceBack}`}>
-          B
+        <div 
+          className={`${cardFace} ${cardFaceBack}`}
+          /* Hacky solution to apply background to back faces so the front face 
+          doesn't show up. */
+          style={{backgroundColor: hover ? backgroundColorHoverStyle : backgroundColorStyle}}
+        >
+            <img 
+              alt={name} 
+              src={image?.url}
+              className={cardFaceBackImage}   
+              onClick={event => event.stopPropagation()} 
+            />
         </div>
       </div>
     </div>

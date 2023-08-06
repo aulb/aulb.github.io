@@ -10,10 +10,12 @@
   width: 100%;
   height: 100%;
   box-shadow: 6px 6px 15px -12px #bdbdbd;
-
+  border-radius: 5%;
+  /* https://3dtransforms.desandro.com/card-flip */
   position: relative;
-  transition: transform 1s;
+  transition: transform 0.5s;
   transform-style: preserve-3d;
+  transform-origin: center right;
 }
 
 .card:hover {
@@ -30,19 +32,25 @@
 }
 
 .cardFaceFront {
-  background: red;
 }
 
 .cardFaceBack {
-  background: blue;
   transform: rotateY(180deg);
 }
 
 .cardIsFlipped {
-  transform: rotateY(180deg);
+  transform: translateX(-100%) rotateY(-180deg);
 }
 
 .cardFaceFrontImage {
+  width: 160px;
+  height: 160px;
+  margin: 20px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.cardFaceBackImage {
   width: 160px;
   height: 160px;
   margin: 20px;
@@ -61,4 +69,39 @@
   
 .cardFaceFrontText {
   margin: 0;
+}
+
+@media (max-width: 500px) {
+  .cardScene {
+    width: 175px;
+    height: 250px;
+  }
+
+  .cardFaceFrontImage {
+    width: 135px;
+    height: 135px;
+  }
+
+  .cardFaceFrontText {
+    line-height: 1.7em;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 425px) {
+  .cardScene {
+    width: 140px;
+    height: 200px;
+  }
+
+  .cardFaceFrontImage {
+    margin: 15px;
+    width: 110px;
+    height: 110px;
+  }
+
+  .cardFaceFrontText {
+    line-height: 1.65em;
+    font-size: 0.75em;
+  }
 }
