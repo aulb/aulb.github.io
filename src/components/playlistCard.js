@@ -10,7 +10,7 @@ import {
   cardFaceFrontTextWrapper,
   cardFaceFrontText,
   cardFaceBackImage,
-} from "./cardTest.module.css"
+} from "./playlistCard.module.css"
 import {useState} from "react"
 
 const brightenColor = (color, brightness=0.75) => {
