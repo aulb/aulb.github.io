@@ -65,7 +65,6 @@ const PlaylistCard = ({playlist, index, genres=null, track=null}) => {
   const {
     album,
     artists,
-    id: trackId,
     name: trackName,
     external_urls: trackUrl,
   } = track
@@ -109,6 +108,7 @@ const PlaylistCard = ({playlist, index, genres=null, track=null}) => {
           backgroundColor={hover ? bgColorHoverStyle : bgColorStyle}
           mainTextComponent={<strong>{trackNameComponent}</strong>}
           childTextComponent={artistsComponent}
+          frontFace={false}
         />
       </div>
     </div>
