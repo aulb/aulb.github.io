@@ -97,7 +97,7 @@ const PlaylistCard = ({playlist, index, genres=null, track=null}) => {
           imageSrc={image?.url}
           imageUrl={playlistUrl.spotify}
           backgroundColor={hover ? bgColorHoverStyle : bgColorStyle}
-          mainTextComponent={<span>{index === 0 ? "📌" : <span>&nbsp;</span>}<strong>{playlistName}</strong></span>}
+          mainTextComponent={<span>{index === 0 ? <span>📌&nbsp;</span> : null}<strong>{playlistName}</strong></span>}
           childTextComponent={<span>{createdAtStr} · {tracks.total} {tracks.total > 1 ? "songs" : "song"}</span>}
         />
         <PlaylistCardFace 
