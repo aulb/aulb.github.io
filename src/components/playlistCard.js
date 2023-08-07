@@ -78,7 +78,7 @@ const PlaylistCard = ({playlist, index, genres=null, track=null}) => {
 
   let artistsComponent = artists.map(
     (artist, index) => <span key={`${playlistName}-${artist.name}`}>
-      <a href={artist.external_urls?.spotify}><i>{artist.name}</i></a>{index !== artists.length - 1 ? <span>,&nbsp;</span>: null}
+      <a href={artist.external_urls?.spotify} target="_blank"><i>{artist.name}</i></a>{index !== artists.length - 1 ? <span>,&nbsp;</span>: null}
     </span>
   )
   if (artists.reduce((acc, artist) => acc + artist.name.length, 0) > 15) {
