@@ -4,7 +4,6 @@ import {
   cardScene,
   cardFace,
   cardFaceBack,
-  cardFaceFront,
   cardIsFlipped,
   cardFaceFrontImage,
   cardFaceFrontTextWrapper,
@@ -49,8 +48,8 @@ const PlaylistCard = ({playlist, index, genres=null}) => {
 
   const { images, name, external_urls, tracks, created_at } = playlist
   const image = images.length > 0 ? images[0] : null
-  const createdAt = new Date(created_at);
-  const createdAtStr = createdAt.toLocaleString("en-US", {month: "short", day: "2-digit"});
+  const createdAt = new Date(created_at)
+  const createdAtStr = createdAt.toLocaleString("en-US", {month: "short", day: "2-digit"})
   const cardColor = brightenColor(determineCardColor(genres?.genres), 0.85)
   const cardColorHover = brightenColor(determineCardColor(genres?.genres), 0.8)
   const backgroundColorStyle = `rgb(${cardColor[0]}, ${cardColor[1]}, ${cardColor[2]})`
@@ -65,7 +64,7 @@ const PlaylistCard = ({playlist, index, genres=null}) => {
         className={`${card} ${isFront ? null : cardIsFlipped}`}
       >
         <div 
-          className={`${cardFace} ${cardFaceFront}`}
+          className={`${cardFace}`}
           style={{backgroundColor: hover ? backgroundColorHoverStyle : backgroundColorStyle}}
         >
           <a href={external_urls.spotify} target="_blank">

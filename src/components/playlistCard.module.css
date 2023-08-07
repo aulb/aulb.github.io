@@ -31,9 +31,6 @@
   backface-visibility: hidden;
 }
 
-.cardFaceFront {
-}
-
 .cardFaceBack {
   transform: rotateY(180deg);
 }
