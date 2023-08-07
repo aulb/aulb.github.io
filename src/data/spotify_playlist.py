@@ -2,7 +2,7 @@ import spotipy
 import json
 from collections import Counter
 from spotipy.oauth2 import SpotifyClientCredentials
-from constants import GENRE_COLOR_MAP
+from constants import GENRE_COLOR_MAP, PLAYLISTS_FAVE_TRACK
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials())
 playlists = sp.user_playlists('_aulb') # Look at docs

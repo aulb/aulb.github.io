@@ -3,13 +3,12 @@ import json
 ### 
 # Create a genre to color map
 # From every noise at once
-f = open("genre_color.json")
-data = json.load(f)
 GENRE_COLOR_MAP = {}
-for item in data:
-    GENRE_COLOR_MAP[item["name"]] = {
-        "color": item["color"],
-        "pca": item["pca"],
-    }
-f.close()
+with open("genre_color.json") as genre_color_file:
+    for item in json.load(genre_color_file):
+        GENRE_COLOR_MAP[item["name"]] = {
+            "color": item["color"],
+            "pca": item["pca"],
+        }
 ###
+
