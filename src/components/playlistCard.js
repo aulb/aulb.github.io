@@ -4,13 +4,14 @@ import {
   cardScene,
   cardFace,
   cardFaceBack,
+  cardFaceImage,
+  cardFaceTextWrapper,
+  cardFaceText,
   cardIsFlipped,
-  cardFaceFrontImage,
-  cardFaceFrontTextWrapper,
-  cardFaceFrontText,
-  cardFaceBackImage,
 } from "./playlistCard.module.css"
 import {useState} from "react"
+import Marquee from "react-fast-marquee"
+import PlaylistCardFace from './playlistCardFace'
 
 const brightenColor = (color, brightness=0.75) => {
   return [
@@ -42,19 +43,49 @@ const determineCardColor = genres => {
   return rgb.map(value => Math.min(255, Math.floor(value / totalCount)))
 }
 
-const PlaylistCard = ({playlist, index, genres=null}) => {
+const PlaylistCard = ({playlist, index, genres=null, track=null}) => {
   const [hover, setHover] = useState(false)
   const [isFront, setIsFront] = useState(true)
 
-  const { images, name, external_urls, tracks, created_at } = playlist
-  const image = images.length > 0 ? images[0] : null
+  const { 
+    tracks, 
+    created_at,
+    name: playlistName, 
+    images: playlistImage, 
+    external_urls: playlistUrl, 
+  } = playlist
+  const image = playlistImage.length > 0 ? playlistImage[0] : null
   const createdAt = new Date(created_at)
   const createdAtStr = createdAt.toLocaleString("en-US", {month: "short", day: "2-digit"})
   const cardColor = brightenColor(determineCardColor(genres?.genres), 0.85)
   const cardColorHover = brightenColor(determineCardColor(genres?.genres), 0.8)
-  const backgroundColorStyle = `rgb(${cardColor[0]}, ${cardColor[1]}, ${cardColor[2]})`
-  const backgroundColorHoverStyle = `rgb(${cardColorHover[0]}, ${cardColorHover[1]}, ${cardColorHover[2]})`
+  const bgColorStyle = `rgb(${cardColor[0]}, ${cardColor[1]}, ${cardColor[2]})`
+  const bgColorHoverStyle = `rgb(${cardColorHover[0]}, ${cardColorHover[1]}, ${cardColorHover[2]})`
 
+  const {
+    album,
+    artists,
+    id: trackId,
+    name: trackName,
+    external_urls: trackUrl,
+  } = track
+
+  const {
+    images: albumImages,
+  } = album
+  const trackImage = albumImages.length === 3 ? albumImages[1] : null
+  const trackNameComponent = trackName.length > 15 ? 
+    <Marquee speed={35}>{trackName}<span>&nbsp;&nbsp;</span></Marquee> : trackName
+
+  let artistsComponent = artists.map(
+    (artist, index) => <span key={`${playlistName}-${artist.name}`}>
+      <a href={artist.external_urls?.spotify}><i>{artist.name}</i></a>{index !== artists.length - 1 ? <span>,&nbsp;</span>: null}
+    </span>
+  )
+  if (artists.reduce((acc, artist) => acc + artist.name.length, 0) > 15) {
+    artistsComponent = <Marquee speed={35}>{artistsComponent}<span>&nbsp;&nbsp;</span></Marquee>
+  }
+  
   return (
     <div className={cardScene}>
       <div 
@@ -63,40 +94,22 @@ const PlaylistCard = ({playlist, index, genres=null}) => {
         onMouseLeave={() => setHover(false)}
         className={`${card} ${isFront ? null : cardIsFlipped}`}
       >
-        <div 
-          className={`${cardFace}`}
-          style={{backgroundColor: hover ? backgroundColorHoverStyle : backgroundColorStyle}}
-        >
-          <a href={external_urls.spotify} target="_blank">
-            <img 
-              alt={name} 
-              src={image?.url}
-              className={cardFaceFrontImage}   
-              onClick={event => event.stopPropagation()} 
-            />
-          </a>
-          <div className={cardFaceFrontTextWrapper}>
-            <p className={cardFaceFrontText}>
-              {index === 0 ? "📌" : ""} <strong>{name}</strong>
-            </p>
-            <p className={cardFaceFrontText}>
-              {createdAtStr} · {tracks.total} {tracks.total > 1 ? "songs" : "song"}
-            </p>
-          </div>
-        </div>
-        <div 
-          className={`${cardFace} ${cardFaceBack}`}
+        <PlaylistCardFace 
+          imageSrc={image?.url}
+          imageUrl={playlistUrl.spotify}
+          backgroundColor={hover ? bgColorHoverStyle : bgColorStyle}
+          mainTextComponent={<span>{index === 0 ? "📌" : ""}<strong>{playlistName}</strong></span>}
+          childTextComponent={<span>{createdAtStr} · {tracks.total} {tracks.total > 1 ? "songs" : "song"}</span>}
+        />
+        <PlaylistCardFace 
+          imageSrc={trackImage.url}
+          imageUrl={trackUrl.spotify}
           /* Hacky solution to apply background to back faces so the front face 
           doesn't show up. */
-          style={{backgroundColor: hover ? backgroundColorHoverStyle : backgroundColorStyle}}
-        >
-            <img 
-              alt={name} 
-              src={image?.url}
-              className={cardFaceBackImage}   
-              onClick={event => event.stopPropagation()} 
-            />
-        </div>
+          backgroundColor={hover ? bgColorHoverStyle : bgColorStyle}
+          mainTextComponent={<strong>{trackNameComponent}</strong>}
+          childTextComponent={artistsComponent}
+        />
       </div>
     </div>
   )

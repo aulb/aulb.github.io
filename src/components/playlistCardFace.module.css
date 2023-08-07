@@ -1,27 +1,3 @@
-.cardScene {
-  width: 200px;
-  height: 275px;
-  margin: 5px 5px 5px 0;
-  display: inline-block;
-  perspective: 600px;
-}
-
-.card {
-  width: 100%;
-  height: 100%;
-  box-shadow: 6px 6px 15px -12px #bdbdbd;
-  border-radius: 5%;
-  /* https://3dtransforms.desandro.com/card-flip */
-  position: relative;
-  transition: transform 0.5s;
-  transform-style: preserve-3d;
-  transform-origin: center right;
-}
-
-.card:hover {
-  box-shadow: 10px 10px 15px -12px #bdbdbd;
-}
-
 .cardFace {
   border-radius: 5%;
 
@@ -35,9 +11,6 @@
   transform: rotateY(180deg);
 }
 
-.cardIsFlipped {
-  transform: translateX(-100%) rotateY(-180deg);
-}
 
 .cardFaceImage {
   width: 160px;
@@ -61,11 +34,6 @@
 }
 
 @media (max-width: 500px) {
-  .cardScene {
-    width: 175px;
-    height: 250px;
-  }
-
   .cardFaceImage {
     width: 135px;
     height: 135px;
@@ -78,11 +46,6 @@
 }
 
 @media (max-width: 425px) {
-  .cardScene {
-    width: 140px;
-    height: 200px;
-  }
-
   .cardFaceImage {
     margin: 15px;
     width: 110px;
