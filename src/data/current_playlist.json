@@ -29,10 +29,10 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NDEsNDc4YTZiOTMyYmQzNWU3MWVkMTUyYTVmZDZhZThkMzlhODNkMWRjOQ==",
+      "snapshot_id": "NDUsNzRkZDBiY2FhYWMwYTc5ODNhY2QzNzEyYzg4NDRjZGM3Nzg0ZjEwMQ==",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/6IjWdzrTONvBACYxa2o4YG/tracks",
-        "total": 38
+        "total": 41
       },
       "type": "playlist",
       "uri": "spotify:playlist:6IjWdzrTONvBACYxa2o4YG",
@@ -197,7 +197,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://i.scdn.co/image/ab67706c0000bebb0086ad9d747a738e7867a360",
+          "url": "https://images-ak.spotifycdn.com/image/ab67706c0000bebb0086ad9d747a738e7867a360",
           "width": null
         }
       ],
@@ -234,7 +234,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://images-ak.spotifycdn.com/image/ab67706c0000bebb326d9e263946e6fa6aa9e51f",
+          "url": "https://i.scdn.co/image/ab67706c0000bebb326d9e263946e6fa6aa9e51f",
           "width": null
         }
       ],
@@ -974,7 +974,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://images-ak.spotifycdn.com/image/ab67706c0000bebb367710e13e6d6096911e1cf0",
+          "url": "https://i.scdn.co/image/ab67706c0000bebb367710e13e6d6096911e1cf0",
           "width": null
         }
       ],
