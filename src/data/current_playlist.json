@@ -5,6 +5,43 @@
       "collaborative": false,
       "description": "",
       "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2yvGSuxB9BkH40CDWJTQir"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2yvGSuxB9BkH40CDWJTQir",
+      "id": "2yvGSuxB9BkH40CDWJTQir",
+      "images": [
+        {
+          "height": null,
+          "url": "https://images-ak.spotifycdn.com/image/ab67706c0000bebb87dbe9c76b9b6862ababff9f",
+          "width": null
+        }
+      ],
+      "name": "2023 AUG #2",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NDMsMzIyNzMyOTJiNzI3ZTI3NTU3YTVmNTUwZjJhMzEzZWY2ZGI3NjcyZg==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2yvGSuxB9BkH40CDWJTQir/tracks",
+        "total": 36
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2yvGSuxB9BkH40CDWJTQir",
+      "created_at": "2023-08-13T20:07:24Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
         "spotify": "https://open.spotify.com/playlist/6IjWdzrTONvBACYxa2o4YG"
       },
       "href": "https://api.spotify.com/v1/playlists/6IjWdzrTONvBACYxa2o4YG",
@@ -234,7 +271,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://i.scdn.co/image/ab67706c0000bebb326d9e263946e6fa6aa9e51f",
+          "url": "https://images-ak.spotifycdn.com/image/ab67706c0000bebb326d9e263946e6fa6aa9e51f",
           "width": null
         }
       ],
@@ -974,7 +1011,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://i.scdn.co/image/ab67706c0000bebb367710e13e6d6096911e1cf0",
+          "url": "https://images-ak.spotifycdn.com/image/ab67706c0000bebb367710e13e6d6096911e1cf0",
           "width": null
         }
       ],
@@ -1079,5 +1116,5 @@
   "next": null,
   "offset": 0,
   "previous": null,
-  "total": 29
+  "total": 30
 }

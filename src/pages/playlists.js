@@ -7,7 +7,6 @@ import PlaylistTopGenres from '../components/playlistTopGenres'
 const SpotifyPlaylistPage = () => {
   return (
       <Layout>
-        <PlaylistTopGenres />
         <PlaylistCards />
       </Layout>
     )

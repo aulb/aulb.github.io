@@ -5,6 +5,84 @@
       "artists": [
         {
           "external_urls": {
+            "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+          },
+          "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+          "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+          "name": "Kendrick Lamar",
+          "type": "artist",
+          "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/1bkN9nIkkCnXeG4yitVS1J"
+      },
+      "href": "https://api.spotify.com/v1/albums/1bkN9nIkkCnXeG4yitVS1J",
+      "id": "1bkN9nIkkCnXeG4yitVS1J",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273eddb2639b74ac6c202032ebe",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02eddb2639b74ac6c202032ebe",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851eddb2639b74ac6c202032ebe",
+          "width": 64
+        }
+      ],
+      "name": "Section.80",
+      "release_date": "2011-07-02",
+      "release_date_precision": "day",
+      "total_tracks": 15,
+      "type": "album",
+      "uri": "spotify:album:1bkN9nIkkCnXeG4yitVS1J"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+        },
+        "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+        "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+        "name": "Kendrick Lamar",
+        "type": "artist",
+        "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 173158,
+    "episode": false,
+    "explicit": true,
+    "external_ids": {
+      "isrc": "USUYG1008101"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/6cfVDaIdvDtYH91RqC6Wox"
+    },
+    "href": "https://api.spotify.com/v1/tracks/6cfVDaIdvDtYH91RqC6Wox",
+    "id": "6cfVDaIdvDtYH91RqC6Wox",
+    "is_local": false,
+    "name": "Hol' Up",
+    "popularity": 65,
+    "preview_url": "https://p.scdn.co/mp3-preview/5e5cb713b7afeb89159a9a78e7b5c020274cc914?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "track": true,
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:6cfVDaIdvDtYH91RqC6Wox",
+    "playlist_name": "2023 AUG #2"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
             "spotify": "https://open.spotify.com/artist/6fbIkBK4DW2IPnlKk9MLWS"
           },
           "href": "https://api.spotify.com/v1/artists/6fbIkBK4DW2IPnlKk9MLWS",
@@ -69,7 +147,7 @@
     "id": "644ljpbJRmneqzlTfURbKB",
     "is_local": false,
     "name": "Mirror Mirror",
-    "popularity": 33,
+    "popularity": 31,
     "preview_url": "https://p.scdn.co/mp3-preview/517bf547b51994bdf0aba51663b2929c75b768be?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
@@ -147,7 +225,7 @@
     "id": "37CoOXIsgF3NzbK1zHZetk",
     "is_local": false,
     "name": "Mona Lisa (Spider-Man: Across the Spider-Verse)",
-    "popularity": 86,
+    "popularity": 83,
     "preview_url": "https://p.scdn.co/mp3-preview/cea8b314f8b3777c6b87a45187b7b522d3911fde?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -489,7 +567,7 @@
     "id": "7sT48E0PEPQy5cd4Nwfexs",
     "is_local": false,
     "name": "One",
-    "popularity": 35,
+    "popularity": 33,
     "preview_url": "https://p.scdn.co/mp3-preview/848e45be0007a98dead4c25d4e706f1fdaca9bf6?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -607,7 +685,7 @@
     "id": "5wp6dhW0dCOO0TG4MGCIPT",
     "is_local": false,
     "name": "By Your Side",
-    "popularity": 60,
+    "popularity": 59,
     "preview_url": "https://p.scdn.co/mp3-preview/bc08f0297ce902e892a725aed8c776682c2efac4?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -763,7 +841,7 @@
     "id": "60Uio68M57PwKEgZxSutL6",
     "is_local": false,
     "name": "'Til We Meet Again",
-    "popularity": 63,
+    "popularity": 62,
     "preview_url": "https://p.scdn.co/mp3-preview/1a37ff462941b9cc72332b254115e2c29b2f7c46?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
@@ -929,7 +1007,7 @@
     "id": "3Qq7nbEvgBzhtsO2fMnXvf",
     "is_local": false,
     "name": "STARSTUD",
-    "popularity": 50,
+    "popularity": 48,
     "preview_url": "https://p.scdn.co/mp3-preview/ccdf011a3126d12af86adf3dda9e1cdd47afeaa9?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1007,7 +1085,7 @@
     "id": "71I3KFTKzYz1qi3SBctusp",
     "is_local": false,
     "name": "\u30cf\u30eb\u30b8\u30aa\u30f3",
-    "popularity": 50,
+    "popularity": 49,
     "preview_url": "https://p.scdn.co/mp3-preview/c29b0a34ffe01a1a21b393acb363c9594f4542d5?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1105,7 +1183,7 @@
     "id": "5bcFTH2LS9V9AXSDi8q3i2",
     "is_local": false,
     "name": "Dive",
-    "popularity": 48,
+    "popularity": 47,
     "preview_url": "https://p.scdn.co/mp3-preview/a0afffa86fc976a2b40e95010ad2ad7946ff0e68?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1183,7 +1261,7 @@
     "id": "60O330MwrWVWCp9fpxzulM",
     "is_local": false,
     "name": "Never Let Me Go",
-    "popularity": 45,
+    "popularity": 44,
     "preview_url": "https://p.scdn.co/mp3-preview/5f91626543a59510622c6fe136476f430202403b?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1339,7 +1417,7 @@
     "id": "1OEIMV580Xj8BeyeFB8fvl",
     "is_local": false,
     "name": "Lost Cause",
-    "popularity": 47,
+    "popularity": 46,
     "preview_url": "https://p.scdn.co/mp3-preview/53ffe6fea60ac159a8fae5e949834e5c29e9345c?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 3,
@@ -1417,7 +1495,7 @@
     "id": "7i5pytF8KaId51lIzatwdg",
     "is_local": false,
     "name": "Kiri Ga Naikara",
-    "popularity": 53,
+    "popularity": 52,
     "preview_url": null,
     "track": true,
     "track_number": 4,
@@ -1495,7 +1573,7 @@
     "id": "3IelG5zYpWWCZIH4cqWlPV",
     "is_local": false,
     "name": "SHOOTING STAR",
-    "popularity": 78,
+    "popularity": 77,
     "preview_url": "https://p.scdn.co/mp3-preview/4f29587547fa7807f9536a11df061ade3237bc2d?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1573,7 +1651,7 @@
     "id": "65FftemJ1DbbZ45DUfHJXE",
     "is_local": false,
     "name": "OMG",
-    "popularity": 90,
+    "popularity": 89,
     "preview_url": "https://p.scdn.co/mp3-preview/b9e344aa96afc45a56df77ca63c78786bdaa0047?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1827,7 +1905,7 @@
     "id": "6dEN1q3YD7mvmGZGqqUE06",
     "is_local": false,
     "name": "Tanaka 2",
-    "popularity": 54,
+    "popularity": 52,
     "preview_url": "https://p.scdn.co/mp3-preview/32c84a8ecb54eddd72f716e7eb99f47f1af9fd53?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1905,7 +1983,7 @@
     "id": "1RHTdr5QfviCYI70QPPDJN",
     "is_local": false,
     "name": "Generation",
-    "popularity": 67,
+    "popularity": 66,
     "preview_url": "https://p.scdn.co/mp3-preview/57c14e22422d487fa458321e00f15a9fe6532146?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -2061,7 +2139,7 @@
     "id": "4fsQ0K37TOXa3hEQfjEic1",
     "is_local": false,
     "name": "ANTIFRAGILE",
-    "popularity": 81,
+    "popularity": 80,
     "preview_url": "https://p.scdn.co/mp3-preview/97a1c7e470172e0993f8f65dc109ab9d017d7adc?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -2139,7 +2217,7 @@
     "id": "5viDyBHBnJHCF1XTcROFkF",
     "is_local": false,
     "name": "so good",
-    "popularity": 52,
+    "popularity": 51,
     "preview_url": null,
     "track": true,
     "track_number": 1,
@@ -2227,7 +2305,7 @@
     "id": "4tJ3FXTQcPYPAgicdJgjtD",
     "is_local": false,
     "name": "Sometimes (Feat. GSoul)",
-    "popularity": 33,
+    "popularity": 32,
     "preview_url": "https://p.scdn.co/mp3-preview/2f473da1c708602dd3081fab412e909d1249a2ba?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 3,
@@ -2305,7 +2383,7 @@
     "id": "0ac12GgX8LZK0VNC4N91o2",
     "is_local": false,
     "name": "Yoku",
-    "popularity": 54,
+    "popularity": 53,
     "preview_url": "https://p.scdn.co/mp3-preview/55591633e380676dbe7e6dbef2d267a0051a51ba?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 7,
@@ -2403,7 +2481,7 @@
     "id": "3Lf16tRdqj4H7MBtCSztDS",
     "is_local": false,
     "name": "Sunshine (feat. Lil Wayne & Childish Gambino)",
-    "popularity": 54,
+    "popularity": 53,
     "preview_url": "https://p.scdn.co/mp3-preview/12ff37441c9b87bdd2b05bbbec786b21f715c884?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 5,
