@@ -1,6 +1,182 @@
 [
   {
     "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7vNNmjV14SKQzlQAEg0BXP"
+          },
+          "href": "https://api.spotify.com/v1/artists/7vNNmjV14SKQzlQAEg0BXP",
+          "id": "7vNNmjV14SKQzlQAEg0BXP",
+          "name": "Jean Dawson",
+          "type": "artist",
+          "uri": "spotify:artist:7vNNmjV14SKQzlQAEg0BXP"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP"
+          },
+          "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP",
+          "id": "7tYKF4w9nC0nq9CsPZTHyP",
+          "name": "SZA",
+          "type": "artist",
+          "uri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/05kT1p6wyim40HJVzg7tt3"
+      },
+      "href": "https://api.spotify.com/v1/albums/05kT1p6wyim40HJVzg7tt3",
+      "id": "05kT1p6wyim40HJVzg7tt3",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b2735986d0cd52e16f556c70d2c2",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e025986d0cd52e16f556c70d2c2",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d000048515986d0cd52e16f556c70d2c2",
+          "width": 64
+        }
+      ],
+      "name": "NO SZNS",
+      "release_date": "2023-09-22",
+      "release_date_precision": "day",
+      "total_tracks": 1,
+      "type": "album",
+      "uri": "spotify:album:05kT1p6wyim40HJVzg7tt3"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7vNNmjV14SKQzlQAEg0BXP"
+        },
+        "href": "https://api.spotify.com/v1/artists/7vNNmjV14SKQzlQAEg0BXP",
+        "id": "7vNNmjV14SKQzlQAEg0BXP",
+        "name": "Jean Dawson",
+        "type": "artist",
+        "uri": "spotify:artist:7vNNmjV14SKQzlQAEg0BXP"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP"
+        },
+        "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP",
+        "id": "7tYKF4w9nC0nq9CsPZTHyP",
+        "name": "SZA",
+        "type": "artist",
+        "uri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 213026,
+    "episode": false,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "QZ9H32300085"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/0dn6S6lJqAIQg90kMmWtVj"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0dn6S6lJqAIQg90kMmWtVj",
+    "id": "0dn6S6lJqAIQg90kMmWtVj",
+    "is_local": false,
+    "name": "NO SZNS",
+    "popularity": 72,
+    "preview_url": "https://p.scdn.co/mp3-preview/6c57f6baa69cfef571159bf966fe39bb5d1a3e88?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "track": true,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:0dn6S6lJqAIQg90kMmWtVj",
+    "playlist_name": "2023 OCT"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0LOK81e9H5lr61HlGGHqwA"
+          },
+          "href": "https://api.spotify.com/v1/artists/0LOK81e9H5lr61HlGGHqwA",
+          "id": "0LOK81e9H5lr61HlGGHqwA",
+          "name": "XG",
+          "type": "artist",
+          "uri": "spotify:artist:0LOK81e9H5lr61HlGGHqwA"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/5iBG5tDegPYWxpzmgYs4KK"
+      },
+      "href": "https://api.spotify.com/v1/albums/5iBG5tDegPYWxpzmgYs4KK",
+      "id": "5iBG5tDegPYWxpzmgYs4KK",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b27307c9742c8e4de5cee2d237e2",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e0207c9742c8e4de5cee2d237e2",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d0000485107c9742c8e4de5cee2d237e2",
+          "width": 64
+        }
+      ],
+      "name": "NEW DANCE",
+      "release_date": "2023-08-23",
+      "release_date_precision": "day",
+      "total_tracks": 1,
+      "type": "album",
+      "uri": "spotify:album:5iBG5tDegPYWxpzmgYs4KK"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0LOK81e9H5lr61HlGGHqwA"
+        },
+        "href": "https://api.spotify.com/v1/artists/0LOK81e9H5lr61HlGGHqwA",
+        "id": "0LOK81e9H5lr61HlGGHqwA",
+        "name": "XG",
+        "type": "artist",
+        "uri": "spotify:artist:0LOK81e9H5lr61HlGGHqwA"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 198520,
+    "episode": false,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "JPB602302861"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/6Pjzy9avwlVr4UAbxkQQmh"
+    },
+    "href": "https://api.spotify.com/v1/tracks/6Pjzy9avwlVr4UAbxkQQmh",
+    "id": "6Pjzy9avwlVr4UAbxkQQmh",
+    "is_local": false,
+    "name": "NEW DANCE",
+    "popularity": 78,
+    "preview_url": "https://p.scdn.co/mp3-preview/70da06487cbbeed8004bdfb85fbe979655ca91df?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "track": true,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:6Pjzy9avwlVr4UAbxkQQmh",
+    "playlist_name": "2023 SEP"
+  },
+  {
+    "album": {
       "album_type": "album",
       "artists": [
         {
@@ -147,7 +323,7 @@
     "id": "644ljpbJRmneqzlTfURbKB",
     "is_local": false,
     "name": "Mirror Mirror",
-    "popularity": 31,
+    "popularity": 30,
     "preview_url": "https://p.scdn.co/mp3-preview/517bf547b51994bdf0aba51663b2929c75b768be?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
@@ -225,7 +401,7 @@
     "id": "37CoOXIsgF3NzbK1zHZetk",
     "is_local": false,
     "name": "Mona Lisa (Spider-Man: Across the Spider-Verse)",
-    "popularity": 83,
+    "popularity": 78,
     "preview_url": "https://p.scdn.co/mp3-preview/cea8b314f8b3777c6b87a45187b7b522d3911fde?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -303,7 +479,7 @@
     "id": "5sdQOyqq2IDhvmx2lHOpwd",
     "is_local": false,
     "name": "Super Shy",
-    "popularity": 95,
+    "popularity": 92,
     "preview_url": "https://p.scdn.co/mp3-preview/dab062e2cc708a2680ce84953a3581c5a679a230?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -381,8 +557,8 @@
     "id": "3Or8LWwxpnHISX7Mjt07X5",
     "is_local": false,
     "name": "Vitamins",
-    "popularity": 55,
-    "preview_url": "https://p.scdn.co/mp3-preview/eea22648aa2d99aeb2f039156421792e07aaed1b?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "popularity": 50,
+    "preview_url": "https://p.scdn.co/mp3-preview/3d00384a19accefc8bb3a6e50379930b1d8416a8?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
     "type": "track",
@@ -567,7 +743,7 @@
     "id": "7sT48E0PEPQy5cd4Nwfexs",
     "is_local": false,
     "name": "One",
-    "popularity": 33,
+    "popularity": 31,
     "preview_url": "https://p.scdn.co/mp3-preview/848e45be0007a98dead4c25d4e706f1fdaca9bf6?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -841,7 +1017,7 @@
     "id": "60Uio68M57PwKEgZxSutL6",
     "is_local": false,
     "name": "'Til We Meet Again",
-    "popularity": 62,
+    "popularity": 59,
     "preview_url": "https://p.scdn.co/mp3-preview/1a37ff462941b9cc72332b254115e2c29b2f7c46?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
@@ -919,7 +1095,7 @@
     "id": "2yYj4A83qox4a2SBAE6a3t",
     "is_local": false,
     "name": "So Special",
-    "popularity": 54,
+    "popularity": 49,
     "preview_url": "https://p.scdn.co/mp3-preview/a6d4a28806d2b7741476a4c22caac7827c5e4ec2?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1007,7 +1183,7 @@
     "id": "3Qq7nbEvgBzhtsO2fMnXvf",
     "is_local": false,
     "name": "STARSTUD",
-    "popularity": 48,
+    "popularity": 46,
     "preview_url": "https://p.scdn.co/mp3-preview/ccdf011a3126d12af86adf3dda9e1cdd47afeaa9?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1085,7 +1261,7 @@
     "id": "71I3KFTKzYz1qi3SBctusp",
     "is_local": false,
     "name": "\u30cf\u30eb\u30b8\u30aa\u30f3",
-    "popularity": 49,
+    "popularity": 48,
     "preview_url": "https://p.scdn.co/mp3-preview/c29b0a34ffe01a1a21b393acb363c9594f4542d5?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1183,8 +1359,8 @@
     "id": "5bcFTH2LS9V9AXSDi8q3i2",
     "is_local": false,
     "name": "Dive",
-    "popularity": 47,
-    "preview_url": "https://p.scdn.co/mp3-preview/a0afffa86fc976a2b40e95010ad2ad7946ff0e68?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "popularity": 35,
+    "preview_url": null,
     "track": true,
     "track_number": 1,
     "type": "track",
@@ -1261,7 +1437,7 @@
     "id": "60O330MwrWVWCp9fpxzulM",
     "is_local": false,
     "name": "Never Let Me Go",
-    "popularity": 44,
+    "popularity": 42,
     "preview_url": "https://p.scdn.co/mp3-preview/5f91626543a59510622c6fe136476f430202403b?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1339,7 +1515,7 @@
     "id": "5ADT1DgRH94JdXcAy1IxMj",
     "is_local": false,
     "name": "L.U.V.",
-    "popularity": 56,
+    "popularity": 55,
     "preview_url": "https://p.scdn.co/mp3-preview/90750e23fbc0ee35a6c6b6a2d882211f4b0f11dd?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1417,7 +1593,7 @@
     "id": "1OEIMV580Xj8BeyeFB8fvl",
     "is_local": false,
     "name": "Lost Cause",
-    "popularity": 46,
+    "popularity": 43,
     "preview_url": "https://p.scdn.co/mp3-preview/53ffe6fea60ac159a8fae5e949834e5c29e9345c?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 3,
@@ -1573,7 +1749,7 @@
     "id": "3IelG5zYpWWCZIH4cqWlPV",
     "is_local": false,
     "name": "SHOOTING STAR",
-    "popularity": 77,
+    "popularity": 75,
     "preview_url": "https://p.scdn.co/mp3-preview/4f29587547fa7807f9536a11df061ade3237bc2d?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1651,7 +1827,7 @@
     "id": "65FftemJ1DbbZ45DUfHJXE",
     "is_local": false,
     "name": "OMG",
-    "popularity": 89,
+    "popularity": 87,
     "preview_url": "https://p.scdn.co/mp3-preview/b9e344aa96afc45a56df77ca63c78786bdaa0047?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1905,8 +2081,8 @@
     "id": "6dEN1q3YD7mvmGZGqqUE06",
     "is_local": false,
     "name": "Tanaka 2",
-    "popularity": 52,
-    "preview_url": "https://p.scdn.co/mp3-preview/32c84a8ecb54eddd72f716e7eb99f47f1af9fd53?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "popularity": 38,
+    "preview_url": null,
     "track": true,
     "track_number": 1,
     "type": "track",
@@ -1983,7 +2159,7 @@
     "id": "1RHTdr5QfviCYI70QPPDJN",
     "is_local": false,
     "name": "Generation",
-    "popularity": 66,
+    "popularity": 65,
     "preview_url": "https://p.scdn.co/mp3-preview/57c14e22422d487fa458321e00f15a9fe6532146?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -2139,7 +2315,7 @@
     "id": "4fsQ0K37TOXa3hEQfjEic1",
     "is_local": false,
     "name": "ANTIFRAGILE",
-    "popularity": 80,
+    "popularity": 78,
     "preview_url": "https://p.scdn.co/mp3-preview/97a1c7e470172e0993f8f65dc109ab9d017d7adc?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -2305,7 +2481,7 @@
     "id": "4tJ3FXTQcPYPAgicdJgjtD",
     "is_local": false,
     "name": "Sometimes (Feat. GSoul)",
-    "popularity": 32,
+    "popularity": 31,
     "preview_url": "https://p.scdn.co/mp3-preview/2f473da1c708602dd3081fab412e909d1249a2ba?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 3,
@@ -2383,7 +2559,7 @@
     "id": "0ac12GgX8LZK0VNC4N91o2",
     "is_local": false,
     "name": "Yoku",
-    "popularity": 53,
+    "popularity": 52,
     "preview_url": "https://p.scdn.co/mp3-preview/55591633e380676dbe7e6dbef2d267a0051a51ba?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 7,
@@ -2480,8 +2656,8 @@
     "href": "https://api.spotify.com/v1/tracks/3Lf16tRdqj4H7MBtCSztDS",
     "id": "3Lf16tRdqj4H7MBtCSztDS",
     "is_local": false,
-    "name": "Sunshine (feat. Lil Wayne & Childish Gambino)",
-    "popularity": 53,
+    "name": "Sunshine (feat. Lil Wayne)",
+    "popularity": 51,
     "preview_url": "https://p.scdn.co/mp3-preview/12ff37441c9b87bdd2b05bbbec786b21f715c884?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 5,

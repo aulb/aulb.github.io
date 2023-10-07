@@ -44,15 +44,19 @@ const determineCardColor = genres => {
 }
 
 const PlaylistCard = ({playlist, index, genres=null, track=null}) => {
+  if (track == null) {
+    return null;
+  }
+
   const [hover, setHover] = useState(false)
   const [isFront, setIsFront] = useState(true)
 
-  const { 
-    tracks, 
+  const {
+    tracks,
     created_at,
-    name: playlistName, 
-    images: playlistImage, 
-    external_urls: playlistUrl, 
+    name: playlistName,
+    images: playlistImage,
+    external_urls: playlistUrl,
   } = playlist
   const image = playlistImage.length > 0 ? playlistImage[0] : null
   const createdAt = new Date(created_at)
@@ -67,13 +71,13 @@ const PlaylistCard = ({playlist, index, genres=null, track=null}) => {
     artists,
     name: trackName,
     external_urls: trackUrl,
-  } = track
+  } = track || {}
 
   const {
     images: albumImages,
   } = album
   const trackImage = albumImages.length === 3 ? albumImages[1] : null
-  const trackNameComponent = trackName.length > 15 ? 
+  const trackNameComponent = trackName.length > 15 ?
     <Marquee speed={35}>{trackName}<span>&nbsp;&nbsp;</span></Marquee> : trackName
 
   let artistsComponent = artists.map(
@@ -84,26 +88,26 @@ const PlaylistCard = ({playlist, index, genres=null, track=null}) => {
   if (artists.reduce((acc, artist) => acc + artist.name.length, 0) > 15) {
     artistsComponent = <Marquee speed={35}>{artistsComponent}<span>&nbsp;&nbsp;</span></Marquee>
   }
-  
+
   return (
     <div className={cardScene}>
-      <div 
-        onClick={() => setIsFront(!isFront)} 
-        onMouseEnter={() => setHover(true)} 
+      <div
+        onClick={() => setIsFront(!isFront)}
+        onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
         className={`${card} ${isFront ? null : cardIsFlipped}`}
       >
-        <PlaylistCardFace 
+        <PlaylistCardFace
           imageSrc={image?.url}
           imageUrl={playlistUrl.spotify}
           backgroundColor={hover ? bgColorHoverStyle : bgColorStyle}
           mainTextComponent={<span>{index === 0 ? <span>📌&nbsp;</span> : null}<strong>{playlistName}</strong></span>}
           childTextComponent={<span>{createdAtStr} · {tracks.total} {tracks.total > 1 ? "songs" : "song"}</span>}
         />
-        <PlaylistCardFace 
+        <PlaylistCardFace
           imageSrc={trackImage.url}
           imageUrl={trackUrl.spotify}
-          /* Hacky solution to apply background to back faces so the front face 
+          /* Hacky solution to apply background to back faces so the front face
           doesn't show up. */
           backgroundColor={hover ? bgColorHoverStyle : bgColorStyle}
           mainTextComponent={<strong>{trackNameComponent}</strong>}
