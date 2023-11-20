@@ -10,7 +10,6 @@
   transform: rotateY(180deg);
 }
 
-
 .cardFaceImage {
   width: 160px;
   height: 160px;
@@ -27,9 +26,10 @@
   margin: 0 20px;
   line-height: 0;
 }
-  
+
 .cardFaceText {
   margin: 0;
+  line-height: 1.75rem;
 }
 
 @media (max-width: 500px) {
