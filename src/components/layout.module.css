@@ -9,7 +9,7 @@ body {
   margin: 2rem 0 1.5rem 0;
 }
 
-.container { 
+.container {
   width: 87.5%;
   max-width: 1000px;
   margin-left: auto;
@@ -21,7 +21,11 @@ body {
 
 p {
   font-size: 1rem;
-  line-height: 1.75rem;
+  line-height: 1rem;
+}
+
+ul li {
+  list-style: none;
 }
 
 a {

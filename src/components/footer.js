@@ -16,6 +16,8 @@ const Footer = () => {
       <Link to={goodreads} target="_blank">goodreads</Link>
       &nbsp;•&nbsp;
       <Link to="/copyright">&copy;</Link> 2014 - {(new Date()).getFullYear()}
+      &nbsp;•&nbsp;
+      Last updated: November 2023
       </div>
   )
 }

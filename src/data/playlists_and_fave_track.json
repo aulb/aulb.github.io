@@ -5,6 +5,162 @@
       "artists": [
         {
           "external_urls": {
+            "spotify": "https://open.spotify.com/artist/3SozjO3Lat463tQICI9LcE"
+          },
+          "href": "https://api.spotify.com/v1/artists/3SozjO3Lat463tQICI9LcE",
+          "id": "3SozjO3Lat463tQICI9LcE",
+          "name": "Tyla",
+          "type": "artist",
+          "uri": "spotify:artist:3SozjO3Lat463tQICI9LcE"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/22sXXkKgjEuawIFL1e1tRw"
+      },
+      "href": "https://api.spotify.com/v1/albums/22sXXkKgjEuawIFL1e1tRw",
+      "id": "22sXXkKgjEuawIFL1e1tRw",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273d20231861e86a6f74ef2393e",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02d20231861e86a6f74ef2393e",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851d20231861e86a6f74ef2393e",
+          "width": 64
+        }
+      ],
+      "name": "Water",
+      "release_date": "2023-07-28",
+      "release_date_precision": "day",
+      "total_tracks": 1,
+      "type": "album",
+      "uri": "spotify:album:22sXXkKgjEuawIFL1e1tRw"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3SozjO3Lat463tQICI9LcE"
+        },
+        "href": "https://api.spotify.com/v1/artists/3SozjO3Lat463tQICI9LcE",
+        "id": "3SozjO3Lat463tQICI9LcE",
+        "name": "Tyla",
+        "type": "artist",
+        "uri": "spotify:artist:3SozjO3Lat463tQICI9LcE"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 200255,
+    "episode": false,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USSM12305126"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/5aIVCx5tnk0ntmdiinnYvw"
+    },
+    "href": "https://api.spotify.com/v1/tracks/5aIVCx5tnk0ntmdiinnYvw",
+    "id": "5aIVCx5tnk0ntmdiinnYvw",
+    "is_local": false,
+    "name": "Water",
+    "popularity": 96,
+    "preview_url": "https://p.scdn.co/mp3-preview/92479d43666b31ca72b7e2a4fad74568f98ee41e?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "track": true,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:5aIVCx5tnk0ntmdiinnYvw",
+    "playlist_name": "2023 NOV #2"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p"
+          },
+          "href": "https://api.spotify.com/v1/artists/4SpbR6yFEvexJuaBpgAU5p",
+          "id": "4SpbR6yFEvexJuaBpgAU5p",
+          "name": "LE SSERAFIM",
+          "type": "artist",
+          "uri": "spotify:artist:4SpbR6yFEvexJuaBpgAU5p"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/6Msc3BwzKZ5f5FXmKuUSu6"
+      },
+      "href": "https://api.spotify.com/v1/albums/6Msc3BwzKZ5f5FXmKuUSu6",
+      "id": "6Msc3BwzKZ5f5FXmKuUSu6",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b2735e352f6eccf8cb96d0b247cc",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e025e352f6eccf8cb96d0b247cc",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d000048515e352f6eccf8cb96d0b247cc",
+          "width": 64
+        }
+      ],
+      "name": "Perfect Night",
+      "release_date": "2023-10-27",
+      "release_date_precision": "day",
+      "total_tracks": 1,
+      "type": "album",
+      "uri": "spotify:album:6Msc3BwzKZ5f5FXmKuUSu6"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p"
+        },
+        "href": "https://api.spotify.com/v1/artists/4SpbR6yFEvexJuaBpgAU5p",
+        "id": "4SpbR6yFEvexJuaBpgAU5p",
+        "name": "LE SSERAFIM",
+        "type": "artist",
+        "uri": "spotify:artist:4SpbR6yFEvexJuaBpgAU5p"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 159080,
+    "episode": false,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USA2P2349660"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/74X2u8JMVooG2QbjRxXwR8"
+    },
+    "href": "https://api.spotify.com/v1/tracks/74X2u8JMVooG2QbjRxXwR8",
+    "id": "74X2u8JMVooG2QbjRxXwR8",
+    "is_local": false,
+    "name": "Perfect Night",
+    "popularity": 89,
+    "preview_url": "https://p.scdn.co/mp3-preview/4e84e2dc9edab896f88263c634e88f39a6db61e1?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "track": true,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:74X2u8JMVooG2QbjRxXwR8",
+    "playlist_name": "2023 NOV"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": {
             "spotify": "https://open.spotify.com/artist/7vNNmjV14SKQzlQAEg0BXP"
           },
           "href": "https://api.spotify.com/v1/artists/7vNNmjV14SKQzlQAEg0BXP",
@@ -89,7 +245,7 @@
     "id": "0dn6S6lJqAIQg90kMmWtVj",
     "is_local": false,
     "name": "NO SZNS",
-    "popularity": 72,
+    "popularity": 67,
     "preview_url": "https://p.scdn.co/mp3-preview/6c57f6baa69cfef571159bf966fe39bb5d1a3e88?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -167,7 +323,7 @@
     "id": "6Pjzy9avwlVr4UAbxkQQmh",
     "is_local": false,
     "name": "NEW DANCE",
-    "popularity": 78,
+    "popularity": 75,
     "preview_url": "https://p.scdn.co/mp3-preview/70da06487cbbeed8004bdfb85fbe979655ca91df?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -276,17 +432,17 @@
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab67616d0000b273f69c7420a50a9af552928880",
+          "url": "https://i.scdn.co/image/ab67616d0000b2732e2b3ce5fc3adc790b49d144",
           "width": 640
         },
         {
           "height": 300,
-          "url": "https://i.scdn.co/image/ab67616d00001e02f69c7420a50a9af552928880",
+          "url": "https://i.scdn.co/image/ab67616d00001e022e2b3ce5fc3adc790b49d144",
           "width": 300
         },
         {
           "height": 64,
-          "url": "https://i.scdn.co/image/ab67616d00004851f69c7420a50a9af552928880",
+          "url": "https://i.scdn.co/image/ab67616d000048512e2b3ce5fc3adc790b49d144",
           "width": 64
         }
       ],
@@ -323,8 +479,8 @@
     "id": "644ljpbJRmneqzlTfURbKB",
     "is_local": false,
     "name": "Mirror Mirror",
-    "popularity": 30,
-    "preview_url": "https://p.scdn.co/mp3-preview/517bf547b51994bdf0aba51663b2929c75b768be?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "popularity": 26,
+    "preview_url": "https://p.scdn.co/mp3-preview/1ef17cdd99ade73d78328839e0c1e46f802c0e7c?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
     "type": "track",
@@ -401,7 +557,7 @@
     "id": "37CoOXIsgF3NzbK1zHZetk",
     "is_local": false,
     "name": "Mona Lisa (Spider-Man: Across the Spider-Verse)",
-    "popularity": 78,
+    "popularity": 76,
     "preview_url": "https://p.scdn.co/mp3-preview/cea8b314f8b3777c6b87a45187b7b522d3911fde?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -479,7 +635,7 @@
     "id": "5sdQOyqq2IDhvmx2lHOpwd",
     "is_local": false,
     "name": "Super Shy",
-    "popularity": 92,
+    "popularity": 91,
     "preview_url": "https://p.scdn.co/mp3-preview/dab062e2cc708a2680ce84953a3581c5a679a230?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -557,7 +713,7 @@
     "id": "3Or8LWwxpnHISX7Mjt07X5",
     "is_local": false,
     "name": "Vitamins",
-    "popularity": 50,
+    "popularity": 48,
     "preview_url": "https://p.scdn.co/mp3-preview/3d00384a19accefc8bb3a6e50379930b1d8416a8?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
@@ -743,7 +899,7 @@
     "id": "7sT48E0PEPQy5cd4Nwfexs",
     "is_local": false,
     "name": "One",
-    "popularity": 31,
+    "popularity": 32,
     "preview_url": "https://p.scdn.co/mp3-preview/848e45be0007a98dead4c25d4e706f1fdaca9bf6?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -861,7 +1017,7 @@
     "id": "5wp6dhW0dCOO0TG4MGCIPT",
     "is_local": false,
     "name": "By Your Side",
-    "popularity": 59,
+    "popularity": 61,
     "preview_url": "https://p.scdn.co/mp3-preview/bc08f0297ce902e892a725aed8c776682c2efac4?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -939,7 +1095,7 @@
     "id": "2IFXUJjKJXQSiYJaSdxcz9",
     "is_local": false,
     "name": "Tsundoku",
-    "popularity": 36,
+    "popularity": 35,
     "preview_url": "https://p.scdn.co/mp3-preview/2b6c52fd8a4694b82aaf703b231097b3a33f03c9?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 3,
@@ -1017,7 +1173,7 @@
     "id": "60Uio68M57PwKEgZxSutL6",
     "is_local": false,
     "name": "'Til We Meet Again",
-    "popularity": 59,
+    "popularity": 58,
     "preview_url": "https://p.scdn.co/mp3-preview/1a37ff462941b9cc72332b254115e2c29b2f7c46?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
@@ -1095,7 +1251,7 @@
     "id": "2yYj4A83qox4a2SBAE6a3t",
     "is_local": false,
     "name": "So Special",
-    "popularity": 49,
+    "popularity": 44,
     "preview_url": "https://p.scdn.co/mp3-preview/a6d4a28806d2b7741476a4c22caac7827c5e4ec2?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1183,7 +1339,7 @@
     "id": "3Qq7nbEvgBzhtsO2fMnXvf",
     "is_local": false,
     "name": "STARSTUD",
-    "popularity": 46,
+    "popularity": 45,
     "preview_url": "https://p.scdn.co/mp3-preview/ccdf011a3126d12af86adf3dda9e1cdd47afeaa9?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1359,7 +1515,7 @@
     "id": "5bcFTH2LS9V9AXSDi8q3i2",
     "is_local": false,
     "name": "Dive",
-    "popularity": 35,
+    "popularity": 21,
     "preview_url": null,
     "track": true,
     "track_number": 1,
@@ -1593,7 +1749,7 @@
     "id": "1OEIMV580Xj8BeyeFB8fvl",
     "is_local": false,
     "name": "Lost Cause",
-    "popularity": 43,
+    "popularity": 41,
     "preview_url": "https://p.scdn.co/mp3-preview/53ffe6fea60ac159a8fae5e949834e5c29e9345c?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 3,
@@ -1671,7 +1827,7 @@
     "id": "7i5pytF8KaId51lIzatwdg",
     "is_local": false,
     "name": "Kiri Ga Naikara",
-    "popularity": 52,
+    "popularity": 51,
     "preview_url": null,
     "track": true,
     "track_number": 4,
@@ -1749,7 +1905,7 @@
     "id": "3IelG5zYpWWCZIH4cqWlPV",
     "is_local": false,
     "name": "SHOOTING STAR",
-    "popularity": 75,
+    "popularity": 74,
     "preview_url": "https://p.scdn.co/mp3-preview/4f29587547fa7807f9536a11df061ade3237bc2d?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1827,7 +1983,7 @@
     "id": "65FftemJ1DbbZ45DUfHJXE",
     "is_local": false,
     "name": "OMG",
-    "popularity": 87,
+    "popularity": 86,
     "preview_url": "https://p.scdn.co/mp3-preview/b9e344aa96afc45a56df77ca63c78786bdaa0047?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1905,7 +2061,7 @@
     "id": "6JFnWQKn3XWA2T9aMI982N",
     "is_local": false,
     "name": "\u041f\u043b\u0435\u043d\u043a\u0443 \u043f\u0435\u0440\u0435\u043c\u043e\u0442\u0430\u0439",
-    "popularity": 32,
+    "popularity": 31,
     "preview_url": "https://p.scdn.co/mp3-preview/65a547303965af12f70c7ad07a861e1b8035e7fb?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1983,7 +2139,7 @@
     "id": "38ZK4BFDqxUrEsjuC6DA5X",
     "is_local": false,
     "name": "Can You Love Me Tonight?",
-    "popularity": 52,
+    "popularity": 51,
     "preview_url": "https://p.scdn.co/mp3-preview/f79fd0de537dc305d48ec6b7198816dafe8bd857?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -2393,7 +2549,7 @@
     "id": "5viDyBHBnJHCF1XTcROFkF",
     "is_local": false,
     "name": "so good",
-    "popularity": 51,
+    "popularity": 50,
     "preview_url": null,
     "track": true,
     "track_number": 1,
@@ -2481,7 +2637,7 @@
     "id": "4tJ3FXTQcPYPAgicdJgjtD",
     "is_local": false,
     "name": "Sometimes (Feat. GSoul)",
-    "popularity": 31,
+    "popularity": 29,
     "preview_url": "https://p.scdn.co/mp3-preview/2f473da1c708602dd3081fab412e909d1249a2ba?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 3,
@@ -2559,7 +2715,7 @@
     "id": "0ac12GgX8LZK0VNC4N91o2",
     "is_local": false,
     "name": "Yoku",
-    "popularity": 52,
+    "popularity": 51,
     "preview_url": "https://p.scdn.co/mp3-preview/55591633e380676dbe7e6dbef2d267a0051a51ba?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 7,
@@ -2656,8 +2812,8 @@
     "href": "https://api.spotify.com/v1/tracks/3Lf16tRdqj4H7MBtCSztDS",
     "id": "3Lf16tRdqj4H7MBtCSztDS",
     "is_local": false,
-    "name": "Sunshine (feat. Lil Wayne)",
-    "popularity": 51,
+    "name": "Sunshine (feat. Lil Wayne & Childish Gambino)",
+    "popularity": 52,
     "preview_url": "https://p.scdn.co/mp3-preview/12ff37441c9b87bdd2b05bbbec786b21f715c884?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 5,
