@@ -1,6 +1,84 @@
 [
   {
     "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK"
+          },
+          "href": "https://api.spotify.com/v1/artists/2uYWxilOVlUdk4oV9DvwqK",
+          "id": "2uYWxilOVlUdk4oV9DvwqK",
+          "name": "Mitski",
+          "type": "artist",
+          "uri": "spotify:artist:2uYWxilOVlUdk4oV9DvwqK"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/2Cn1d2KgbkAqbZCJ1RzdkA"
+      },
+      "href": "https://api.spotify.com/v1/albums/2Cn1d2KgbkAqbZCJ1RzdkA",
+      "id": "2Cn1d2KgbkAqbZCJ1RzdkA",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b27334f21d3047d85440dfa37f10",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e0234f21d3047d85440dfa37f10",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d0000485134f21d3047d85440dfa37f10",
+          "width": 64
+        }
+      ],
+      "name": "The Land Is Inhospitable and So Are We",
+      "release_date": "2023-09-15",
+      "release_date_precision": "day",
+      "total_tracks": 11,
+      "type": "album",
+      "uri": "spotify:album:2Cn1d2KgbkAqbZCJ1RzdkA"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK"
+        },
+        "href": "https://api.spotify.com/v1/artists/2uYWxilOVlUdk4oV9DvwqK",
+        "id": "2uYWxilOVlUdk4oV9DvwqK",
+        "name": "Mitski",
+        "type": "artist",
+        "uri": "spotify:artist:2uYWxilOVlUdk4oV9DvwqK"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 137773,
+    "episode": false,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USJ5G2335007"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/3vkCueOmm7xQDoJ17W1Pm3"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3vkCueOmm7xQDoJ17W1Pm3",
+    "id": "3vkCueOmm7xQDoJ17W1Pm3",
+    "is_local": false,
+    "name": "My Love Mine All Mine",
+    "popularity": 98,
+    "preview_url": "https://p.scdn.co/mp3-preview/2f90c9a6a2b6e38554d3bc3cf7512c2c70ac67b9?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "track": true,
+    "track_number": 7,
+    "type": "track",
+    "uri": "spotify:track:3vkCueOmm7xQDoJ17W1Pm3",
+    "playlist_name": "2023 DEC"
+  },
+  {
+    "album": {
       "album_type": "single",
       "artists": [
         {
@@ -69,7 +147,7 @@
     "id": "5aIVCx5tnk0ntmdiinnYvw",
     "is_local": false,
     "name": "Water",
-    "popularity": 96,
+    "popularity": 95,
     "preview_url": "https://p.scdn.co/mp3-preview/92479d43666b31ca72b7e2a4fad74568f98ee41e?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -147,7 +225,7 @@
     "id": "74X2u8JMVooG2QbjRxXwR8",
     "is_local": false,
     "name": "Perfect Night",
-    "popularity": 89,
+    "popularity": 90,
     "preview_url": "https://p.scdn.co/mp3-preview/4e84e2dc9edab896f88263c634e88f39a6db61e1?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -245,7 +323,7 @@
     "id": "0dn6S6lJqAIQg90kMmWtVj",
     "is_local": false,
     "name": "NO SZNS",
-    "popularity": 67,
+    "popularity": 66,
     "preview_url": "https://p.scdn.co/mp3-preview/6c57f6baa69cfef571159bf966fe39bb5d1a3e88?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -323,7 +401,7 @@
     "id": "6Pjzy9avwlVr4UAbxkQQmh",
     "is_local": false,
     "name": "NEW DANCE",
-    "popularity": 75,
+    "popularity": 73,
     "preview_url": "https://p.scdn.co/mp3-preview/70da06487cbbeed8004bdfb85fbe979655ca91df?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -479,7 +557,7 @@
     "id": "644ljpbJRmneqzlTfURbKB",
     "is_local": false,
     "name": "Mirror Mirror",
-    "popularity": 26,
+    "popularity": 24,
     "preview_url": "https://p.scdn.co/mp3-preview/1ef17cdd99ade73d78328839e0c1e46f802c0e7c?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
@@ -557,7 +635,7 @@
     "id": "37CoOXIsgF3NzbK1zHZetk",
     "is_local": false,
     "name": "Mona Lisa (Spider-Man: Across the Spider-Verse)",
-    "popularity": 76,
+    "popularity": 75,
     "preview_url": "https://p.scdn.co/mp3-preview/cea8b314f8b3777c6b87a45187b7b522d3911fde?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -635,7 +713,7 @@
     "id": "5sdQOyqq2IDhvmx2lHOpwd",
     "is_local": false,
     "name": "Super Shy",
-    "popularity": 91,
+    "popularity": 90,
     "preview_url": "https://p.scdn.co/mp3-preview/dab062e2cc708a2680ce84953a3581c5a679a230?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -714,7 +792,7 @@
     "is_local": false,
     "name": "Vitamins",
     "popularity": 48,
-    "preview_url": "https://p.scdn.co/mp3-preview/3d00384a19accefc8bb3a6e50379930b1d8416a8?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "preview_url": "https://p.scdn.co/mp3-preview/eea22648aa2d99aeb2f039156421792e07aaed1b?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
     "type": "track",
@@ -1251,7 +1329,7 @@
     "id": "2yYj4A83qox4a2SBAE6a3t",
     "is_local": false,
     "name": "So Special",
-    "popularity": 44,
+    "popularity": 43,
     "preview_url": "https://p.scdn.co/mp3-preview/a6d4a28806d2b7741476a4c22caac7827c5e4ec2?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1417,7 +1495,7 @@
     "id": "71I3KFTKzYz1qi3SBctusp",
     "is_local": false,
     "name": "\u30cf\u30eb\u30b8\u30aa\u30f3",
-    "popularity": 48,
+    "popularity": 47,
     "preview_url": "https://p.scdn.co/mp3-preview/c29b0a34ffe01a1a21b393acb363c9594f4542d5?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1515,7 +1593,7 @@
     "id": "5bcFTH2LS9V9AXSDi8q3i2",
     "is_local": false,
     "name": "Dive",
-    "popularity": 21,
+    "popularity": 15,
     "preview_url": null,
     "track": true,
     "track_number": 1,
@@ -1593,7 +1671,7 @@
     "id": "60O330MwrWVWCp9fpxzulM",
     "is_local": false,
     "name": "Never Let Me Go",
-    "popularity": 42,
+    "popularity": 41,
     "preview_url": "https://p.scdn.co/mp3-preview/5f91626543a59510622c6fe136476f430202403b?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1749,7 +1827,7 @@
     "id": "1OEIMV580Xj8BeyeFB8fvl",
     "is_local": false,
     "name": "Lost Cause",
-    "popularity": 41,
+    "popularity": 40,
     "preview_url": "https://p.scdn.co/mp3-preview/53ffe6fea60ac159a8fae5e949834e5c29e9345c?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 3,
@@ -2139,7 +2217,7 @@
     "id": "38ZK4BFDqxUrEsjuC6DA5X",
     "is_local": false,
     "name": "Can You Love Me Tonight?",
-    "popularity": 51,
+    "popularity": 50,
     "preview_url": "https://p.scdn.co/mp3-preview/f79fd0de537dc305d48ec6b7198816dafe8bd857?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -2237,7 +2315,7 @@
     "id": "6dEN1q3YD7mvmGZGqqUE06",
     "is_local": false,
     "name": "Tanaka 2",
-    "popularity": 38,
+    "popularity": 40,
     "preview_url": null,
     "track": true,
     "track_number": 1,
