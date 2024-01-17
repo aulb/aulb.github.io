@@ -5,6 +5,114 @@
       "collaborative": false,
       "description": "",
       "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7i9k3xsEw03mGh2MWh3zcC"
+      },
+      "href": "https://api.spotify.com/v1/playlists/7i9k3xsEw03mGh2MWh3zcC",
+      "id": "7i9k3xsEw03mGh2MWh3zcC",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb34e4339a38ef6811583c3451",
+          "width": null
+        }
+      ],
+      "name": "2024 JAN #2",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MzksMzIzNzNiMGM5ZTQyMjU4NDYxNWRhMmY5MmY0MjQ2NjE3ZTgzOGYzZQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7i9k3xsEw03mGh2MWh3zcC/tracks",
+        "total": 36
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:7i9k3xsEw03mGh2MWh3zcC"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/65SONccIdzmwjOoIKsDwyx"
+      },
+      "href": "https://api.spotify.com/v1/playlists/65SONccIdzmwjOoIKsDwyx",
+      "id": "65SONccIdzmwjOoIKsDwyx",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb60e824abd8d0d6bbd92de411",
+          "width": null
+        }
+      ],
+      "name": "2024 JAN",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NTUsMDFkNTM0MjBiZDIyMjEyNWJjMGFjZjMyNzEzYzYzNDM0ZGIyOTkzZA==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/65SONccIdzmwjOoIKsDwyx/tracks",
+        "total": 51
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:65SONccIdzmwjOoIKsDwyx"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2CVW40lIPwshTEUeW17d8U"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2CVW40lIPwshTEUeW17d8U",
+      "id": "2CVW40lIPwshTEUeW17d8U",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb7ad159698e4ff62c467d566e",
+          "width": null
+        }
+      ],
+      "name": "2023 DEC #2",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NTYsZjZlMmFlODM4ZjEyZmViNDBiNGY0NDBjYmJhZmRjNmQwYWNmM2IzNg==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2CVW40lIPwshTEUeW17d8U/tracks",
+        "total": 51
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2CVW40lIPwshTEUeW17d8U"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
         "spotify": "https://open.spotify.com/playlist/1EAGTC67XJuYGZ5pZ5FAvD"
       },
       "href": "https://api.spotify.com/v1/playlists/1EAGTC67XJuYGZ5pZ5FAvD",
@@ -29,10 +137,10 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "MjgsMWFkNTUyZWQ1NGE3ZGY3ZGM2MGMyZGFjNjFlYTQzNmNkMGZhNGViZg==",
+      "snapshot_id": "NDAsNDVlNzA5NDhhNGE5M2YwM2EzN2Y2YzUzNjQxNDU1MTQwZmY0YTQ0OQ==",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/1EAGTC67XJuYGZ5pZ5FAvD/tracks",
-        "total": 26
+        "total": 38
       },
       "type": "playlist",
       "uri": "spotify:playlist:1EAGTC67XJuYGZ5pZ5FAvD",
@@ -72,8 +180,7 @@
         "total": 47
       },
       "type": "playlist",
-      "uri": "spotify:playlist:6SDGi04zltcrn1fFXhPADY",
-      "created_at": "2023-11-16T19:17:28Z"
+      "uri": "spotify:playlist:6SDGi04zltcrn1fFXhPADY"
     },
     {
       "collaborative": false,
@@ -109,8 +216,7 @@
         "total": 38
       },
       "type": "playlist",
-      "uri": "spotify:playlist:2mwjuWadmLiwMNIGCBF6Fi",
-      "created_at": "2023-11-03T09:55:33Z"
+      "uri": "spotify:playlist:2mwjuWadmLiwMNIGCBF6Fi"
     },
     {
       "collaborative": false,
@@ -146,8 +252,7 @@
         "total": 55
       },
       "type": "playlist",
-      "uri": "spotify:playlist:4v11meeRUNLdHQl4BUTY2M",
-      "created_at": "2023-10-01T20:49:58Z"
+      "uri": "spotify:playlist:4v11meeRUNLdHQl4BUTY2M"
     },
     {
       "collaborative": false,
@@ -160,7 +265,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb5ab38689f2d5e802586f38ea",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebb5ab38689f2d5e802586f38ea",
           "width": null
         }
       ],
@@ -183,8 +288,7 @@
         "total": 59
       },
       "type": "playlist",
-      "uri": "spotify:playlist:4erOBcbfNUEP9VL1eglVHx",
-      "created_at": "2023-09-01T07:15:28Z"
+      "uri": "spotify:playlist:4erOBcbfNUEP9VL1eglVHx"
     },
     {
       "collaborative": false,
@@ -220,8 +324,7 @@
         "total": 45
       },
       "type": "playlist",
-      "uri": "spotify:playlist:2yvGSuxB9BkH40CDWJTQir",
-      "created_at": "2023-08-13T20:07:24Z"
+      "uri": "spotify:playlist:2yvGSuxB9BkH40CDWJTQir"
     },
     {
       "collaborative": false,
@@ -257,8 +360,7 @@
         "total": 41
       },
       "type": "playlist",
-      "uri": "spotify:playlist:6IjWdzrTONvBACYxa2o4YG",
-      "created_at": "2023-08-02T06:20:43Z"
+      "uri": "spotify:playlist:6IjWdzrTONvBACYxa2o4YG"
     },
     {
       "collaborative": false,
@@ -294,8 +396,7 @@
         "total": 41
       },
       "type": "playlist",
-      "uri": "spotify:playlist:7A0Sq1SJYentcGgsS0tOx2",
-      "created_at": "2023-07-20T06:06:58Z"
+      "uri": "spotify:playlist:7A0Sq1SJYentcGgsS0tOx2"
     },
     {
       "collaborative": false,
@@ -331,8 +432,7 @@
         "total": 52
       },
       "type": "playlist",
-      "uri": "spotify:playlist:6ITL40QlwYyGARKxKUXHCT",
-      "created_at": "2023-07-02T03:48:57Z"
+      "uri": "spotify:playlist:6ITL40QlwYyGARKxKUXHCT"
     },
     {
       "collaborative": false,
@@ -345,7 +445,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebb4ea89bb1d4b95b0e538b067c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb4ea89bb1d4b95b0e538b067c",
           "width": null
         }
       ],
@@ -368,8 +468,7 @@
         "total": 54
       },
       "type": "playlist",
-      "uri": "spotify:playlist:0Px5HJxNcHFu9LiK3PguPu",
-      "created_at": "2023-07-10T06:24:31Z"
+      "uri": "spotify:playlist:0Px5HJxNcHFu9LiK3PguPu"
     },
     {
       "collaborative": false,
@@ -405,8 +504,7 @@
         "total": 48
       },
       "type": "playlist",
-      "uri": "spotify:playlist:6XAUAurJG62IcCYxIBW5ah",
-      "created_at": "2023-06-15T17:58:20Z"
+      "uri": "spotify:playlist:6XAUAurJG62IcCYxIBW5ah"
     },
     {
       "collaborative": false,
@@ -419,7 +517,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebb0086ad9d747a738e7867a360",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb0086ad9d747a738e7867a360",
           "width": null
         }
       ],
@@ -442,8 +540,7 @@
         "total": 50
       },
       "type": "playlist",
-      "uri": "spotify:playlist:2oPHpYUAKkM4YP68j76sAP",
-      "created_at": "2023-06-02T04:59:13Z"
+      "uri": "spotify:playlist:2oPHpYUAKkM4YP68j76sAP"
     },
     {
       "collaborative": false,
@@ -479,8 +576,7 @@
         "total": 41
       },
       "type": "playlist",
-      "uri": "spotify:playlist:09jBECb8tMhuERpZ8gFHjm",
-      "created_at": "2023-05-25T02:51:24Z"
+      "uri": "spotify:playlist:09jBECb8tMhuERpZ8gFHjm"
     },
     {
       "collaborative": false,
@@ -493,7 +589,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebb7da14b75866492c952e088ef",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb7da14b75866492c952e088ef",
           "width": null
         }
       ],
@@ -516,8 +612,7 @@
         "total": 53
       },
       "type": "playlist",
-      "uri": "spotify:playlist:7v3gjcrkhcJwx6l78VRINr",
-      "created_at": "2023-05-16T06:30:30Z"
+      "uri": "spotify:playlist:7v3gjcrkhcJwx6l78VRINr"
     },
     {
       "collaborative": false,
@@ -553,8 +648,7 @@
         "total": 45
       },
       "type": "playlist",
-      "uri": "spotify:playlist:7GkH1UnD6uzGpKD0Kqg1xO",
-      "created_at": "2023-05-01T20:42:42Z"
+      "uri": "spotify:playlist:7GkH1UnD6uzGpKD0Kqg1xO"
     },
     {
       "collaborative": false,
@@ -590,8 +684,7 @@
         "total": 43
       },
       "type": "playlist",
-      "uri": "spotify:playlist:2auhDYD2RSAMjzcqGVPCOt",
-      "created_at": "2023-05-08T17:55:34Z"
+      "uri": "spotify:playlist:2auhDYD2RSAMjzcqGVPCOt"
     },
     {
       "collaborative": false,
@@ -604,7 +697,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb3fe8ddbe12b207bac708dbf0",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebb3fe8ddbe12b207bac708dbf0",
           "width": null
         }
       ],
@@ -627,8 +720,7 @@
         "total": 50
       },
       "type": "playlist",
-      "uri": "spotify:playlist:3sUqUiz5CnGX6lQIXtkfD4",
-      "created_at": "2023-04-25T18:43:10Z"
+      "uri": "spotify:playlist:3sUqUiz5CnGX6lQIXtkfD4"
     },
     {
       "collaborative": false,
@@ -664,8 +756,7 @@
         "total": 45
       },
       "type": "playlist",
-      "uri": "spotify:playlist:4UwHp3FNxseM4nt6ltjyVx",
-      "created_at": "2023-04-02T16:56:09Z"
+      "uri": "spotify:playlist:4UwHp3FNxseM4nt6ltjyVx"
     },
     {
       "collaborative": false,
@@ -678,7 +769,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebbe32f365561cfba3b7958b730",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbe32f365561cfba3b7958b730",
           "width": null
         }
       ],
@@ -701,8 +792,7 @@
         "total": 50
       },
       "type": "playlist",
-      "uri": "spotify:playlist:7oZ6XtTDzt0eFFUVBqAuus",
-      "created_at": "2023-04-15T14:17:27Z"
+      "uri": "spotify:playlist:7oZ6XtTDzt0eFFUVBqAuus"
     },
     {
       "collaborative": false,
@@ -738,8 +828,7 @@
         "total": 50
       },
       "type": "playlist",
-      "uri": "spotify:playlist:1Rrvcq3IRZ1Wd8qkAJQpY8",
-      "created_at": "2023-01-02T19:52:40Z"
+      "uri": "spotify:playlist:1Rrvcq3IRZ1Wd8qkAJQpY8"
     },
     {
       "collaborative": false,
@@ -775,8 +864,7 @@
         "total": 50
       },
       "type": "playlist",
-      "uri": "spotify:playlist:2nGWWsIF8WmUHGt2aZPT3O",
-      "created_at": "2023-02-01T21:33:09Z"
+      "uri": "spotify:playlist:2nGWWsIF8WmUHGt2aZPT3O"
     },
     {
       "collaborative": false,
@@ -812,8 +900,7 @@
         "total": 55
       },
       "type": "playlist",
-      "uri": "spotify:playlist:4EB9q0Eq1s1Kv8p0RVTpcg",
-      "created_at": "2023-03-01T23:03:44Z"
+      "uri": "spotify:playlist:4EB9q0Eq1s1Kv8p0RVTpcg"
     },
     {
       "collaborative": false,
@@ -849,8 +936,7 @@
         "total": 67
       },
       "type": "playlist",
-      "uri": "spotify:playlist:7D0oARSkDZoeKXWHI86H1t",
-      "created_at": "2023-02-15T23:10:00Z"
+      "uri": "spotify:playlist:7D0oARSkDZoeKXWHI86H1t"
     },
     {
       "collaborative": false,
@@ -863,7 +949,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebbec15bf11b10acf102671d161",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbec15bf11b10acf102671d161",
           "width": null
         }
       ],
@@ -886,8 +972,7 @@
         "total": 44
       },
       "type": "playlist",
-      "uri": "spotify:playlist:2aOY2vqyMt9zb939b6pzNU",
-      "created_at": "2023-03-12T23:33:38Z"
+      "uri": "spotify:playlist:2aOY2vqyMt9zb939b6pzNU"
     },
     {
       "collaborative": false,
@@ -923,8 +1008,7 @@
         "total": 52
       },
       "type": "playlist",
-      "uri": "spotify:playlist:5z2qLus9VGUmWHEzqMRTus",
-      "created_at": "2023-03-24T18:36:15Z"
+      "uri": "spotify:playlist:5z2qLus9VGUmWHEzqMRTus"
     },
     {
       "collaborative": false,
@@ -960,8 +1044,7 @@
         "total": 64
       },
       "type": "playlist",
-      "uri": "spotify:playlist:42drkmKKWHAEUuLxpBNGA9",
-      "created_at": "2022-10-01T19:04:00Z"
+      "uri": "spotify:playlist:42drkmKKWHAEUuLxpBNGA9"
     },
     {
       "collaborative": false,
@@ -997,8 +1080,7 @@
         "total": 50
       },
       "type": "playlist",
-      "uri": "spotify:playlist:2BsVTf1btqSl64BPFCJPOA",
-      "created_at": "2022-11-08T06:15:02Z"
+      "uri": "spotify:playlist:2BsVTf1btqSl64BPFCJPOA"
     },
     {
       "collaborative": false,
@@ -1034,8 +1116,7 @@
         "total": 43
       },
       "type": "playlist",
-      "uri": "spotify:playlist:6HFv5uUB5EtNhS24y0kGH9",
-      "created_at": "2022-12-02T04:27:10Z"
+      "uri": "spotify:playlist:6HFv5uUB5EtNhS24y0kGH9"
     },
     {
       "collaborative": false,
@@ -1071,8 +1152,7 @@
         "total": 44
       },
       "type": "playlist",
-      "uri": "spotify:playlist:2oYpIpGhKFfs53evgt9Jsy",
-      "created_at": "2022-11-17T05:00:39Z"
+      "uri": "spotify:playlist:2oYpIpGhKFfs53evgt9Jsy"
     },
     {
       "collaborative": false,
@@ -1108,8 +1188,7 @@
         "total": 50
       },
       "type": "playlist",
-      "uri": "spotify:playlist:1d95XcljtE93cnVMi6DsTY",
-      "created_at": "2022-08-01T19:04:10Z"
+      "uri": "spotify:playlist:1d95XcljtE93cnVMi6DsTY"
     },
     {
       "collaborative": false,
@@ -1145,8 +1224,7 @@
         "total": 61
       },
       "type": "playlist",
-      "uri": "spotify:playlist:2qRKeKSXkWjGP8mWdaDRf6",
-      "created_at": "2022-10-18T00:54:20Z"
+      "uri": "spotify:playlist:2qRKeKSXkWjGP8mWdaDRf6"
     },
     {
       "collaborative": false,
@@ -1182,8 +1260,7 @@
         "total": 51
       },
       "type": "playlist",
-      "uri": "spotify:playlist:2dbhbBqzjID5IzwrNec45l",
-      "created_at": "2022-12-08T07:45:01Z"
+      "uri": "spotify:playlist:2dbhbBqzjID5IzwrNec45l"
     },
     {
       "collaborative": false,
@@ -1219,8 +1296,7 @@
         "total": 49
       },
       "type": "playlist",
-      "uri": "spotify:playlist:1fzp2XkR3LYMYw4FCZUrOV",
-      "created_at": "2022-11-01T07:01:23Z"
+      "uri": "spotify:playlist:1fzp2XkR3LYMYw4FCZUrOV"
     },
     {
       "collaborative": false,
@@ -1256,8 +1332,7 @@
         "total": 75
       },
       "type": "playlist",
-      "uri": "spotify:playlist:6rQL1kWK7BHQ1gL7BfJSSx",
-      "created_at": "2022-09-01T07:26:19Z"
+      "uri": "spotify:playlist:6rQL1kWK7BHQ1gL7BfJSSx"
     },
     {
       "collaborative": false,
@@ -1270,7 +1345,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebbc13c8dcd1ed288414f7a50cf",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbc13c8dcd1ed288414f7a50cf",
           "width": null
         }
       ],
@@ -1293,13 +1368,12 @@
         "total": 30
       },
       "type": "playlist",
-      "uri": "spotify:playlist:6MrCRqFuYCMZOtGIJzgRjN",
-      "created_at": "2022-07-29T06:37:26Z"
+      "uri": "spotify:playlist:6MrCRqFuYCMZOtGIJzgRjN"
     }
   ],
   "limit": 50,
   "next": null,
   "offset": 0,
   "previous": null,
-  "total": 35
+  "total": 38
 }

@@ -5,6 +5,250 @@
       "artists": [
         {
           "external_urls": {
+            "spotify": "https://open.spotify.com/artist/3jNkaOXasoc7RsxdchvEVq"
+          },
+          "href": "https://api.spotify.com/v1/artists/3jNkaOXasoc7RsxdchvEVq",
+          "id": "3jNkaOXasoc7RsxdchvEVq",
+          "name": "Chase & Status",
+          "type": "artist",
+          "uri": "spotify:artist:3jNkaOXasoc7RsxdchvEVq"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/5TL5mPJjOPiQCcZzEpfuaU"
+      },
+      "href": "https://api.spotify.com/v1/albums/5TL5mPJjOPiQCcZzEpfuaU",
+      "id": "5TL5mPJjOPiQCcZzEpfuaU",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b27358bf2c109da54e701ff1b4d9",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e0258bf2c109da54e701ff1b4d9",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d0000485158bf2c109da54e701ff1b4d9",
+          "width": 64
+        }
+      ],
+      "name": "RTRN II JUNGLE",
+      "release_date": "2019-05-31",
+      "release_date_precision": "day",
+      "total_tracks": 12,
+      "type": "album",
+      "uri": "spotify:album:5TL5mPJjOPiQCcZzEpfuaU"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3jNkaOXasoc7RsxdchvEVq"
+        },
+        "href": "https://api.spotify.com/v1/artists/3jNkaOXasoc7RsxdchvEVq",
+        "id": "3jNkaOXasoc7RsxdchvEVq",
+        "name": "Chase & Status",
+        "type": "artist",
+        "uri": "spotify:artist:3jNkaOXasoc7RsxdchvEVq"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4gg8KtjHChDiquPvIyQPcp"
+        },
+        "href": "https://api.spotify.com/v1/artists/4gg8KtjHChDiquPvIyQPcp",
+        "id": "4gg8KtjHChDiquPvIyQPcp",
+        "name": "Natty Campbell",
+        "type": "artist",
+        "uri": "spotify:artist:4gg8KtjHChDiquPvIyQPcp"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 246866,
+    "episode": false,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "GBUM71901986"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/2QkUKRYvZyNkfRFhpSXA2y"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2QkUKRYvZyNkfRFhpSXA2y",
+    "id": "2QkUKRYvZyNkfRFhpSXA2y",
+    "is_local": false,
+    "name": "Cool N Crisp",
+    "popularity": 34,
+    "preview_url": null,
+    "track": true,
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:2QkUKRYvZyNkfRFhpSXA2y",
+    "playlist_name": "2023 JAN #2"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+          },
+          "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
+          "id": "6HvZYsbFfjnjFrWF950C9d",
+          "name": "NewJeans",
+          "type": "artist",
+          "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/45ozep8uHHnj5CCittuyXj"
+      },
+      "href": "https://api.spotify.com/v1/albums/45ozep8uHHnj5CCittuyXj",
+      "id": "45ozep8uHHnj5CCittuyXj",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273d70036292d54f29e8b68ec01",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02d70036292d54f29e8b68ec01",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01",
+          "width": 64
+        }
+      ],
+      "name": "NewJeans 'OMG'",
+      "release_date": "2023-01-02",
+      "release_date_precision": "day",
+      "total_tracks": 2,
+      "type": "album",
+      "uri": "spotify:album:45ozep8uHHnj5CCittuyXj"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+        },
+        "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
+        "id": "6HvZYsbFfjnjFrWF950C9d",
+        "name": "NewJeans",
+        "type": "artist",
+        "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 212253,
+    "episode": false,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USA2P2251723"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
+    },
+    "href": "https://api.spotify.com/v1/tracks/65FftemJ1DbbZ45DUfHJXE",
+    "id": "65FftemJ1DbbZ45DUfHJXE",
+    "is_local": false,
+    "name": "OMG",
+    "popularity": 86,
+    "preview_url": "https://p.scdn.co/mp3-preview/b9e344aa96afc45a56df77ca63c78786bdaa0047?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "track": true,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:65FftemJ1DbbZ45DUfHJXE",
+    "playlist_name": "2023 JAN"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+          },
+          "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+          "id": "6eXZu6O7nAUA5z6vLV8NKI",
+          "name": "Little Simz",
+          "type": "artist",
+          "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/57263zG8Md6XZ9lBUPPYCm"
+      },
+      "href": "https://api.spotify.com/v1/albums/57263zG8Md6XZ9lBUPPYCm",
+      "id": "57263zG8Md6XZ9lBUPPYCm",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b27372f48f1e2e04cc76d06ee708",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e0272f48f1e2e04cc76d06ee708",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d0000485172f48f1e2e04cc76d06ee708",
+          "width": 64
+        }
+      ],
+      "name": "NO THANK YOU",
+      "release_date": "2022-12-12",
+      "release_date_precision": "day",
+      "total_tracks": 10,
+      "type": "album",
+      "uri": "spotify:album:57263zG8Md6XZ9lBUPPYCm"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+        },
+        "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+        "id": "6eXZu6O7nAUA5z6vLV8NKI",
+        "name": "Little Simz",
+        "type": "artist",
+        "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 352178,
+    "episode": false,
+    "explicit": true,
+    "external_ids": {
+      "isrc": "QMFME2257573"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/4pGxnHLyli1TLkRFHyBxo0"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4pGxnHLyli1TLkRFHyBxo0",
+    "id": "4pGxnHLyli1TLkRFHyBxo0",
+    "is_local": false,
+    "name": "Angel",
+    "popularity": 59,
+    "preview_url": "https://p.scdn.co/mp3-preview/8eb6fa6d25596562af0cdbfbe8e512b583a9fa05?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "track": true,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:4pGxnHLyli1TLkRFHyBxo0",
+    "playlist_name": "2023 DEC #2"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
             "spotify": "https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK"
           },
           "href": "https://api.spotify.com/v1/artists/2uYWxilOVlUdk4oV9DvwqK",
@@ -1990,84 +2234,6 @@
     "type": "track",
     "uri": "spotify:track:3IelG5zYpWWCZIH4cqWlPV",
     "playlist_name": "2023 FEB"
-  },
-  {
-    "album": {
-      "album_type": "single",
-      "artists": [
-        {
-          "external_urls": {
-            "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
-          },
-          "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
-          "id": "6HvZYsbFfjnjFrWF950C9d",
-          "name": "NewJeans",
-          "type": "artist",
-          "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
-        }
-      ],
-      "external_urls": {
-        "spotify": "https://open.spotify.com/album/45ozep8uHHnj5CCittuyXj"
-      },
-      "href": "https://api.spotify.com/v1/albums/45ozep8uHHnj5CCittuyXj",
-      "id": "45ozep8uHHnj5CCittuyXj",
-      "images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab67616d0000b273d70036292d54f29e8b68ec01",
-          "width": 640
-        },
-        {
-          "height": 300,
-          "url": "https://i.scdn.co/image/ab67616d00001e02d70036292d54f29e8b68ec01",
-          "width": 300
-        },
-        {
-          "height": 64,
-          "url": "https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01",
-          "width": 64
-        }
-      ],
-      "name": "NewJeans 'OMG'",
-      "release_date": "2023-01-02",
-      "release_date_precision": "day",
-      "total_tracks": 2,
-      "type": "album",
-      "uri": "spotify:album:45ozep8uHHnj5CCittuyXj"
-    },
-    "artists": [
-      {
-        "external_urls": {
-          "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
-        },
-        "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
-        "id": "6HvZYsbFfjnjFrWF950C9d",
-        "name": "NewJeans",
-        "type": "artist",
-        "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
-      }
-    ],
-    "disc_number": 1,
-    "duration_ms": 212253,
-    "episode": false,
-    "explicit": false,
-    "external_ids": {
-      "isrc": "USA2P2251723"
-    },
-    "external_urls": {
-      "spotify": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
-    },
-    "href": "https://api.spotify.com/v1/tracks/65FftemJ1DbbZ45DUfHJXE",
-    "id": "65FftemJ1DbbZ45DUfHJXE",
-    "is_local": false,
-    "name": "OMG",
-    "popularity": 86,
-    "preview_url": "https://p.scdn.co/mp3-preview/b9e344aa96afc45a56df77ca63c78786bdaa0047?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
-    "track": true,
-    "track_number": 1,
-    "type": "track",
-    "uri": "spotify:track:65FftemJ1DbbZ45DUfHJXE",
-    "playlist_name": "2023 JAN"
   },
   {
     "album": {
