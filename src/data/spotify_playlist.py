@@ -9,9 +9,12 @@ playlists = sp.user_playlists(user='_aulb',limit=50,offset=0) # Look at docs
 playlists2 = sp.user_playlists(user='_aulb',limit=50,offset=50) # Look at docs
 playlists["items"].extend(playlists2["items"])
 users_playlists = playlists["items"]
-playlists_and_genres = json.load(open("playlistS_and_genres.json", "r"))
-track_list = json.load(open("tracks.json", "r"))
-artist_list = json.load(open("artists.json", "r"))
+# playlists_and_genres = json.load(open("playlistS_and_genres.json", "r"))
+# track_list = json.load(open("tracks.json", "r"))
+# artist_list = json.load(open("artists.json", "r"))
+playlists_and_genres = []
+track_list = []
+artist_list = []
 done_with_playlist_ids = [
     "7i9k3xsEw03mGh2MWh3zcC",
     "65SONccIdzmwjOoIKsDwyx", # Up to 2024 JAN
@@ -83,9 +86,9 @@ for playlist in users_playlists:
 
     playlist_genres = []
     id = playlist["id"]
-    if id in done_with_playlist_ids:
-        print(playlist["name"])
-        continue
+    # if id in done_with_playlist_ids:
+    #     print(playlist["name"])
+    #     continue
     playlist_obj = sp.playlist(id)
     items = playlist_obj["tracks"]["items"]
     created_at = ""
