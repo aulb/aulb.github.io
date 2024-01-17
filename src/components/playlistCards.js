@@ -12,8 +12,8 @@ import PlaylistsGenres from '../data/playlists_and_genres.json'
 import PlaylistsFaveTracks from '../data/playlists_and_fave_track.json'
 
 const sortPlaylistByMostRecent = (playlistA, playlistB) => {
-  const createdAtA = new Date(playlistA.created_at) 
-  const createdAtB = new Date(playlistB.created_at) 
+  const createdAtA = new Date(playlistA.created_at)
+  const createdAtB = new Date(playlistB.created_at)
   if (createdAtA > createdAtB) return -1
   if (createdAtA < createdAtB) return 1
   return 0
@@ -24,9 +24,9 @@ const findItemInDictionaryByName = (dict, itemKey, name) => {
   return match.length === 0 ? null : match[0]
 }
 
-const PlaylistCards = ({ 
-  maxCard = 4, 
-  includeHeader = true, 
+const PlaylistCards = ({
+  maxCard = 4,
+  includeHeader = true,
   includeShowAll = true,
 }) => {
   const [expanded, setExpanded] = useState(false)
@@ -34,6 +34,7 @@ const PlaylistCards = ({
     .filter(playlist => playlist.public)
     .sort(sortPlaylistByMostRecent)
     .slice(0, expanded ? SpotifyJSONData.items.length : maxCard)
+  console.log(SpotifyJSONData.items.length)
   const shouldRenderShowAllContainer = includeHeader || includeShowAll
 
   return (
@@ -58,12 +59,12 @@ const PlaylistCards = ({
       }
       <div className={cardContainer}>
         {
-          playlists.map((playlist, index) => 
-            <PlaylistCard 
-              key={playlist.id} 
-              playlist={playlist} 
-              index={index} 
-              genres={findItemInDictionaryByName(PlaylistsGenres, 'name', playlist.name)} 
+          playlists.map((playlist, index) =>
+            <PlaylistCard
+              key={playlist.id}
+              playlist={playlist}
+              index={index}
+              genres={findItemInDictionaryByName(PlaylistsGenres, 'name', playlist.name)}
               track={findItemInDictionaryByName(PlaylistsFaveTracks, 'playlist_name', playlist.name)}
             />
           )

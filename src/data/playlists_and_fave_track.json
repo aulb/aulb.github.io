@@ -85,7 +85,7 @@
     "track_number": 6,
     "type": "track",
     "uri": "spotify:track:2QkUKRYvZyNkfRFhpSXA2y",
-    "playlist_name": "2023 JAN #2"
+    "playlist_name": "2024 JAN #2"
   },
   {
     "album": {
@@ -93,77 +93,77 @@
       "artists": [
         {
           "external_urls": {
-            "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+            "spotify": "https://open.spotify.com/artist/0dgJbQ0bKPyUXco8hEXN7X"
           },
-          "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
-          "id": "6HvZYsbFfjnjFrWF950C9d",
-          "name": "NewJeans",
+          "href": "https://api.spotify.com/v1/artists/0dgJbQ0bKPyUXco8hEXN7X",
+          "id": "0dgJbQ0bKPyUXco8hEXN7X",
+          "name": "\u00d8neheart",
           "type": "artist",
-          "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
+          "uri": "spotify:artist:0dgJbQ0bKPyUXco8hEXN7X"
         }
       ],
       "external_urls": {
-        "spotify": "https://open.spotify.com/album/45ozep8uHHnj5CCittuyXj"
+        "spotify": "https://open.spotify.com/album/5Z67gvwEyKrFxdU8Eq2xFm"
       },
-      "href": "https://api.spotify.com/v1/albums/45ozep8uHHnj5CCittuyXj",
-      "id": "45ozep8uHHnj5CCittuyXj",
+      "href": "https://api.spotify.com/v1/albums/5Z67gvwEyKrFxdU8Eq2xFm",
+      "id": "5Z67gvwEyKrFxdU8Eq2xFm",
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab67616d0000b273d70036292d54f29e8b68ec01",
+          "url": "https://i.scdn.co/image/ab67616d0000b2733cfd0d6ddee50f912bddd3ef",
           "width": 640
         },
         {
           "height": 300,
-          "url": "https://i.scdn.co/image/ab67616d00001e02d70036292d54f29e8b68ec01",
+          "url": "https://i.scdn.co/image/ab67616d00001e023cfd0d6ddee50f912bddd3ef",
           "width": 300
         },
         {
           "height": 64,
-          "url": "https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01",
+          "url": "https://i.scdn.co/image/ab67616d000048513cfd0d6ddee50f912bddd3ef",
           "width": 64
         }
       ],
-      "name": "NewJeans 'OMG'",
-      "release_date": "2023-01-02",
+      "name": "unforgettable memories",
+      "release_date": "2024-01-05",
       "release_date_precision": "day",
-      "total_tracks": 2,
+      "total_tracks": 1,
       "type": "album",
-      "uri": "spotify:album:45ozep8uHHnj5CCittuyXj"
+      "uri": "spotify:album:5Z67gvwEyKrFxdU8Eq2xFm"
     },
     "artists": [
       {
         "external_urls": {
-          "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+          "spotify": "https://open.spotify.com/artist/0dgJbQ0bKPyUXco8hEXN7X"
         },
-        "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
-        "id": "6HvZYsbFfjnjFrWF950C9d",
-        "name": "NewJeans",
+        "href": "https://api.spotify.com/v1/artists/0dgJbQ0bKPyUXco8hEXN7X",
+        "id": "0dgJbQ0bKPyUXco8hEXN7X",
+        "name": "\u00d8neheart",
         "type": "artist",
-        "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
+        "uri": "spotify:artist:0dgJbQ0bKPyUXco8hEXN7X"
       }
     ],
     "disc_number": 1,
-    "duration_ms": 212253,
+    "duration_ms": 110535,
     "episode": false,
     "explicit": false,
     "external_ids": {
-      "isrc": "USA2P2251723"
+      "isrc": "QMANG2240114"
     },
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
+      "spotify": "https://open.spotify.com/track/5p4OjRDaSEDL9lNsSD67R9"
     },
-    "href": "https://api.spotify.com/v1/tracks/65FftemJ1DbbZ45DUfHJXE",
-    "id": "65FftemJ1DbbZ45DUfHJXE",
+    "href": "https://api.spotify.com/v1/tracks/5p4OjRDaSEDL9lNsSD67R9",
+    "id": "5p4OjRDaSEDL9lNsSD67R9",
     "is_local": false,
-    "name": "OMG",
-    "popularity": 86,
-    "preview_url": "https://p.scdn.co/mp3-preview/b9e344aa96afc45a56df77ca63c78786bdaa0047?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "name": "unforgettable memories",
+    "popularity": 59,
+    "preview_url": "https://p.scdn.co/mp3-preview/56dec7a1eead0123fcece5440726b8401b83596c?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
     "type": "track",
-    "uri": "spotify:track:65FftemJ1DbbZ45DUfHJXE",
-    "playlist_name": "2023 JAN"
+    "uri": "spotify:track:5p4OjRDaSEDL9lNsSD67R9",
+    "playlist_name": "2024 JAN"
   },
   {
     "album": {
@@ -469,7 +469,7 @@
     "id": "74X2u8JMVooG2QbjRxXwR8",
     "is_local": false,
     "name": "Perfect Night",
-    "popularity": 90,
+    "popularity": 91,
     "preview_url": "https://p.scdn.co/mp3-preview/4e84e2dc9edab896f88263c634e88f39a6db61e1?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -567,7 +567,7 @@
     "id": "0dn6S6lJqAIQg90kMmWtVj",
     "is_local": false,
     "name": "NO SZNS",
-    "popularity": 66,
+    "popularity": 65,
     "preview_url": "https://p.scdn.co/mp3-preview/6c57f6baa69cfef571159bf966fe39bb5d1a3e88?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -645,7 +645,7 @@
     "id": "6Pjzy9avwlVr4UAbxkQQmh",
     "is_local": false,
     "name": "NEW DANCE",
-    "popularity": 73,
+    "popularity": 72,
     "preview_url": "https://p.scdn.co/mp3-preview/70da06487cbbeed8004bdfb85fbe979655ca91df?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -723,7 +723,7 @@
     "id": "6cfVDaIdvDtYH91RqC6Wox",
     "is_local": false,
     "name": "Hol' Up",
-    "popularity": 65,
+    "popularity": 66,
     "preview_url": "https://p.scdn.co/mp3-preview/5e5cb713b7afeb89159a9a78e7b5c020274cc914?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -801,7 +801,7 @@
     "id": "644ljpbJRmneqzlTfURbKB",
     "is_local": false,
     "name": "Mirror Mirror",
-    "popularity": 24,
+    "popularity": 23,
     "preview_url": "https://p.scdn.co/mp3-preview/1ef17cdd99ade73d78328839e0c1e46f802c0e7c?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
@@ -879,7 +879,7 @@
     "id": "37CoOXIsgF3NzbK1zHZetk",
     "is_local": false,
     "name": "Mona Lisa (Spider-Man: Across the Spider-Verse)",
-    "popularity": 75,
+    "popularity": 74,
     "preview_url": "https://p.scdn.co/mp3-preview/cea8b314f8b3777c6b87a45187b7b522d3911fde?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1035,7 +1035,7 @@
     "id": "3Or8LWwxpnHISX7Mjt07X5",
     "is_local": false,
     "name": "Vitamins",
-    "popularity": 48,
+    "popularity": 46,
     "preview_url": "https://p.scdn.co/mp3-preview/eea22648aa2d99aeb2f039156421792e07aaed1b?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 6,
@@ -1123,7 +1123,7 @@
     "id": "4NIe9Is7bN5JWyTeCW2ahK",
     "is_local": false,
     "name": "VIBE (feat. Jimin of BTS)",
-    "popularity": 70,
+    "popularity": 71,
     "preview_url": null,
     "track": true,
     "track_number": 1,
@@ -1221,7 +1221,7 @@
     "id": "7sT48E0PEPQy5cd4Nwfexs",
     "is_local": false,
     "name": "One",
-    "popularity": 32,
+    "popularity": 31,
     "preview_url": "https://p.scdn.co/mp3-preview/848e45be0007a98dead4c25d4e706f1fdaca9bf6?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 2,
@@ -1339,7 +1339,7 @@
     "id": "5wp6dhW0dCOO0TG4MGCIPT",
     "is_local": false,
     "name": "By Your Side",
-    "popularity": 61,
+    "popularity": 60,
     "preview_url": "https://p.scdn.co/mp3-preview/bc08f0297ce902e892a725aed8c776682c2efac4?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1573,7 +1573,7 @@
     "id": "2yYj4A83qox4a2SBAE6a3t",
     "is_local": false,
     "name": "So Special",
-    "popularity": 43,
+    "popularity": 41,
     "preview_url": "https://p.scdn.co/mp3-preview/a6d4a28806d2b7741476a4c22caac7827c5e4ec2?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1661,7 +1661,7 @@
     "id": "3Qq7nbEvgBzhtsO2fMnXvf",
     "is_local": false,
     "name": "STARSTUD",
-    "popularity": 45,
+    "popularity": 44,
     "preview_url": "https://p.scdn.co/mp3-preview/ccdf011a3126d12af86adf3dda9e1cdd47afeaa9?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1739,7 +1739,7 @@
     "id": "71I3KFTKzYz1qi3SBctusp",
     "is_local": false,
     "name": "\u30cf\u30eb\u30b8\u30aa\u30f3",
-    "popularity": 47,
+    "popularity": 46,
     "preview_url": "https://p.scdn.co/mp3-preview/c29b0a34ffe01a1a21b393acb363c9594f4542d5?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
@@ -1837,7 +1837,7 @@
     "id": "5bcFTH2LS9V9AXSDi8q3i2",
     "is_local": false,
     "name": "Dive",
-    "popularity": 15,
+    "popularity": 5,
     "preview_url": null,
     "track": true,
     "track_number": 1,
@@ -2071,7 +2071,7 @@
     "id": "1OEIMV580Xj8BeyeFB8fvl",
     "is_local": false,
     "name": "Lost Cause",
-    "popularity": 40,
+    "popularity": 41,
     "preview_url": "https://p.scdn.co/mp3-preview/53ffe6fea60ac159a8fae5e949834e5c29e9345c?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 3,
@@ -2227,13 +2227,91 @@
     "id": "3IelG5zYpWWCZIH4cqWlPV",
     "is_local": false,
     "name": "SHOOTING STAR",
-    "popularity": 74,
+    "popularity": 75,
     "preview_url": "https://p.scdn.co/mp3-preview/4f29587547fa7807f9536a11df061ade3237bc2d?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
     "track": true,
     "track_number": 1,
     "type": "track",
     "uri": "spotify:track:3IelG5zYpWWCZIH4cqWlPV",
     "playlist_name": "2023 FEB"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+          },
+          "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
+          "id": "6HvZYsbFfjnjFrWF950C9d",
+          "name": "NewJeans",
+          "type": "artist",
+          "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/45ozep8uHHnj5CCittuyXj"
+      },
+      "href": "https://api.spotify.com/v1/albums/45ozep8uHHnj5CCittuyXj",
+      "id": "45ozep8uHHnj5CCittuyXj",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273d70036292d54f29e8b68ec01",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02d70036292d54f29e8b68ec01",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01",
+          "width": 64
+        }
+      ],
+      "name": "NewJeans 'OMG'",
+      "release_date": "2023-01-02",
+      "release_date_precision": "day",
+      "total_tracks": 2,
+      "type": "album",
+      "uri": "spotify:album:45ozep8uHHnj5CCittuyXj"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+        },
+        "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
+        "id": "6HvZYsbFfjnjFrWF950C9d",
+        "name": "NewJeans",
+        "type": "artist",
+        "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 212253,
+    "episode": false,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USA2P2251723"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
+    },
+    "href": "https://api.spotify.com/v1/tracks/65FftemJ1DbbZ45DUfHJXE",
+    "id": "65FftemJ1DbbZ45DUfHJXE",
+    "is_local": false,
+    "name": "OMG",
+    "popularity": 87,
+    "preview_url": "https://p.scdn.co/mp3-preview/b9e344aa96afc45a56df77ca63c78786bdaa0047?cid=66df2aa69c5542bb9ef1fa52c08f62e8",
+    "track": true,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:65FftemJ1DbbZ45DUfHJXE",
+    "playlist_name": "2023 JAN"
   },
   {
     "album": {
@@ -2481,7 +2559,7 @@
     "id": "6dEN1q3YD7mvmGZGqqUE06",
     "is_local": false,
     "name": "Tanaka 2",
-    "popularity": 40,
+    "popularity": 39,
     "preview_url": null,
     "track": true,
     "track_number": 1,
