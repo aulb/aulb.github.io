@@ -1,22 +1,27 @@
 {
   "href": "https://api.spotify.com/v1/users/_aulb/playlists?offset=0&limit=50",
+  "limit": 50,
+  "next": "https://api.spotify.com/v1/users/_aulb/playlists?offset=50&limit=50",
+  "offset": 0,
+  "previous": null,
+  "total": 51,
   "items": [
     {
       "collaborative": false,
       "description": "",
       "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/7i9k3xsEw03mGh2MWh3zcC"
+        "spotify": "https://open.spotify.com/playlist/3dgqUDLPK0yfeV4ZxCuq0Q"
       },
-      "href": "https://api.spotify.com/v1/playlists/7i9k3xsEw03mGh2MWh3zcC",
-      "id": "7i9k3xsEw03mGh2MWh3zcC",
+      "href": "https://api.spotify.com/v1/playlists/3dgqUDLPK0yfeV4ZxCuq0Q",
+      "id": "3dgqUDLPK0yfeV4ZxCuq0Q",
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb34e4339a38ef6811583c3451",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84922aa44c8ab0f89044b37fd4",
           "width": null
         }
       ],
-      "name": "2024 JAN #2",
+      "name": "2024 SEP",
       "owner": {
         "display_name": "Albert",
         "external_urls": {
@@ -29,14 +34,458 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "MzksMzIzNzNiMGM5ZTQyMjU4NDYxNWRhMmY5MmY0MjQ2NjE3ZTgzOGYzZQ==",
+      "snapshot_id": "AAAAMdunJrWOe7YXH84FLCYdsP+/a4X2",
       "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/7i9k3xsEw03mGh2MWh3zcC/tracks",
-        "total": 36
+        "href": "https://api.spotify.com/v1/playlists/3dgqUDLPK0yfeV4ZxCuq0Q/tracks",
+        "total": 46
       },
       "type": "playlist",
-      "uri": "spotify:playlist:7i9k3xsEw03mGh2MWh3zcC",
-      "created_at": "2024-01-16T05:05:06Z"
+      "uri": "spotify:playlist:3dgqUDLPK0yfeV4ZxCuq0Q",
+      "created_at": "2024-09-09T02:59:04Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6cpNUziA8UN8K34Mf2Rh6m"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6cpNUziA8UN8K34Mf2Rh6m",
+      "id": "6cpNUziA8UN8K34Mf2Rh6m",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b088d3d5c88e7d71794ba72b",
+          "width": null
+        }
+      ],
+      "name": "2024 AUG #2",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAITvEEFc1eF2xfl+0qq3U6hvrBl9Y",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6cpNUziA8UN8K34Mf2Rh6m/tracks",
+        "total": 28
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6cpNUziA8UN8K34Mf2Rh6m",
+      "created_at": "2024-08-20T18:34:42Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/5cArZQiE2o7kgNOqGrLrV3"
+      },
+      "href": "https://api.spotify.com/v1/playlists/5cArZQiE2o7kgNOqGrLrV3",
+      "id": "5cArZQiE2o7kgNOqGrLrV3",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840e4ae007ba5f43fb6f418455",
+          "width": null
+        }
+      ],
+      "name": "2024 AUG",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAALfNj08IVKpr9Olodyef58f5+U6Yx",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/5cArZQiE2o7kgNOqGrLrV3/tracks",
+        "total": 41
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:5cArZQiE2o7kgNOqGrLrV3",
+      "created_at": "2024-08-05T22:39:12Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6IWZzV3m3CQOTSaZGPIDgU"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6IWZzV3m3CQOTSaZGPIDgU",
+      "id": "6IWZzV3m3CQOTSaZGPIDgU",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84198968460b1ab1ab59e58bcf",
+          "width": null
+        }
+      ],
+      "name": "2024 JUL #2",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAGs4XaVqtnn/YPk/Mrqsyt/+9rMK8",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6IWZzV3m3CQOTSaZGPIDgU/tracks",
+        "total": 22
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6IWZzV3m3CQOTSaZGPIDgU",
+      "created_at": "2024-07-11T17:58:49Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/06bIv9kPZuQvMN8JG1wNfC"
+      },
+      "href": "https://api.spotify.com/v1/playlists/06bIv9kPZuQvMN8JG1wNfC",
+      "id": "06bIv9kPZuQvMN8JG1wNfC",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848339018c3b6d7ac4be3c146e",
+          "width": null
+        }
+      ],
+      "name": "2024 JUN #2",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAJ4+Z5Z8ZaOC7Hjuze3HYEETnn5Po",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/06bIv9kPZuQvMN8JG1wNfC/tracks",
+        "total": 34
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:06bIv9kPZuQvMN8JG1wNfC",
+      "created_at": "2024-06-11T03:37:08Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2ZxGd7SQKJr4CnYoFrobQJ"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2ZxGd7SQKJr4CnYoFrobQJ",
+      "id": "2ZxGd7SQKJr4CnYoFrobQJ",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84633b71c0c1020dacb509f2b2",
+          "width": null
+        }
+      ],
+      "name": "2024 JUL",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAHculS4WSRFI4t9pA+jDo4Bc6eUO0",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2ZxGd7SQKJr4CnYoFrobQJ/tracks",
+        "total": 26
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2ZxGd7SQKJr4CnYoFrobQJ",
+      "created_at": "2024-07-03T01:54:29Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/4FAb0G3FObvGHgD0fzXaCc"
+      },
+      "href": "https://api.spotify.com/v1/playlists/4FAb0G3FObvGHgD0fzXaCc",
+      "id": "4FAb0G3FObvGHgD0fzXaCc",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841a30d036e3bd028817f58e4c",
+          "width": null
+        }
+      ],
+      "name": "2024 JUN",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAO1U5mrB18jKJkvtc4uJmRhtfO+PT",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/4FAb0G3FObvGHgD0fzXaCc/tracks",
+        "total": 50
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:4FAb0G3FObvGHgD0fzXaCc",
+      "created_at": "2024-06-01T16:54:54Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1o2GCZoU78hhIqmk6WokuP"
+      },
+      "href": "https://api.spotify.com/v1/playlists/1o2GCZoU78hhIqmk6WokuP",
+      "id": "1o2GCZoU78hhIqmk6WokuP",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8410fd18f4e2fa5993052312ef",
+          "width": null
+        }
+      ],
+      "name": "2024 MAY #2",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAGwXpcPx9HRILX9rzWgYvHPMrCI7j",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1o2GCZoU78hhIqmk6WokuP/tracks",
+        "total": 22
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:1o2GCZoU78hhIqmk6WokuP",
+      "created_at": "2024-05-14T15:36:42Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7sKVqFKwLwoGanOXCcj99g"
+      },
+      "href": "https://api.spotify.com/v1/playlists/7sKVqFKwLwoGanOXCcj99g",
+      "id": "7sKVqFKwLwoGanOXCcj99g",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f25de1451be280c71198460d",
+          "width": null
+        }
+      ],
+      "name": "2024 MAY",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAISgDcI7D8pFeWZkiUVJJ8qxsV8zw",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7sKVqFKwLwoGanOXCcj99g/tracks",
+        "total": 21
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:7sKVqFKwLwoGanOXCcj99g",
+      "created_at": "2024-05-06T20:10:13Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/3l73SbiqWdo5Su5gZ3bou8"
+      },
+      "href": "https://api.spotify.com/v1/playlists/3l73SbiqWdo5Su5gZ3bou8",
+      "id": "3l73SbiqWdo5Su5gZ3bou8",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a3251d00001ff56f53d328e7",
+          "width": null
+        }
+      ],
+      "name": "2024 APR",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAMCzDLaCds2XrG04ctwRHoAaYUhxr",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/3l73SbiqWdo5Su5gZ3bou8/tracks",
+        "total": 45
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:3l73SbiqWdo5Su5gZ3bou8",
+      "created_at": "2024-04-03T01:04:34Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/4uQw2C50SsX1k2cRS45J9l"
+      },
+      "href": "https://api.spotify.com/v1/playlists/4uQw2C50SsX1k2cRS45J9l",
+      "id": "4uQw2C50SsX1k2cRS45J9l",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84df8d113ac87a77a571574e11",
+          "width": null
+        }
+      ],
+      "name": "2024 MAR",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAMDxAtNXEyXr1w06ncvlbl+pLhBRw",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/4uQw2C50SsX1k2cRS45J9l/tracks",
+        "total": 46
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:4uQw2C50SsX1k2cRS45J9l",
+      "created_at": "2024-03-04T02:55:53Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1JgKpLy4MDX3bJ9HIFcJMu"
+      },
+      "href": "https://api.spotify.com/v1/playlists/1JgKpLy4MDX3bJ9HIFcJMu",
+      "id": "1JgKpLy4MDX3bJ9HIFcJMu",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e250f003e0e0cbe14f6c3943",
+          "width": null
+        }
+      ],
+      "name": "2024 FEB",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAKXtKuOxlm15/O8khvcpolm67IZA0",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1JgKpLy4MDX3bJ9HIFcJMu/tracks",
+        "total": 38
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:1JgKpLy4MDX3bJ9HIFcJMu",
+      "created_at": "2024-02-02T08:14:10Z"
+    },
+    {
+      "collaborative": false,
+      "description": "mostly from tt or ig reels",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2nXtK8xhZWxnZpq6g6oBwJ"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2nXtK8xhZWxnZpq6g6oBwJ",
+      "id": "2nXtK8xhZWxnZpq6g6oBwJ",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844c3ba7a762cd304235a94806",
+          "width": null
+        }
+      ],
+      "name": "2024 FEB #2",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAN24pjIfhsrguVemZrTfq/a5oJieP",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2nXtK8xhZWxnZpq6g6oBwJ/tracks",
+        "total": 50
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2nXtK8xhZWxnZpq6g6oBwJ",
+      "created_at": "2024-02-09T08:42:53Z"
     },
     {
       "collaborative": false,
@@ -49,7 +498,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb60e824abd8d0d6bbd92de411",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8460e824abd8d0d6bbd92de411",
           "width": null
         }
       ],
@@ -66,7 +515,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTUsMDFkNTM0MjBiZDIyMjEyNWJjMGFjZjMyNzEzYzYzNDM0ZGIyOTkzZA==",
+      "snapshot_id": "AAAANwHVNCC9IiElvArPMnE8Y0NNspk9",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/65SONccIdzmwjOoIKsDwyx/tracks",
         "total": 51
@@ -79,6 +528,43 @@
       "collaborative": false,
       "description": "",
       "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7i9k3xsEw03mGh2MWh3zcC"
+      },
+      "href": "https://api.spotify.com/v1/playlists/7i9k3xsEw03mGh2MWh3zcC",
+      "id": "7i9k3xsEw03mGh2MWh3zcC",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845bf5d6b124c4dffc168473c3",
+          "width": null
+        }
+      ],
+      "name": "2024 JAN #2",
+      "owner": {
+        "display_name": "Albert",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/_aulb"
+        },
+        "href": "https://api.spotify.com/v1/users/_aulb",
+        "id": "_aulb",
+        "type": "user",
+        "uri": "spotify:user:_aulb"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAOQEYtipeYVkBdR9LvWu4Gk15GOtf",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7i9k3xsEw03mGh2MWh3zcC/tracks",
+        "total": 53
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:7i9k3xsEw03mGh2MWh3zcC",
+      "created_at": "2024-01-16T05:05:06Z"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
         "spotify": "https://open.spotify.com/playlist/2CVW40lIPwshTEUeW17d8U"
       },
       "href": "https://api.spotify.com/v1/playlists/2CVW40lIPwshTEUeW17d8U",
@@ -86,7 +572,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb7ad159698e4ff62c467d566e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847ad159698e4ff62c467d566e",
           "width": null
         }
       ],
@@ -103,7 +589,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTYsZjZlMmFlODM4ZjEyZmViNDBiNGY0NDBjYmJhZmRjNmQwYWNmM2IzNg==",
+      "snapshot_id": "AAAAOPbiroOPEv60C09EDLuv3G0Kzzs2",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2CVW40lIPwshTEUeW17d8U/tracks",
         "total": 51
@@ -123,7 +609,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb6424be08595b4b67bf1138b0",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846424be08595b4b67bf1138b0",
           "width": null
         }
       ],
@@ -140,7 +626,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NDAsNDVlNzA5NDhhNGE5M2YwM2EzN2Y2YzUzNjQxNDU1MTQwZmY0YTQ0OQ==",
+      "snapshot_id": "AAAAKEXnCUikqT8Do39sU2QUVRQP9KRJ",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/1EAGTC67XJuYGZ5pZ5FAvD/tracks",
         "total": 38
@@ -160,7 +646,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbd5bc5d343754481d4471aeeb",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d5bc5d343754481d4471aeeb",
           "width": null
         }
       ],
@@ -177,7 +663,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTQsNDA4MjkyZGYwMmUxOWM1NjM5ZmQ2Njk1OGE0ZWQ5OTJjOWI2N2JiNA==",
+      "snapshot_id": "AAAANkCCkt8C4ZxWOf1mlYpO2ZLJtnu0",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/6SDGi04zltcrn1fFXhPADY/tracks",
         "total": 47
@@ -197,7 +683,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb050c009172c52100a3187273",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84050c009172c52100a3187273",
           "width": null
         }
       ],
@@ -214,7 +700,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NDIsMTc5YmZkZTg1MDk4YzUxYTM1NWEyNDRhOTBiYzVmMWZiMWE0NWY0Mw==",
+      "snapshot_id": "AAAAKheb/ehQmMUaNVokSpC8Xx+xpF9D",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2mwjuWadmLiwMNIGCBF6Fi/tracks",
         "total": 38
@@ -234,7 +720,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbbb18d47599ae627a496a400d",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bb18d47599ae627a496a400d",
           "width": null
         }
       ],
@@ -251,7 +737,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NjIsNzUxNDE4ZWEwYzY5NjU2YTMwOTEwODhiZmZiNWM4ZWNmZTExNzkzZQ==",
+      "snapshot_id": "AAAAPnUUGOoMaWVqMJEIi/+1yOz+EXk+",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/4v11meeRUNLdHQl4BUTY2M/tracks",
         "total": 55
@@ -271,7 +757,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebb5ab38689f2d5e802586f38ea",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845ab38689f2d5e802586f38ea",
           "width": null
         }
       ],
@@ -288,7 +774,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NzAsZGQwY2VkZWVhZmI5NmZlMmQ5YjhkMTI3YTIwZDA1MWY0Njc1ZjJkNg==",
+      "snapshot_id": "AAAARt0M7e6vuW/i2bjRJ6INBR9GdfLW",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/4erOBcbfNUEP9VL1eglVHx/tracks",
         "total": 59
@@ -308,7 +794,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb87dbe9c76b9b6862ababff9f",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8487dbe9c76b9b6862ababff9f",
           "width": null
         }
       ],
@@ -325,7 +811,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTIsMzQwYjM4MGU5ODliNGVjZjc1MTk4MTQyNzVlZmY5YzcyMWM2MmQ4OA==",
+      "snapshot_id": "AAAANDQLOA6Ym07PdRmBQnXv+cchxi2I",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2yvGSuxB9BkH40CDWJTQir/tracks",
         "total": 45
@@ -345,7 +831,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb033a35ceb5936cd36b0ea55b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84033a35ceb5936cd36b0ea55b",
           "width": null
         }
       ],
@@ -362,7 +848,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NDUsNzRkZDBiY2FhYWMwYTc5ODNhY2QzNzEyYzg4NDRjZGM3Nzg0ZjEwMQ==",
+      "snapshot_id": "AAAALXTdC8qqwKeYOs03EsiETNx3hPEB",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/6IjWdzrTONvBACYxa2o4YG/tracks",
         "total": 41
@@ -382,7 +868,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbff5b5091e1dab3dd0c348e3c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ff5b5091e1dab3dd0c348e3c",
           "width": null
         }
       ],
@@ -399,7 +885,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NDQsNzNhZDE1Y2ExNGRjMzUzZTE0ZWQ2MGFhNGNkYzFhNzk4NWNmYWJlYw==",
+      "snapshot_id": "AAAALHOtFcoU3DU+FO1gqkzcGnmFz6vs",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/7A0Sq1SJYentcGgsS0tOx2/tracks",
         "total": 41
@@ -419,7 +905,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb268a94cd2351a6902e1e54c1",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84268a94cd2351a6902e1e54c1",
           "width": null
         }
       ],
@@ -436,7 +922,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTYsODZiZGNjMDgxMjQ5OTliYjgwYzZlODkwN2Y2MDVhNDlmYjVhOWI5MA==",
+      "snapshot_id": "AAAAOIa9zAgSSZm7gMbokH9gWkn7WpuQ",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/6ITL40QlwYyGARKxKUXHCT/tracks",
         "total": 52
@@ -456,7 +942,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb4ea89bb1d4b95b0e538b067c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844ea89bb1d4b95b0e538b067c",
           "width": null
         }
       ],
@@ -473,7 +959,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NjAsZTBjY2E4ZTE3MjkyYzhhZmFiMzhmODdlYzg3ZTY4NzMxYjEwNDA4MA==",
+      "snapshot_id": "AAAAPODMqOFyksivqzj4fsh+aHMbEECA",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/0Px5HJxNcHFu9LiK3PguPu/tracks",
         "total": 54
@@ -493,7 +979,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb296b51a5c831142e08467c5b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84296b51a5c831142e08467c5b",
           "width": null
         }
       ],
@@ -510,7 +996,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTAsNjFiNWE2NDQ0NjA4ZDJkOWE3NTk2ZGI5NzIxZTM2NzlhODVkZWVlNg==",
+      "snapshot_id": "AAAAMmG1pkRGCNLZp1ltuXIeNnmoXe7m",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/6XAUAurJG62IcCYxIBW5ah/tracks",
         "total": 48
@@ -530,7 +1016,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb0086ad9d747a738e7867a360",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840086ad9d747a738e7867a360",
           "width": null
         }
       ],
@@ -547,7 +1033,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTMsOTgxZmM5MjMyYWE0NzEyZjkzZTYxNGMzNjYxOWNkNzliYzBjNWY3Zg==",
+      "snapshot_id": "AAAANZgfySMqpHEvk+YUw2YZzXm8DF9/",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2oPHpYUAKkM4YP68j76sAP/tracks",
         "total": 50
@@ -567,7 +1053,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb326d9e263946e6fa6aa9e51f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84326d9e263946e6fa6aa9e51f",
           "width": null
         }
       ],
@@ -584,7 +1070,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NDcsNDc2MzAzNDdiZGIyZmQyMTQyOGNjZDVmNTZjYzllNjliZjZlNmQ4NA==",
+      "snapshot_id": "AAAAL0djA0e9sv0hQozNX1bMnmm/bm2E",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/09jBECb8tMhuERpZ8gFHjm/tracks",
         "total": 41
@@ -604,7 +1090,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb7da14b75866492c952e088ef",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847da14b75866492c952e088ef",
           "width": null
         }
       ],
@@ -621,7 +1107,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTYsMjY5ZDBjNWEwZGYyODkxZjJiYjZlMmI3OWY2OWM0MWUyMjAxZDA3Mg==",
+      "snapshot_id": "AAAAOCadDFoN8okfK7bit59pxB4iAdBy",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/7v3gjcrkhcJwx6l78VRINr/tracks",
         "total": 53
@@ -641,7 +1127,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbdaa18c466669e469f2dadd0e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84daa18c466669e469f2dadd0e",
           "width": null
         }
       ],
@@ -658,7 +1144,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTMsNGJmZTI0ZTRlN2M2MDMzNmU3MTc2OTk2OWI2YWNmN2Q5ZjBmMGQxZQ==",
+      "snapshot_id": "AAAANUv+JOTnxgM25xdplptqz32fDw0e",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/7GkH1UnD6uzGpKD0Kqg1xO/tracks",
         "total": 45
@@ -678,7 +1164,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb5b5d6bb9ca1b937233eb88c1",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845b5d6bb9ca1b937233eb88c1",
           "width": null
         }
       ],
@@ -695,7 +1181,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NDYsOTM5OTNhNjA4ZDE2MWMzZTNkM2IxYmUzZjYxN2MzYjRlMTU3YjliNQ==",
+      "snapshot_id": "AAAALpOZOmCNFhw+PTsb4/YXw7ThV7m1",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2auhDYD2RSAMjzcqGVPCOt/tracks",
         "total": 43
@@ -715,7 +1201,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebb3fe8ddbe12b207bac708dbf0",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843fe8ddbe12b207bac708dbf0",
           "width": null
         }
       ],
@@ -732,7 +1218,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTQsZjAyNzdiYzA3YTQ4NTQzMjFiMzkxZTdiNGVjNWFlMDA0N2FkOWIwZg==",
+      "snapshot_id": "AAAANvAne8B6SFQyGzkee07FrgBHrZsP",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/3sUqUiz5CnGX6lQIXtkfD4/tracks",
         "total": 50
@@ -752,7 +1238,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb5fb95daa22144e5d2d7a7e4c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845fb95daa22144e5d2d7a7e4c",
           "width": null
         }
       ],
@@ -769,7 +1255,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NDksNTUyZDRiYTFlN2I1YmM0M2ZiYTVjMDVkNzg0YmU4NGUwNThlYzI0NA==",
+      "snapshot_id": "AAAAMVUtS6HntbxD+6XAXXhL6E4FjsJE",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/4UwHp3FNxseM4nt6ltjyVx/tracks",
         "total": 45
@@ -789,7 +1275,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbe32f365561cfba3b7958b730",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e32f365561cfba3b7958b730",
           "width": null
         }
       ],
@@ -806,7 +1292,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTIsZmE0Mjk2NjUwMmU1ZDI0NGE4ODYyMDVjMWM4NDA1MmE5YThlY2M5Nw==",
+      "snapshot_id": "AAAANPpClmUC5dJEqIYgXByEBSqajsyX",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/7oZ6XtTDzt0eFFUVBqAuus/tracks",
         "total": 50
@@ -826,7 +1312,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb535192be18c48025a57145a9",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84535192be18c48025a57145a9",
           "width": null
         }
       ],
@@ -843,7 +1329,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NjIsNzRlMDNhNmRmNjc5Y2Y2MzRmM2RkODliMzFjZGM0MjU5MTg5MmNhMw==",
+      "snapshot_id": "AAAAPnTgOm32ec9jTz3YmzHNxCWRiSyj",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/1Rrvcq3IRZ1Wd8qkAJQpY8/tracks",
         "total": 50
@@ -863,7 +1349,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb198ae0b25c610969de8a5abf",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84198ae0b25c610969de8a5abf",
           "width": null
         }
       ],
@@ -880,7 +1366,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTgsYzgxNmUyZWM5NDlhZmUyOGQxMzI3YzczOGM3MWU1MDhlMGU2NDE3Mw==",
+      "snapshot_id": "AAAAOsgW4uyUmv4o0TJ8c4xx5Qjg5kFz",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2nGWWsIF8WmUHGt2aZPT3O/tracks",
         "total": 50
@@ -900,7 +1386,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb92acff6f2f8de4c42da823ef",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8492acff6f2f8de4c42da823ef",
           "width": null
         }
       ],
@@ -917,7 +1403,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NjAsZGFhYmIwMmY1ZTU5OWRhMmQ3OTFhNjljMGZmNGEzNDFjMmI4NDk4OA==",
+      "snapshot_id": "AAAAPNqrsC9eWZ2i15GmnA/0o0HCuEmI",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/4EB9q0Eq1s1Kv8p0RVTpcg/tracks",
         "total": 55
@@ -937,7 +1423,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb4a114473cd84f28360327f8c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844a114473cd84f28360327f8c",
           "width": null
         }
       ],
@@ -954,7 +1440,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NzksYzZkYzczZDBjMmY4NDg3NmE0NGNmMDNhZDM1YjczZGQ1Y2MwYmJmMQ==",
+      "snapshot_id": "AAAAT8bcc9DC+Eh2pEzwOtNbc91cwLvx",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/7D0oARSkDZoeKXWHI86H1t/tracks",
         "total": 67
@@ -974,7 +1460,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbec15bf11b10acf102671d161",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ec15bf11b10acf102671d161",
           "width": null
         }
       ],
@@ -991,7 +1477,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "MTI1LGVlZWNmYTk1YThjNDE2YTc0YzQ2NDE3Y2M5NjIzYjVmNmE3MGYzNDM=",
+      "snapshot_id": "AAAAfe7s+pWoxBanTEZBfMliO19qcPND",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2aOY2vqyMt9zb939b6pzNU/tracks",
         "total": 44
@@ -1011,7 +1497,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebba68e167c137dfaa0008786d1",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a68e167c137dfaa0008786d1",
           "width": null
         }
       ],
@@ -1028,7 +1514,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NjAsMmQ5MGI5MTdiMTVlNzIwYzExNTg4OWFhNWY5ZWU0M2MxNjVjYWY5Mw==",
+      "snapshot_id": "AAAAPC2QuRexXnIMEViJql+e5DwWXK+T",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/5z2qLus9VGUmWHEzqMRTus/tracks",
         "total": 52
@@ -1048,7 +1534,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb813e5170017ad2aa867cea5d",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84813e5170017ad2aa867cea5d",
           "width": null
         }
       ],
@@ -1065,10 +1551,10 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "ODMsNjhiOTEyZmI3NjY1MzZlZGY1NDliOWJlYWQ4ZGFlZWMzOGVjMzUwNA==",
+      "snapshot_id": "AAAAVXhdpRVzoVD21UAyMPgiaLziq1Fv",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/42drkmKKWHAEUuLxpBNGA9/tracks",
-        "total": 64
+        "total": 66
       },
       "type": "playlist",
       "uri": "spotify:playlist:42drkmKKWHAEUuLxpBNGA9",
@@ -1085,7 +1571,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb15913454b8231684c5e2fc79",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8415913454b8231684c5e2fc79",
           "width": null
         }
       ],
@@ -1102,7 +1588,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "ODIsOTk0M2MzZWQ1MmNkYjc1NWVhZWE3NmIwZWJiZWIyZjAzNmMxNGI2OA==",
+      "snapshot_id": "AAAAUplDw+1SzbdV6up2sOu+svA2wUto",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2BsVTf1btqSl64BPFCJPOA/tracks",
         "total": 50
@@ -1122,7 +1608,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb9366abdb9d26d5e012d48509",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849366abdb9d26d5e012d48509",
           "width": null
         }
       ],
@@ -1139,7 +1625,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NDksMDgyOWJkNDBiOThjNGEwMWM5ZGU1ZjFmMDYzNjQ0OTBmN2EyMzVhZQ==",
+      "snapshot_id": "AAAAMQgpvUC5jEoByd5fHwY2RJD3ojWu",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/6HFv5uUB5EtNhS24y0kGH9/tracks",
         "total": 43
@@ -1159,7 +1645,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb0192a9e99dedeb5d04dc3174",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840192a9e99dedeb5d04dc3174",
           "width": null
         }
       ],
@@ -1176,7 +1662,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NTksZWVlOTVhYzgzZGRhOTgwZTAwYWU3Y2U2OGE0YWQ1YjMwMjAwYTg3OA==",
+      "snapshot_id": "AAAAO+7pWsg92pgOAK585opK1bMCAKh4",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2oYpIpGhKFfs53evgt9Jsy/tracks",
         "total": 44
@@ -1196,7 +1682,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbc7ee26a1b0098a968b78d451",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c7ee26a1b0098a968b78d451",
           "width": null
         }
       ],
@@ -1213,7 +1699,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "ODQsM2QwMDU0NDkyNTFjNmZkNDdmZjMyZmE5MDg5MWIyZTI2MjRkMTgzZA==",
+      "snapshot_id": "AAAAVD0AVEklHG/Uf/MvqQiRsuJiTRg9",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/1d95XcljtE93cnVMi6DsTY/tracks",
         "total": 50
@@ -1233,7 +1719,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb09155f9de0b30c44bc467210",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8409155f9de0b30c44bc467210",
           "width": null
         }
       ],
@@ -1250,7 +1736,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "ODcsM2VkZjQzOTQwZGU3MWM5NjIyYzVhZTVlMjY4MjkyYmYyNjc1YzAyZQ==",
+      "snapshot_id": "AAAAVz7fQ5QN5xyWIsWuXiaCkr8mdcAu",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2qRKeKSXkWjGP8mWdaDRf6/tracks",
         "total": 61
@@ -1270,7 +1756,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbbb0c2aab02b7bab9bdbd5941",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bb0c2aab02b7bab9bdbd5941",
           "width": null
         }
       ],
@@ -1287,7 +1773,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NjAsZDA2M2EyNmU2M2IyOTA3YWQyM2U5YmM1MjUyNDQ4MmFmOGYxYmZiNA==",
+      "snapshot_id": "AAAAPNBjom5jspB60j6bxSUkSCr48b+0",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/2dbhbBqzjID5IzwrNec45l/tracks",
         "total": 51
@@ -1307,7 +1793,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb367710e13e6d6096911e1cf0",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84367710e13e6d6096911e1cf0",
           "width": null
         }
       ],
@@ -1324,7 +1810,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "NzcsZTc4ZDM3NjQyN2UxZTE0YjlmOTJjMDZhZTQ4OWJjMGUzYjgyMWNkZA==",
+      "snapshot_id": "AAAATeeNN2Qn4eFLn5LAauSJvA47ghzd",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/1fzp2XkR3LYMYw4FCZUrOV/tracks",
         "total": 49
@@ -1344,7 +1830,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb2f641bd9e963137f6d18fa96",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842f641bd9e963137f6d18fa96",
           "width": null
         }
       ],
@@ -1361,7 +1847,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "OTcsNTg1NTM3OTU3ZWExOTBjNzIzY2FkMzdlZDIyMTBiZjYwNmVlZmQ2NA==",
+      "snapshot_id": "AAAAYVhVN5V+oZDHI8rTftIhC/YG7v1k",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/6rQL1kWK7BHQ1gL7BfJSSx/tracks",
         "total": 75
@@ -1381,7 +1867,7 @@
       "images": [
         {
           "height": null,
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbc13c8dcd1ed288414f7a50cf",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c13c8dcd1ed288414f7a50cf",
           "width": null
         }
       ],
@@ -1398,7 +1884,7 @@
       },
       "primary_color": null,
       "public": true,
-      "snapshot_id": "MzgsMjQwMjJmOGE5NzU2ZGQwOGFkMWQ4ZTc4ODFjNGZlZTc4ZmEzODMxMA==",
+      "snapshot_id": "AAAAJiQCL4qXVt0IrR2OeIHE/uePo4MQ",
       "tracks": {
         "href": "https://api.spotify.com/v1/playlists/6MrCRqFuYCMZOtGIJzgRjN/tracks",
         "total": 30
@@ -1407,10 +1893,5 @@
       "uri": "spotify:playlist:6MrCRqFuYCMZOtGIJzgRjN",
       "created_at": "2022-07-29T06:37:26Z"
     }
-  ],
-  "limit": 50,
-  "next": null,
-  "offset": 0,
-  "previous": null,
-  "total": 38
+  ]
 }
