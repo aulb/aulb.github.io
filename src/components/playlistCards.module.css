@@ -9,7 +9,7 @@
 .showAllContainer {
   order: 1;
   display: inline-flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-between;
 }
 

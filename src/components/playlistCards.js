@@ -45,7 +45,7 @@ const PlaylistCards = ({
             { includeShowAll ?
                 <div onClick={() => setExpanded(!expanded)} className={showAllText}>
                   {
-                    expanded ? "Show latest only" : "Show all"
+                    expanded ? "👉🏼 Show latest only" : "👉🏼 Show all playlist"
                   }
                 </div> : <div></div>
             }

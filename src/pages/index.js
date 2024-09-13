@@ -7,7 +7,6 @@ import { Link } from 'gatsby'
 const IndexPage = () => {
   return (
       <Layout>
-        <p>Software Engineer in San Francisco  🌉</p>
         <PlaylistCards includeHeader={false} includeShowAll={true} />
       </Layout>
     )
